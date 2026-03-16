@@ -201,7 +201,7 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
         </div>
       `;
 
-          const ytUrl = 'https://duckduckgo.com/?q=' + encodeURIComponent(`\\youtube ${song.title} ${song.artist} official music video`);
+          const ytUrl = 'https://duckduckgo.com/?q=' + encodeURIComponent(`!ducky youtube ${song.title} ${song.artist} official music video`);
           const ytBtn = document.getElementById('ytBtn');
           ytBtn.href = ytUrl;
           ytBtn.style.display = 'inline-flex';
