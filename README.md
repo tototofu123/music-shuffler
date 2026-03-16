@@ -33,7 +33,9 @@ No data ever leaves your browser. Nothing is stored server-side.
 
 ```
 music-shuffler/
-├── index.html        # The entire app — one file
+├── index.html        # Main HTML structure
+├── style.css         # Styling and UI design
+├── script.js         # App logic and SQL queries
 └── data/
     └── songs.json    # Song database (1000 songs)
 ```
