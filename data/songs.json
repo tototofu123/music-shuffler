@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "HUMBLE.",
+    "artist": "Kendrick Lamar",
+    "year": 2017,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 2,
+    "title": "Old Town Road (Remix)",
+    "artist": "Lil Nas X ft. Billy Ray Cyrus",
+    "year": 2019,
+    "genre": "Hip-hop",
+    "type": "Remix"
+  }
+]
