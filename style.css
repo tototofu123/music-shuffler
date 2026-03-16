@@ -198,6 +198,12 @@
       color: var(--accent);
       border: 1px solid rgba(200, 80, 42, 0.18);
     }
+    
+    .tag-url {
+      background: var(--accent);
+      color: #fff;
+      border: 1px solid var(--accent);
+    }
 
     .song-title {
       font-family: 'DM Serif Display', serif;

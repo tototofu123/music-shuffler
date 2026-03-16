@@ -194,7 +194,7 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
           <div class="tag-row">
             <span class="tag tag-genre">${song.genre}</span>
             <span class="tag tag-type">${song.type}</span>
-            ${song.youtube_url ? '<span class="tag tag-url" style="background:var(--accent); color:#fff; border-color:var(--accent);">Direct URL</span>' : ''}
+            ${song.youtube_url ? '<span class="tag tag-url">Direct URL</span>' : ''}
           </div>
           <p class="song-title">${song.title}</p>
           <p class="song-artist">${song.artist}</p>
