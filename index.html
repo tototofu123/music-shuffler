@@ -1,823 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap');
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'DM Sans',sans-serif}
-.wrap{padding:2rem 1.5rem;max-width:600px;margin:0 auto}
-.eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--color-text-tertiary);margin-bottom:1.5rem;text-align:center}
-.filters-label{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-text-tertiary);margin-bottom:8px}
-.filter-row{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
-.chip{font-size:12px;font-family:'DM Sans',sans-serif;border:0.5px solid var(--color-border-secondary);background:transparent;color:var(--color-text-secondary);border-radius:99px;padding:5px 12px;cursor:pointer;transition:all .15s}
-.chip:hover{background:var(--color-background-secondary)}
-.chip.active{background:var(--color-text-primary);color:var(--color-background-primary);border-color:transparent}
-.card{width:100%;background:var(--color-background-primary);border:0.5px solid var(--color-border-secondary);border-radius:var(--border-radius-lg);padding:2rem;text-align:center;min-height:180px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;margin:1.5rem 0;transition:border-color .2s}
-.card.loaded{border-color:var(--color-border-primary)}
-.tag-row{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin-bottom:4px}
-.tag{font-size:11px;letter-spacing:.06em;text-transform:uppercase;border-radius:99px;padding:3px 10px}
-.tag-genre{background:var(--color-background-secondary);color:var(--color-text-secondary)}
-.tag-type{background:var(--color-background-info);color:var(--color-text-info)}
-.song-title{font-family:'DM Serif Display',serif;font-size:24px;line-height:1.2;color:var(--color-text-primary)}
-.song-artist{font-size:14px;color:var(--color-text-secondary)}
-.song-year{font-size:12px;color:var(--color-text-tertiary)}
-.placeholder{font-size:15px;color:var(--color-text-tertiary);font-style:italic;font-family:'DM Serif Display',serif}
-.btn-row{display:flex;gap:10px;justify-content:center}
-.btn{font-family:'DM Sans',sans-serif;font-size:14px;font-weight:500;border-radius:99px;border:0.5px solid var(--color-border-secondary);background:transparent;color:var(--color-text-primary);padding:10px 22px;cursor:pointer;transition:background .15s,transform .1s;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
-.btn:hover{background:var(--color-background-secondary)}
-.btn:active{transform:scale(.97)}
-.btn-primary{background:var(--color-text-primary);color:var(--color-background-primary);border-color:transparent}
-.btn-primary:hover{opacity:.85;background:var(--color-text-primary)}
-.btn-primary:disabled{opacity:.4;cursor:not-allowed}
-.meta{font-size:12px;color:var(--color-text-tertiary);text-align:center;margin-top:1rem}
-.fade-in{animation:fadeIn .35s ease forwards}
-@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
-.spin{display:inline-block;animation:spin .5s linear infinite}
-@keyframes spin{to{transform:rotate(360deg)}}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shuffler</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap"
+    rel="stylesheet">
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg: #f7f5f0;
+      --bg2: #efede8;
+      --bg3: #e6e3dc;
+      --text: #1a1816;
+      --text2: #6b6760;
+      --text3: #a09d98;
+      --border: rgba(26, 24, 22, 0.12);
+      --border2: rgba(26, 24, 22, 0.22);
+      --accent: #c8502a;
+      --accent2: #f0ebe3;
+      --radius: 14px;
+      --radius-sm: 8px;
+    }
+
+    html,
+    body {
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 3rem 1.5rem 4rem;
+    }
+
+    /* Header */
+    header {
+      width: 100%;
+      max-width: 680px;
+      margin-bottom: 3rem;
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+    }
+
+    .wordmark {
+      font-family: 'DM Serif Display', serif;
+      font-size: 28px;
+      letter-spacing: -0.02em;
+      color: var(--text);
+    }
+
+    .wordmark em {
+      font-style: italic;
+      color: var(--accent);
+    }
+
+    .db-status {
+      font-size: 12px;
+      color: var(--text3);
+      letter-spacing: 0.04em;
+      margin-left: auto;
+    }
+
+    .db-status.ready {
+      color: #5a8a5a;
+    }
+
+    .db-status.error {
+      color: var(--accent);
+    }
+
+    /* Filter section */
+    .section {
+      width: 100%;
+      max-width: 680px;
+      margin-bottom: 1.25rem;
+    }
+
+    .section-label {
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text3);
+      margin-bottom: 10px;
+    }
+
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .chip {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 12.5px;
+      font-weight: 400;
+      padding: 5px 13px;
+      border-radius: 99px;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text2);
+      cursor: pointer;
+      transition: all 0.14s ease;
+      white-space: nowrap;
+      user-select: none;
+    }
+
+    .chip:hover {
+      border-color: var(--border2);
+      background: var(--bg2);
+      color: var(--text);
+    }
+
+    .chip.active {
+      background: var(--text);
+      border-color: var(--text);
+      color: var(--bg);
+    }
+
+    .chip.active:hover {
+      background: #333;
+    }
+
+    /* Divider */
+    .divider {
+      width: 100%;
+      max-width: 680px;
+      height: 1px;
+      background: var(--border);
+      margin: 1.5rem 0;
+    }
+
+    /* Card */
+    .card-wrap {
+      width: 100%;
+      max-width: 680px;
+      min-height: 220px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0.5rem 0 2rem;
+    }
+
+    .card {
+      width: 100%;
+      background: var(--bg);
+      border: 1px solid var(--border2);
+      border-radius: var(--radius);
+      padding: 2.5rem 2rem;
+      text-align: center;
+      transition: border-color 0.2s;
+    }
+
+    .card.has-song {
+      border-color: var(--border2);
+      background: #fff;
+    }
+
+    .empty-state {
+      color: var(--text3);
+      font-style: italic;
+      font-family: 'DM Serif Display', serif;
+      font-size: 17px;
+    }
+
+    .tag-row {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      margin-bottom: 1.25rem;
+      flex-wrap: wrap;
+    }
+
+    .tag {
+      font-size: 10.5px;
+      font-weight: 500;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      border-radius: 99px;
+      padding: 4px 11px;
+    }
+
+    .tag-genre {
+      background: var(--bg2);
+      color: var(--text2);
+      border: 1px solid var(--border);
+    }
+
+    .tag-type {
+      background: #fef3ee;
+      color: var(--accent);
+      border: 1px solid rgba(200, 80, 42, 0.18);
+    }
+
+    .song-title {
+      font-family: 'DM Serif Display', serif;
+      font-size: 30px;
+      line-height: 1.2;
+      color: var(--text);
+      margin-bottom: 8px;
+      letter-spacing: -0.01em;
+    }
+
+    .song-artist {
+      font-size: 15px;
+      color: var(--text2);
+      margin-bottom: 4px;
+    }
+
+    .song-year {
+      font-size: 12px;
+      color: var(--text3);
+    }
+
+    /* Buttons */
+    .actions {
+      width: 100%;
+      max-width: 680px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      padding: 11px 24px;
+      border-radius: 99px;
+      border: 1px solid var(--border2);
+      background: transparent;
+      color: var(--text);
+      cursor: pointer;
+      transition: all 0.14s;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .btn:hover {
+      background: var(--bg2);
+    }
+
+    .btn:active {
+      transform: scale(0.97);
+    }
+
+    .btn-primary {
+      background: var(--text);
+      color: var(--bg);
+      border-color: transparent;
+    }
+
+    .btn-primary:hover {
+      background: #333;
+    }
+
+    .btn-primary:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .btn-yt {
+      color: var(--text2);
+    }
+
+    .meta {
+      margin-left: auto;
+      font-size: 12px;
+      color: var(--text3);
+    }
+
+    /* Animations */
+    .spin {
+      display: inline-block;
+      animation: spin 0.5s linear infinite;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .fade-up {
+      animation: fadeUp 0.32s ease forwards;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Loading overlay */
+    .loading-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 2px;
+      background: var(--accent);
+      transition: width 0.3s ease;
+      z-index: 999;
+    }
+
+    /* Pool indicator */
+    .pool-info {
+      font-size: 11.5px;
+      color: var(--text3);
+      margin-top: 10px;
+      text-align: center;
+      width: 100%;
+      max-width: 680px;
+    }
+
+    .pool-info span {
+      color: var(--text2);
+      font-weight: 500;
+    }
+
+    /* Query display (debug/fun) */
+    .query-box {
+      width: 100%;
+      max-width: 680px;
+      margin-top: 2rem;
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 12px 16px;
+      display: none;
+    }
+
+    .query-box.visible {
+      display: block;
+    }
+
+    .query-label {
+      font-size: 10px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text3);
+      margin-bottom: 6px;
+    }
+
+    .query-code {
+      font-family: 'Courier New', monospace;
+      font-size: 12px;
+      color: var(--text2);
+      white-space: pre-wrap;
+      word-break: break-all;
+    }
+
+    .query-code .kw {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .query-code .val {
+      color: #5a7a9a;
+    }
+  .playlist {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.playlist-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background: var(--color-background-secondary, #f4f4f5);
+  border-radius: 8px;
+  font-size: 14px;
+}
+.playlist-item .song-info {
+  display: flex;
+  flex-direction: column;
+}
+.playlist-item .song-title-sm {
+  font-weight: 500;
+  color: var(--color-text-primary, #111);
+}
+.playlist-item .song-artist-sm {
+  font-size: 12px;
+  color: var(--color-text-secondary, #666);
+}
+.playlist-item .song-tags-sm {
+  display: flex;
+  gap: 4px;
+}
+.playlist-item .tag-sm {
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
 </style>
+</head>
 
-<div class="wrap">
-  <p class="eyebrow">Random Song Generator</p>
+<body>
 
-  <p class="filters-label">Genre</p>
-  <div class="filter-row" id="genreFilters"></div>
+  <div class="loading-bar" id="loadingBar" style="width:0%"></div>
 
-  <p class="filters-label" style="margin-top:8px">Type</p>
-  <div class="filter-row" id="typeFilters"></div>
+  <header>
+    <div class="wordmark">shuf<em>fler</em></div>
+    <div class="db-status" id="dbStatus">loading database…</div>
+  </header>
 
-  <div class="card" id="card">
-    <p class="placeholder">Press shuffle to discover something</p>
+  <div class="section">
+    <div class="section-label">Genre</div>
+    <div class="chip-row" id="genreFilters"></div>
   </div>
 
-  <div class="btn-row">
-    <button class="btn btn-primary" id="shuffleBtn" onclick="shuffle()">
+  <div class="section">
+    <div class="section-label">Type</div>
+    <div class="chip-row" id="typeFilters"></div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="card-wrap">
+    <div class="card" id="card">
+      <p class="empty-state">Press shuffle to discover a song</p>
+    </div>
+  </div>
+
+  <div class="actions">
+    <button class="btn btn-primary" id="shuffleBtn" onclick="shuffle()" disabled>
       <span id="btnIcon">&#x21BB;</span> Shuffle
     </button>
-    <a class="btn" id="ytBtn" href="#" target="_blank" style="display:none">&#9654; Play on YouTube</a>
-  </div>
-  <p class="meta" id="meta"></p>
+    <a class="btn btn-yt" id="ytBtn" href="#" target="_blank" style="display:none">
+      &#9654; Play on YouTube
+    </a>
+    <p class="meta" id="meta"></p>
+  <div id="playlist" class="playlist"></div>
 </div>
 
-<script>
-const ALL_SONGS = [
-  // Hip-hop / Rap - Original
-  {t:"HUMBLE.",a:"Kendrick Lamar",y:2017,g:"Hip-hop",tp:"Original"},
-  {t:"Alright",a:"Kendrick Lamar",y:2015,g:"Hip-hop",tp:"Original"},
-  {t:"PRIDE.",a:"Kendrick Lamar",y:2017,g:"Hip-hop",tp:"Original"},
-  {t:"Money Trees",a:"Kendrick Lamar",y:2012,g:"Hip-hop",tp:"Original"},
-  {t:"Runaway",a:"Kanye West",y:2010,g:"Hip-hop",tp:"Original"},
-  {t:"Flashing Lights",a:"Kanye West",y:2007,g:"Hip-hop",tp:"Original"},
-  {t:"All Falls Down",a:"Kanye West",y:2004,g:"Hip-hop",tp:"Original"},
-  {t:"Ghost Town",a:"Kanye West",y:2018,g:"Hip-hop",tp:"Original"},
-  {t:"God's Plan",a:"Drake",y:2018,g:"Hip-hop",tp:"Original"},
-  {t:"Passionfruit",a:"Drake",y:2017,g:"Hip-hop",tp:"Original"},
-  {t:"Hold On We're Going Home",a:"Drake",y:2013,g:"Hip-hop",tp:"Original"},
-  {t:"Marvin's Room",a:"Drake",y:2011,g:"Hip-hop",tp:"Original"},
-  {t:"SICKO MODE",a:"Travis Scott",y:2018,g:"Hip-hop",tp:"Original"},
-  {t:"Antidote",a:"Travis Scott",y:2015,g:"Hip-hop",tp:"Original"},
-  {t:"goosebumps",a:"Travis Scott",y:2016,g:"Hip-hop",tp:"Original"},
-  {t:"Rockstar",a:"Post Malone",y:2017,g:"Hip-hop",tp:"Original"},
-  {t:"Congratulations",a:"Post Malone",y:2016,g:"Hip-hop",tp:"Original"},
-  {t:"White Iverson",a:"Post Malone",y:2015,g:"Hip-hop",tp:"Original"},
-  {t:"Old Town Road",a:"Lil Nas X",y:2019,g:"Hip-hop",tp:"Original"},
-  {t:"MONTERO",a:"Lil Nas X",y:2021,g:"Hip-hop",tp:"Original"},
-  {t:"Power",a:"Kanye West",y:2010,g:"Hip-hop",tp:"Original"},
-  {t:"New York State of Mind",a:"Nas",y:1994,g:"Hip-hop",tp:"Original"},
-  {t:"C.R.E.A.M.",a:"Wu-Tang Clan",y:1993,g:"Hip-hop",tp:"Original"},
-  {t:"Lose Yourself",a:"Eminem",y:2002,g:"Hip-hop",tp:"Original"},
-  {t:"Stan",a:"Eminem",y:2000,g:"Hip-hop",tp:"Original"},
-  {t:"Juicy",a:"The Notorious B.I.G.",y:1994,g:"Hip-hop",tp:"Original"},
-  {t:"N.Y. State of Mind",a:"Nas",y:1994,g:"Hip-hop",tp:"Original"},
-  {t:"93 'Til Infinity",a:"Souls of Mischief",y:1993,g:"Hip-hop",tp:"Original"},
-  {t:"The World Is Yours",a:"Nas",y:1994,g:"Hip-hop",tp:"Original"},
-  {t:"Clout Cobain",a:"$uicideboy$",y:2018,g:"Hip-hop",tp:"Original"},
-  // Hip-hop Remix
-  {t:"Old Town Road (Remix)",a:"Lil Nas X ft. Billy Ray Cyrus",y:2019,g:"Hip-hop",tp:"Remix"},
-  {t:"Ultralight Beam (Remix)",a:"Kanye West ft. Chance",y:2016,g:"Hip-hop",tp:"Remix"},
-  {t:"Bad and Boujee (Remix)",a:"Migos ft. Future",y:2017,g:"Hip-hop",tp:"Remix"},
-  {t:"Lucid Dreams (Remix)",a:"Juice WRLD ft. Lil Uzi Vert",y:2018,g:"Hip-hop",tp:"Remix"},
-  // R&B / Soul - Original
-  {t:"Redbone",a:"Childish Gambino",y:2016,g:"R&B",tp:"Original"},
-  {t:"Thinkin Bout You",a:"Frank Ocean",y:2012,g:"R&B",tp:"Original"},
-  {t:"White Ferrari",a:"Frank Ocean",y:2016,g:"R&B",tp:"Original"},
-  {t:"Nights",a:"Frank Ocean",y:2016,g:"R&B",tp:"Original"},
-  {t:"Self Control",a:"Frank Ocean",y:2016,g:"R&B",tp:"Original"},
-  {t:"Pink + White",a:"Frank Ocean",y:2016,g:"R&B",tp:"Original"},
-  {t:"Novacane",a:"Frank Ocean",y:2011,g:"R&B",tp:"Original"},
-  {t:"Ivy",a:"Frank Ocean",y:2016,g:"R&B",tp:"Original"},
-  {t:"Often",a:"The Weeknd",y:2014,g:"R&B",tp:"Original"},
-  {t:"Earned It",a:"The Weeknd",y:2015,g:"R&B",tp:"Original"},
-  {t:"The Hills",a:"The Weeknd",y:2015,g:"R&B",tp:"Original"},
-  {t:"Starboy",a:"The Weeknd",y:2016,g:"R&B",tp:"Original"},
-  {t:"Save Your Tears",a:"The Weeknd",y:2020,g:"R&B",tp:"Original"},
-  {t:"Blinding Lights",a:"The Weeknd",y:2019,g:"R&B",tp:"Original"},
-  {t:"Call Out My Name",a:"The Weeknd",y:2018,g:"R&B",tp:"Original"},
-  {t:"Drunk in Love",a:"Beyoncé",y:2013,g:"R&B",tp:"Original"},
-  {t:"Crazy in Love",a:"Beyoncé",y:2003,g:"R&B",tp:"Original"},
-  {t:"Irreplaceable",a:"Beyoncé",y:2006,g:"R&B",tp:"Original"},
-  {t:"Halo",a:"Beyoncé",y:2008,g:"R&B",tp:"Original"},
-  {t:"I Will Always Love You",a:"Whitney Houston",y:1992,g:"R&B",tp:"Original"},
-  {t:"Fantasy",a:"Mariah Carey",y:1995,g:"R&B",tp:"Original"},
-  {t:"No Scrubs",a:"TLC",y:1999,g:"R&B",tp:"Original"},
-  {t:"Waterfalls",a:"TLC",y:1995,g:"R&B",tp:"Original"},
-  {t:"U Got It Bad",a:"Usher",y:2001,g:"R&B",tp:"Original"},
-  {t:"Yeah!",a:"Usher",y:2004,g:"R&B",tp:"Original"},
-  {t:"CRANES IN THE SKY",a:"Solange",y:2016,g:"R&B",tp:"Original"},
-  {t:"Superstar",a:"Erykah Badu",y:2000,g:"R&B",tp:"Original"},
-  {t:"On & On",a:"Erykah Badu",y:1997,g:"R&B",tp:"Original"},
-  {t:"The Sweetest Thing",a:"Lauryn Hill",y:1998,g:"R&B",tp:"Original"},
-  {t:"Ex-Factor",a:"Lauryn Hill",y:1998,g:"R&B",tp:"Original"},
-  // R&B Remix
-  {t:"Blinding Lights (Remix)",a:"The Weeknd ft. Rosalía",y:2020,g:"R&B",tp:"Remix"},
-  {t:"Crazy in Love (Remix)",a:"Beyoncé ft. Jay-Z",y:2003,g:"R&B",tp:"Remix"},
-  // Indie Rock - Original
-  {t:"Do I Wanna Know?",a:"Arctic Monkeys",y:2013,g:"Indie Rock",tp:"Original"},
-  {t:"505",a:"Arctic Monkeys",y:2007,g:"Indie Rock",tp:"Original"},
-  {t:"R U Mine?",a:"Arctic Monkeys",y:2013,g:"Indie Rock",tp:"Original"},
-  {t:"Fluorescent Adolescent",a:"Arctic Monkeys",y:2011,g:"Indie Rock",tp:"Original"},
-  {t:"Cornerstone",a:"Arctic Monkeys",y:2009,g:"Indie Rock",tp:"Original"},
-  {t:"Arabella",a:"Arctic Monkeys",y:2013,g:"Indie Rock",tp:"Original"},
-  {t:"Why'd You Only Call Me When You're High?",a:"Arctic Monkeys",y:2013,g:"Indie Rock",tp:"Original"},
-  {t:"Take the Lead",a:"Franz Ferdinand",y:2005,g:"Indie Rock",tp:"Original"},
-  {t:"Take Me Out",a:"Franz Ferdinand",y:2004,g:"Indie Rock",tp:"Original"},
-  {t:"Mr. Brightside",a:"The Killers",y:2003,g:"Indie Rock",tp:"Original"},
-  {t:"Somebody Told Me",a:"The Killers",y:2004,g:"Indie Rock",tp:"Original"},
-  {t:"All These Things That I've Done",a:"The Killers",y:2004,g:"Indie Rock",tp:"Original"},
-  {t:"Human",a:"The Killers",y:2008,g:"Indie Rock",tp:"Original"},
-  {t:"Shake It Out",a:"Florence + The Machine",y:2011,g:"Indie Rock",tp:"Original"},
-  {t:"Dog Days Are Over",a:"Florence + The Machine",y:2009,g:"Indie Rock",tp:"Original"},
-  {t:"You've Got the Love",a:"Florence + The Machine",y:2009,g:"Indie Rock",tp:"Original"},
-  {t:"Sweet Disposition",a:"The Temper Trap",y:2008,g:"Indie Rock",tp:"Original"},
-  {t:"Two Weeks",a:"Grizzly Bear",y:2009,g:"Indie Rock",tp:"Original"},
-  {t:"Crystalised",a:"The xx",y:2009,g:"Indie Rock",tp:"Original"},
-  {t:"Intro",a:"The xx",y:2009,g:"Indie Rock",tp:"Original"},
-  {t:"VCR",a:"The xx",y:2009,g:"Indie Rock",tp:"Original"},
-  {t:"On Hold",a:"The xx",y:2017,g:"Indie Rock",tp:"Original"},
-  {t:"Ribs",a:"Lorde",y:2013,g:"Indie Rock",tp:"Original"},
-  {t:"Tennis Court",a:"Lorde",y:2013,g:"Indie Rock",tp:"Original"},
-  {t:"Royals",a:"Lorde",y:2013,g:"Indie Rock",tp:"Original"},
-  {t:"Green Light",a:"Lorde",y:2017,g:"Indie Rock",tp:"Original"},
-  {t:"Liability",a:"Lorde",y:2017,g:"Indie Rock",tp:"Original"},
-  {t:"The Night Will Always Win",a:"Manchester Orchestra",y:2014,g:"Indie Rock",tp:"Original"},
-  {t:"I Can Feel a Hot One",a:"Manchester Orchestra",y:2009,g:"Indie Rock",tp:"Original"},
-  {t:"Stubborn Love",a:"The Lumineers",y:2012,g:"Indie Rock",tp:"Original"},
-  // Indie Folk - Original
-  {t:"Skinny Love",a:"Bon Iver",y:2008,g:"Indie Folk",tp:"Original"},
-  {t:"Holocene",a:"Bon Iver",y:2011,g:"Indie Folk",tp:"Original"},
-  {t:"Towers",a:"Bon Iver",y:2011,g:"Indie Folk",tp:"Original"},
-  {t:"Blood Bank",a:"Bon Iver",y:2009,g:"Indie Folk",tp:"Original"},
-  {t:"Calgary",a:"Bon Iver",y:2011,g:"Indie Folk",tp:"Original"},
-  {t:"Re: Stacks",a:"Bon Iver",y:2008,g:"Indie Folk",tp:"Original"},
-  {t:"Bloom",a:"The Paper Kites",y:2010,g:"Indie Folk",tp:"Original"},
-  {t:"Chateau",a:"Angus & Julia Stone",y:2010,g:"Indie Folk",tp:"Original"},
-  {t:"Big Jet Plane",a:"Angus & Julia Stone",y:2010,g:"Indie Folk",tp:"Original"},
-  {t:"Ho Hey",a:"The Lumineers",y:2012,g:"Indie Folk",tp:"Original"},
-  {t:"Flowers in Your Hair",a:"The Lumineers",y:2012,g:"Indie Folk",tp:"Original"},
-  {t:"Ophelia",a:"The Lumineers",y:2016,g:"Indie Folk",tp:"Original"},
-  {t:"Home",a:"Edward Sharpe",y:2009,g:"Indie Folk",tp:"Original"},
-  {t:"Breathe (2 AM)",a:"Anna Nalick",y:2005,g:"Indie Folk",tp:"Original"},
-  {t:"The Joke",a:"Brandi Carlile",y:2018,g:"Indie Folk",tp:"Original"},
-  {t:"The Story",a:"Brandi Carlile",y:2007,g:"Indie Folk",tp:"Original"},
-  {t:"Fast Car",a:"Tracy Chapman",y:1988,g:"Indie Folk",tp:"Original"},
-  {t:"Give Me One Reason",a:"Tracy Chapman",y:1995,g:"Indie Folk",tp:"Original"},
-  {t:"Lua",a:"Bright Eyes",y:2005,g:"Indie Folk",tp:"Original"},
-  {t:"First Day of My Life",a:"Bright Eyes",y:2005,g:"Indie Folk",tp:"Original"},
-  {t:"White Winter Hymnal",a:"Fleet Foxes",y:2008,g:"Indie Folk",tp:"Original"},
-  {t:"Helplessness Blues",a:"Fleet Foxes",y:2011,g:"Indie Folk",tp:"Original"},
-  {t:"Blue Ridge Mountains",a:"Fleet Foxes",y:2008,g:"Indie Folk",tp:"Original"},
-  {t:"Mykonos",a:"Fleet Foxes",y:2009,g:"Indie Folk",tp:"Original"},
-  {t:"Carolina",a:"Taylor Swift",y:2022,g:"Indie Folk",tp:"Original"},
-  {t:"The 1",a:"Taylor Swift",y:2020,g:"Indie Folk",tp:"Original"},
-  {t:"seven",a:"Taylor Swift",y:2020,g:"Indie Folk",tp:"Original"},
-  {t:"illicit affairs",a:"Taylor Swift",y:2020,g:"Indie Folk",tp:"Original"},
-  {t:"exile",a:"Taylor Swift ft. Bon Iver",y:2020,g:"Indie Folk",tp:"Original"},
-  {t:"epiphany",a:"Taylor Swift",y:2020,g:"Indie Folk",tp:"Original"},
-  // Indie Folk Acoustic
-  {t:"Skinny Love (Acoustic)",a:"Bon Iver",y:2008,g:"Indie Folk",tp:"Acoustic"},
-  {t:"Fast Car (Acoustic)",a:"Tracy Chapman",y:1988,g:"Indie Folk",tp:"Acoustic"},
-  {t:"Bloom (Acoustic Live)",a:"The Paper Kites",y:2010,g:"Indie Folk",tp:"Acoustic"},
-  // Pop - Original
-  {t:"Shape of You",a:"Ed Sheeran",y:2017,g:"Pop",tp:"Original"},
-  {t:"Thinking Out Loud",a:"Ed Sheeran",y:2014,g:"Pop",tp:"Original"},
-  {t:"Perfect",a:"Ed Sheeran",y:2017,g:"Pop",tp:"Original"},
-  {t:"Bad Guy",a:"Billie Eilish",y:2019,g:"Pop",tp:"Original"},
-  {t:"Ocean Eyes",a:"Billie Eilish",y:2016,g:"Pop",tp:"Original"},
-  {t:"everything i wanted",a:"Billie Eilish",y:2019,g:"Pop",tp:"Original"},
-  {t:"happier than ever",a:"Billie Eilish",y:2021,g:"Pop",tp:"Original"},
-  {t:"lovely",a:"Billie Eilish & Khalid",y:2018,g:"Pop",tp:"Original"},
-  {t:"Driver's License",a:"Olivia Rodrigo",y:2021,g:"Pop",tp:"Original"},
-  {t:"good 4 u",a:"Olivia Rodrigo",y:2021,g:"Pop",tp:"Original"},
-  {t:"brutal",a:"Olivia Rodrigo",y:2021,g:"Pop",tp:"Original"},
-  {t:"deja vu",a:"Olivia Rodrigo",y:2021,g:"Pop",tp:"Original"},
-  {t:"Watermelon Sugar",a:"Harry Styles",y:2020,g:"Pop",tp:"Original"},
-  {t:"Golden",a:"Harry Styles",y:2020,g:"Pop",tp:"Original"},
-  {t:"As It Was",a:"Harry Styles",y:2022,g:"Pop",tp:"Original"},
-  {t:"Adore You",a:"Harry Styles",y:2019,g:"Pop",tp:"Original"},
-  {t:"Levitating",a:"Dua Lipa",y:2020,g:"Pop",tp:"Original"},
-  {t:"Don't Start Now",a:"Dua Lipa",y:2019,g:"Pop",tp:"Original"},
-  {t:"Physical",a:"Dua Lipa",y:2020,g:"Pop",tp:"Original"},
-  {t:"New Rules",a:"Dua Lipa",y:2017,g:"Pop",tp:"Original"},
-  {t:"Shake It Off",a:"Taylor Swift",y:2014,g:"Pop",tp:"Original"},
-  {t:"Blank Space",a:"Taylor Swift",y:2014,g:"Pop",tp:"Original"},
-  {t:"Anti-Hero",a:"Taylor Swift",y:2022,g:"Pop",tp:"Original"},
-  {t:"Love Story",a:"Taylor Swift",y:2008,g:"Pop",tp:"Original"},
-  {t:"Cruel Summer",a:"Taylor Swift",y:2019,g:"Pop",tp:"Original"},
-  {t:"Stay With Me",a:"Sam Smith",y:2014,g:"Pop",tp:"Original"},
-  {t:"Writing's on the Wall",a:"Sam Smith",y:2015,g:"Pop",tp:"Original"},
-  {t:"Dancing with a Stranger",a:"Sam Smith & Normani",y:2019,g:"Pop",tp:"Original"},
-  {t:"Uptown Funk",a:"Mark Ronson ft. Bruno Mars",y:2014,g:"Pop",tp:"Original"},
-  {t:"Locked Out of Heaven",a:"Bruno Mars",y:2012,g:"Pop",tp:"Original"},
-  {t:"Just the Way You Are",a:"Bruno Mars",y:2010,g:"Pop",tp:"Original"},
-  {t:"Grenade",a:"Bruno Mars",y:2010,g:"Pop",tp:"Original"},
-  // Pop Remix
-  {t:"Shape of You (Remix)",a:"Ed Sheeran ft. Stormzy",y:2017,g:"Pop",tp:"Remix"},
-  {t:"Levitating (Remix)",a:"Dua Lipa ft. DaBaby",y:2020,g:"Pop",tp:"Remix"},
-  {t:"Bad Guy (Remix)",a:"Billie Eilish ft. Justin Bieber",y:2019,g:"Pop",tp:"Remix"},
-  {t:"Cruel Summer (Kygo Remix)",a:"Taylor Swift",y:2019,g:"Pop",tp:"Remix"},
-  // Pop Acoustic
-  {t:"All of Me (Acoustic)",a:"John Legend",y:2013,g:"Pop",tp:"Acoustic"},
-  {t:"Driver's License (Acoustic)",a:"Olivia Rodrigo",y:2021,g:"Pop",tp:"Acoustic"},
-  // Electronic / Dance - Original
-  {t:"Midnight City",a:"M83",y:2011,g:"Electronic",tp:"Original"},
-  {t:"Wait",a:"M83",y:2016,g:"Electronic",tp:"Original"},
-  {t:"Intro",a:"M83",y:2008,g:"Electronic",tp:"Original"},
-  {t:"Electric Feel",a:"MGMT",y:2008,g:"Electronic",tp:"Original"},
-  {t:"Kids",a:"MGMT",y:2008,g:"Electronic",tp:"Original"},
-  {t:"Time to Pretend",a:"MGMT",y:2008,g:"Electronic",tp:"Original"},
-  {t:"Oblivion",a:"Grimes",y:2012,g:"Electronic",tp:"Original"},
-  {t:"Kill V. Maim",a:"Grimes",y:2015,g:"Electronic",tp:"Original"},
-  {t:"Flesh Without Blood",a:"Grimes",y:2015,g:"Electronic",tp:"Original"},
-  {t:"Retrograde",a:"James Blake",y:2013,g:"Electronic",tp:"Original"},
-  {t:"The Wilhelm Scream",a:"James Blake",y:2011,g:"Electronic",tp:"Original"},
-  {t:"Limit to Your Love",a:"James Blake",y:2011,g:"Electronic",tp:"Original"},
-  {t:"Overgrown",a:"James Blake",y:2013,g:"Electronic",tp:"Original"},
-  {t:"Frequency",a:"Disclosure",y:2013,g:"Electronic",tp:"Original"},
-  {t:"White Noise",a:"Disclosure",y:2013,g:"Electronic",tp:"Original"},
-  {t:"Latch",a:"Disclosure ft. Sam Smith",y:2012,g:"Electronic",tp:"Original"},
-  {t:"Magnets",a:"Disclosure ft. Lorde",y:2015,g:"Electronic",tp:"Original"},
-  {t:"Levels",a:"Avicii",y:2011,g:"Electronic",tp:"Original"},
-  {t:"Wake Me Up",a:"Avicii",y:2013,g:"Electronic",tp:"Original"},
-  {t:"Hey Brother",a:"Avicii",y:2013,g:"Electronic",tp:"Original"},
-  {t:"Titanium",a:"David Guetta ft. Sia",y:2011,g:"Electronic",tp:"Original"},
-  {t:"Stay the Night",a:"Zedd ft. Hayley Williams",y:2013,g:"Electronic",tp:"Original"},
-  {t:"Clarity",a:"Zedd ft. Foxes",y:2012,g:"Electronic",tp:"Original"},
-  {t:"The Middle",a:"Zedd ft. Maren Morris",y:2018,g:"Electronic",tp:"Original"},
-  {t:"Animals",a:"Martin Garrix",y:2013,g:"Electronic",tp:"Original"},
-  {t:"Lean On",a:"Major Lazer ft. MØ",y:2015,g:"Electronic",tp:"Original"},
-  {t:"Cold Water",a:"Major Lazer ft. Justin Bieber",y:2016,g:"Electronic",tp:"Original"},
-  {t:"One More Time",a:"Daft Punk",y:2000,g:"Electronic",tp:"Original"},
-  {t:"Get Lucky",a:"Daft Punk ft. Pharrell",y:2013,g:"Electronic",tp:"Original"},
-  {t:"Around the World",a:"Daft Punk",y:1997,g:"Electronic",tp:"Original"},
-  // Electronic Remix
-  {t:"Oblivion (Gesaffelstein Remix)",a:"Grimes",y:2012,g:"Electronic",tp:"Remix"},
-  {t:"Latch (Acoustic)",a:"Disclosure ft. Sam Smith",y:2013,g:"Electronic",tp:"Acoustic"},
-  {t:"Midnight City (Reunion Remix)",a:"M83",y:2012,g:"Electronic",tp:"Remix"},
-  {t:"Get Lucky (Radio Edit Remix)",a:"Daft Punk",y:2013,g:"Electronic",tp:"Remix"},
-  {t:"Lean On (Felix Jaehn Remix)",a:"Major Lazer",y:2015,g:"Electronic",tp:"Remix"},
-  // Psychedelic / Dream Pop - Original
-  {t:"The Less I Know The Better",a:"Tame Impala",y:2015,g:"Psych Pop",tp:"Original"},
-  {t:"Let It Happen",a:"Tame Impala",y:2015,g:"Psych Pop",tp:"Original"},
-  {t:"Eventually",a:"Tame Impala",y:2015,g:"Psych Pop",tp:"Original"},
-  {t:"Feels Like We Only Go Backwards",a:"Tame Impala",y:2012,g:"Psych Pop",tp:"Original"},
-  {t:"Elephant",a:"Tame Impala",y:2012,g:"Psych Pop",tp:"Original"},
-  {t:"Mind Mischief",a:"Tame Impala",y:2012,g:"Psych Pop",tp:"Original"},
-  {t:"New Person Same Old Mistakes",a:"Tame Impala",y:2015,g:"Psych Pop",tp:"Original"},
-  {t:"Is It True",a:"Tame Impala",y:2020,g:"Psych Pop",tp:"Original"},
-  {t:"Video Games",a:"Lana Del Rey",y:2011,g:"Psych Pop",tp:"Original"},
-  {t:"Summertime Sadness",a:"Lana Del Rey",y:2012,g:"Psych Pop",tp:"Original"},
-  {t:"Young and Beautiful",a:"Lana Del Rey",y:2013,g:"Psych Pop",tp:"Original"},
-  {t:"Brooklyn Baby",a:"Lana Del Rey",y:2014,g:"Psych Pop",tp:"Original"},
-  {t:"Blue Jeans",a:"Lana Del Rey",y:2012,g:"Psych Pop",tp:"Original"},
-  {t:"Hope is a Dangerous Thing",a:"Lana Del Rey",y:2019,g:"Psych Pop",tp:"Original"},
-  // Psych Pop Remix
-  {t:"Feels Like We Only Go Backwards (Remix)",a:"Tame Impala",y:2012,g:"Psych Pop",tp:"Remix"},
-  {t:"Summertime Sadness (Cedric Gervais Remix)",a:"Lana Del Rey",y:2013,g:"Psych Pop",tp:"Remix"},
-  // Alt Rock / Grunge - Original
-  {t:"Come As You Are",a:"Nirvana",y:1992,g:"Alt Rock",tp:"Original"},
-  {t:"Smells Like Teen Spirit",a:"Nirvana",y:1991,g:"Alt Rock",tp:"Original"},
-  {t:"Heart-Shaped Box",a:"Nirvana",y:1993,g:"Alt Rock",tp:"Original"},
-  {t:"The Man Who Sold the World",a:"Nirvana",y:1994,g:"Alt Rock",tp:"Original"},
-  {t:"Black Hole Sun",a:"Soundgarden",y:1994,g:"Alt Rock",tp:"Original"},
-  {t:"Even Flow",a:"Pearl Jam",y:1992,g:"Alt Rock",tp:"Original"},
-  {t:"Jeremy",a:"Pearl Jam",y:1991,g:"Alt Rock",tp:"Original"},
-  {t:"Alive",a:"Pearl Jam",y:1991,g:"Alt Rock",tp:"Original"},
-  {t:"Creep",a:"Radiohead",y:1992,g:"Alt Rock",tp:"Original"},
-  {t:"Karma Police",a:"Radiohead",y:1997,g:"Alt Rock",tp:"Original"},
-  {t:"Fake Plastic Trees",a:"Radiohead",y:1995,g:"Alt Rock",tp:"Original"},
-  {t:"No Surprises",a:"Radiohead",y:1997,g:"Alt Rock",tp:"Original"},
-  {t:"Exit Music",a:"Radiohead",y:1997,g:"Alt Rock",tp:"Original"},
-  {t:"Motion Picture Soundtrack",a:"Radiohead",y:2000,g:"Alt Rock",tp:"Original"},
-  {t:"How Soon Is Now?",a:"The Smiths",y:1985,g:"Alt Rock",tp:"Original"},
-  {t:"There Is a Light That Never Goes Out",a:"The Smiths",y:1986,g:"Alt Rock",tp:"Original"},
-  {t:"This Charming Man",a:"The Smiths",y:1983,g:"Alt Rock",tp:"Original"},
-  {t:"Personal Jesus",a:"Depeche Mode",y:1989,g:"Alt Rock",tp:"Original"},
-  {t:"Enjoy the Silence",a:"Depeche Mode",y:1990,g:"Alt Rock",tp:"Original"},
-  {t:"Just Like Heaven",a:"The Cure",y:1987,g:"Alt Rock",tp:"Original"},
-  {t:"Lovesong",a:"The Cure",y:1989,g:"Alt Rock",tp:"Original"},
-  {t:"Disintegration",a:"The Cure",y:1989,g:"Alt Rock",tp:"Original"},
-  // Alt Rock Acoustic
-  {t:"Creep (Acoustic)",a:"Radiohead",y:1992,g:"Alt Rock",tp:"Acoustic"},
-  {t:"Come As You Are (Acoustic)",a:"Nirvana",y:1993,g:"Alt Rock",tp:"Acoustic"},
-  {t:"Black Hole Sun (Acoustic)",a:"Soundgarden",y:1994,g:"Alt Rock",tp:"Acoustic"},
-  // Classic Rock - Original
-  {t:"Africa",a:"Toto",y:1982,g:"Classic Rock",tp:"Original"},
-  {t:"Rosanna",a:"Toto",y:1982,g:"Classic Rock",tp:"Original"},
-  {t:"Hotel California",a:"Eagles",y:1977,g:"Classic Rock",tp:"Original"},
-  {t:"Bohemian Rhapsody",a:"Queen",y:1975,g:"Classic Rock",tp:"Original"},
-  {t:"Don't Stop Me Now",a:"Queen",y:1978,g:"Classic Rock",tp:"Original"},
-  {t:"Under Pressure",a:"Queen & David Bowie",y:1981,g:"Classic Rock",tp:"Original"},
-  {t:"Stairway to Heaven",a:"Led Zeppelin",y:1971,g:"Classic Rock",tp:"Original"},
-  {t:"Whole Lotta Love",a:"Led Zeppelin",y:1969,g:"Classic Rock",tp:"Original"},
-  {t:"Kashmir",a:"Led Zeppelin",y:1975,g:"Classic Rock",tp:"Original"},
-  {t:"Let It Be",a:"The Beatles",y:1970,g:"Classic Rock",tp:"Original"},
-  {t:"Hey Jude",a:"The Beatles",y:1968,g:"Classic Rock",tp:"Original"},
-  {t:"Come Together",a:"The Beatles",y:1969,g:"Classic Rock",tp:"Original"},
-  {t:"Yesterday",a:"The Beatles",y:1965,g:"Classic Rock",tp:"Original"},
-  {t:"Blackbird",a:"The Beatles",y:1968,g:"Classic Rock",tp:"Original"},
-  {t:"While My Guitar Gently Weeps",a:"The Beatles",y:1968,g:"Classic Rock",tp:"Original"},
-  {t:"Heroes",a:"David Bowie",y:1977,g:"Classic Rock",tp:"Original"},
-  {t:"Space Oddity",a:"David Bowie",y:1969,g:"Classic Rock",tp:"Original"},
-  {t:"Let's Dance",a:"David Bowie",y:1983,g:"Classic Rock",tp:"Original"},
-  {t:"Vienna",a:"Billy Joel",y:1977,g:"Classic Rock",tp:"Original"},
-  {t:"Piano Man",a:"Billy Joel",y:1973,g:"Classic Rock",tp:"Original"},
-  {t:"Born to Run",a:"Bruce Springsteen",y:1975,g:"Classic Rock",tp:"Original"},
-  {t:"Thunder Road",a:"Bruce Springsteen",y:1975,g:"Classic Rock",tp:"Original"},
-  {t:"Don't You (Forget About Me)",a:"Simple Minds",y:1985,g:"Classic Rock",tp:"Original"},
-  {t:"Take on Me",a:"a-ha",y:1985,g:"Classic Rock",tp:"Original"},
-  {t:"Sweet Home Alabama",a:"Lynyrd Skynyrd",y:1974,g:"Classic Rock",tp:"Original"},
-  // Classic Rock Acoustic
-  {t:"Blackbird (Acoustic)",a:"The Beatles",y:1968,g:"Classic Rock",tp:"Acoustic"},
-  {t:"Yesterday (Acoustic)",a:"The Beatles",y:1965,g:"Classic Rock",tp:"Acoustic"},
-  {t:"Stairway to Heaven (Acoustic)",a:"Led Zeppelin",y:1971,g:"Classic Rock",tp:"Acoustic"},
-  // Jazz - Original
-  {t:"So What",a:"Miles Davis",y:1959,g:"Jazz",tp:"Original"},
-  {t:"All Blues",a:"Miles Davis",y:1959,g:"Jazz",tp:"Original"},
-  {t:"Kind of Blue",a:"Miles Davis",y:1959,g:"Jazz",tp:"Original"},
-  {t:"Take Five",a:"Dave Brubeck Quartet",y:1959,g:"Jazz",tp:"Original"},
-  {t:"Blue Rondo à la Turk",a:"Dave Brubeck Quartet",y:1959,g:"Jazz",tp:"Original"},
-  {t:"Autumn Leaves",a:"Bill Evans",y:1959,g:"Jazz",tp:"Original"},
-  {t:"Peace Piece",a:"Bill Evans",y:1958,g:"Jazz",tp:"Original"},
-  {t:"Waltz for Debby",a:"Bill Evans Trio",y:1961,g:"Jazz",tp:"Original"},
-  {t:"Moanin'",a:"Art Blakey",y:1958,g:"Jazz",tp:"Original"},
-  {t:"A Night in Tunisia",a:"Dizzy Gillespie",y:1946,g:"Jazz",tp:"Original"},
-  {t:"Giant Steps",a:"John Coltrane",y:1960,g:"Jazz",tp:"Original"},
-  {t:"My Favorite Things",a:"John Coltrane",y:1961,g:"Jazz",tp:"Original"},
-  {t:"A Love Supreme",a:"John Coltrane",y:1965,g:"Jazz",tp:"Original"},
-  {t:"Misty",a:"Erroll Garner",y:1954,g:"Jazz",tp:"Original"},
-  {t:"Fly Me to the Moon",a:"Frank Sinatra",y:1964,g:"Jazz",tp:"Original"},
-  {t:"The Way You Look Tonight",a:"Frank Sinatra",y:1964,g:"Jazz",tp:"Original"},
-  {t:"What a Wonderful World",a:"Louis Armstrong",y:1967,g:"Jazz",tp:"Original"},
-  {t:"La Vie en Rose",a:"Édith Piaf",y:1947,g:"Jazz",tp:"Original"},
-  {t:"Round Midnight",a:"Thelonious Monk",y:1944,g:"Jazz",tp:"Original"},
-  {t:"Blue in Green",a:"Miles Davis",y:1959,g:"Jazz",tp:"Original"},
-  {t:"Corcovado",a:"João Gilberto",y:1960,g:"Jazz",tp:"Original"},
-  {t:"The Girl from Ipanema",a:"João Gilberto",y:1964,g:"Jazz",tp:"Original"},
-  {t:"Black Orpheus",a:"Luiz Bonfá",y:1959,g:"Jazz",tp:"Original"},
-  // Jazz Lo-fi
-  {t:"So What (Lo-fi Remix)",a:"Miles Davis",y:2020,g:"Jazz",tp:"Lo-fi"},
-  {t:"Autumn Leaves (Lo-fi)",a:"Bill Evans",y:2019,g:"Jazz",tp:"Lo-fi"},
-  // Classical - Original
-  {t:"Clair de lune",a:"Claude Debussy",y:1905,g:"Classical",tp:"Classical"},
-  {t:"Moonlight Sonata",a:"Ludwig van Beethoven",y:1801,g:"Classical",tp:"Classical"},
-  {t:"Für Elise",a:"Ludwig van Beethoven",y:1810,g:"Classical",tp:"Classical"},
-  {t:"Symphony No. 9",a:"Ludwig van Beethoven",y:1824,g:"Classical",tp:"Classical"},
-  {t:"Symphony No. 5",a:"Ludwig van Beethoven",y:1808,g:"Classical",tp:"Classical"},
-  {t:"The Four Seasons",a:"Antonio Vivaldi",y:1725,g:"Classical",tp:"Classical"},
-  {t:"Canon in D",a:"Johann Pachelbel",y:1694,g:"Classical",tp:"Classical"},
-  {t:"Prelude in C Major",a:"J.S. Bach",y:1722,g:"Classical",tp:"Classical"},
-  {t:"Toccata and Fugue in D Minor",a:"J.S. Bach",y:1703,g:"Classical",tp:"Classical"},
-  {t:"Goldberg Variations",a:"J.S. Bach",y:1741,g:"Classical",tp:"Classical"},
-  {t:"The Well-Tempered Clavier",a:"J.S. Bach",y:1722,g:"Classical",tp:"Classical"},
-  {t:"Requiem in D Minor",a:"W.A. Mozart",y:1791,g:"Classical",tp:"Classical"},
-  {t:"Symphony No. 40",a:"W.A. Mozart",y:1788,g:"Classical",tp:"Classical"},
-  {t:"Piano Concerto No. 21",a:"W.A. Mozart",y:1785,g:"Classical",tp:"Classical"},
-  {t:"Eine Kleine Nachtmusik",a:"W.A. Mozart",y:1787,g:"Classical",tp:"Classical"},
-  {t:"The Magic Flute Overture",a:"W.A. Mozart",y:1791,g:"Classical",tp:"Classical"},
-  {t:"Gymnopédie No. 1",a:"Erik Satie",y:1888,g:"Classical",tp:"Classical"},
-  {t:"Gnossienne No. 1",a:"Erik Satie",y:1890,g:"Classical",tp:"Classical"},
-  {t:"Rhapsody in Blue",a:"George Gershwin",y:1924,g:"Classical",tp:"Classical"},
-  {t:"Summertime",a:"George Gershwin",y:1935,g:"Classical",tp:"Classical"},
-  {t:"Bolero",a:"Maurice Ravel",y:1928,g:"Classical",tp:"Classical"},
-  {t:"Pavane pour une infante défunte",a:"Maurice Ravel",y:1899,g:"Classical",tp:"Classical"},
-  {t:"Swan Lake",a:"Tchaikovsky",y:1877,g:"Classical",tp:"Classical"},
-  {t:"The Nutcracker Suite",a:"Tchaikovsky",y:1892,g:"Classical",tp:"Classical"},
-  {t:"Piano Concerto No. 1",a:"Tchaikovsky",y:1875,g:"Classical",tp:"Classical"},
-  {t:"Ride of the Valkyries",a:"Richard Wagner",y:1870,g:"Classical",tp:"Classical"},
-  {t:"Symphonie Fantastique",a:"Hector Berlioz",y:1830,g:"Classical",tp:"Classical"},
-  {t:"Peer Gynt Suite",a:"Edvard Grieg",y:1876,g:"Classical",tp:"Classical"},
-  {t:"Pictures at an Exhibition",a:"Modest Mussorgsky",y:1874,g:"Classical",tp:"Classical"},
-  {t:"The Rite of Spring",a:"Igor Stravinsky",y:1913,g:"Classical",tp:"Classical"},
-  // Lo-fi / Chill - Original
-  {t:"Snowfall",a:"Øneheart & reidenshi",y:2021,g:"Lo-fi",tp:"Lo-fi"},
-  {t:"Rainfall",a:"Powfu",y:2019,g:"Lo-fi",tp:"Lo-fi"},
-  {t:"Death Bed",a:"Powfu ft. beabadoobee",y:2020,g:"Lo-fi",tp:"Lo-fi"},
-  {t:"Coffee for Your Head",a:"Powfu",y:2020,g:"Lo-fi",tp:"Lo-fi"},
-  {t:"Chill Lofi Study Beats",a:"ChilledCow",y:2020,g:"Lo-fi",tp:"Lo-fi"},
-  {t:"Aruarian Dance",a:"Nujabes",y:2004,g:"Lo-fi",tp:"Lo-fi"},
-  {t:"Luv(sic) Part 3",a:"Nujabes ft. Shing02",y:2004,g:"Lo-fi",tp:"Lo-fi"},
-  {t:"Feather",a:"Nujabes ft. Cise Starr",y:2005,g:"Lo-fi",tp:"Lo-fi"},
-  {t:"Modal Soul",a:"Nujabes",y:2005,g:"Lo-fi",tp:"Lo-fi"},
-  {t:"Reflection Eternal",a:"Nujabes",y:2004,g:"Lo-fi",tp:"Lo-fi"},
-  {t:"Summer Soul",a:"Nujabes",y:2004,g:"Lo-fi",tp:"Lo-fi"},
-  {t:"Lady Brown",a:"Nujabes ft. Cise Starr",y:2004,g:"Lo-fi",tp:"Lo-fi"},
-  {t:"eclipse",a:"Idealism",y:2020,g:"Lo-fi",tp:"Lo-fi"},
-  {t:"tender",a:"Idealism",y:2020,g:"Lo-fi",tp:"Lo-fi"},
-  {t:"Caramel",a:"Idealism",y:2019,g:"Lo-fi",tp:"Lo-fi"},
-  {t:"tokyo",a:"Jinsang",y:2018,g:"Lo-fi",tp:"Lo-fi"},
-  {t:"solitude",a:"Jinsang",y:2018,g:"Lo-fi",tp:"Lo-fi"},
-  {t:"Daydream",a:"Jinsang",y:2017,g:"Lo-fi",tp:"Lo-fi"},
-  {t:"memories",a:"arbour",y:2019,g:"Lo-fi",tp:"Lo-fi"},
-  {t:"night sky",a:"arbour",y:2020,g:"Lo-fi",tp:"Lo-fi"},
-  // Soul / Funk - Original
-  {t:"Superstition",a:"Stevie Wonder",y:1972,g:"Soul",tp:"Original"},
-  {t:"Isn't She Lovely",a:"Stevie Wonder",y:1976,g:"Soul",tp:"Original"},
-  {t:"Higher Ground",a:"Stevie Wonder",y:1973,g:"Soul",tp:"Original"},
-  {t:"Sir Duke",a:"Stevie Wonder",y:1977,g:"Soul",tp:"Original"},
-  {t:"I Wish",a:"Stevie Wonder",y:1976,g:"Soul",tp:"Original"},
-  {t:"Sex Machine",a:"James Brown",y:1970,g:"Soul",tp:"Original"},
-  {t:"I Got You (I Feel Good)",a:"James Brown",y:1965,g:"Soul",tp:"Original"},
-  {t:"Papa's Got a Brand New Bag",a:"James Brown",y:1965,g:"Soul",tp:"Original"},
-  {t:"Respect",a:"Aretha Franklin",y:1967,g:"Soul",tp:"Original"},
-  {t:"Think",a:"Aretha Franklin",y:1968,g:"Soul",tp:"Original"},
-  {t:"Natural Woman",a:"Aretha Franklin",y:1967,g:"Soul",tp:"Original"},
-  {t:"Let's Stay Together",a:"Al Green",y:1971,g:"Soul",tp:"Original"},
-  {t:"Tired of Being Alone",a:"Al Green",y:1971,g:"Soul",tp:"Original"},
-  {t:"What's Going On",a:"Marvin Gaye",y:1971,g:"Soul",tp:"Original"},
-  {t:"Sexual Healing",a:"Marvin Gaye",y:1982,g:"Soul",tp:"Original"},
-  {t:"Let's Get It On",a:"Marvin Gaye",y:1973,g:"Soul",tp:"Original"},
-  {t:"Mercy Mercy Me",a:"Marvin Gaye",y:1971,g:"Soul",tp:"Original"},
-  {t:"Brick House",a:"Commodores",y:1977,g:"Soul",tp:"Original"},
-  {t:"Easy",a:"Commodores",y:1977,g:"Soul",tp:"Original"},
-  {t:"September",a:"Earth Wind & Fire",y:1978,g:"Soul",tp:"Original"},
-  {t:"Boogie Wonderland",a:"Earth Wind & Fire",y:1979,g:"Soul",tp:"Original"},
-  {t:"Got to Give It Up",a:"Marvin Gaye",y:1977,g:"Soul",tp:"Original"},
-  {t:"Use Me",a:"Bill Withers",y:1972,g:"Soul",tp:"Original"},
-  {t:"Lean on Me",a:"Bill Withers",y:1972,g:"Soul",tp:"Original"},
-  {t:"Lovely Day",a:"Bill Withers",y:1977,g:"Soul",tp:"Original"},
-  {t:"Ain't No Sunshine",a:"Bill Withers",y:1971,g:"Soul",tp:"Original"},
-  // Soul Remix
-  {t:"September (Kygo Remix)",a:"Earth Wind & Fire",y:2019,g:"Soul",tp:"Remix"},
-  {t:"Superstition (Remix)",a:"Stevie Wonder",y:2019,g:"Soul",tp:"Remix"},
-  // Blues / Country - Original
-  {t:"The Thrill Is Gone",a:"B.B. King",y:1969,g:"Blues",tp:"Original"},
-  {t:"Sweet Home Chicago",a:"Robert Johnson",y:1936,g:"Blues",tp:"Original"},
-  {t:"Cross Road Blues",a:"Robert Johnson",y:1937,g:"Blues",tp:"Original"},
-  {t:"Pride and Joy",a:"Stevie Ray Vaughan",y:1983,g:"Blues",tp:"Original"},
-  {t:"Texas Flood",a:"Stevie Ray Vaughan",y:1983,g:"Blues",tp:"Original"},
-  {t:"Couldn't Stand the Weather",a:"Stevie Ray Vaughan",y:1984,g:"Blues",tp:"Original"},
-  {t:"Slow Dancing in a Burning Room",a:"John Mayer",y:2006,g:"Blues",tp:"Original"},
-  {t:"Gravity",a:"John Mayer",y:2006,g:"Blues",tp:"Original"},
-  {t:"Neon",a:"John Mayer",y:2001,g:"Blues",tp:"Original"},
-  {t:"Vultures",a:"John Mayer",y:2006,g:"Blues",tp:"Original"},
-  // Country - Original
-  {t:"The House That Built Me",a:"Miranda Lambert",y:2009,g:"Country",tp:"Original"},
-  {t:"Before He Cheats",a:"Carrie Underwood",y:2005,g:"Country",tp:"Original"},
-  {t:"Need You Now",a:"Lady A",y:2009,g:"Country",tp:"Original"},
-  {t:"Wagon Wheel",a:"Old Crow Medicine Show",y:2004,g:"Country",tp:"Original"},
-  {t:"Jolene",a:"Dolly Parton",y:1973,g:"Country",tp:"Original"},
-  {t:"I Will Always Love You",a:"Dolly Parton",y:1973,g:"Country",tp:"Original"},
-  {t:"Tennessee Whiskey",a:"Chris Stapleton",y:2015,g:"Country",tp:"Original"},
-  {t:"Broken Halos",a:"Chris Stapleton",y:2017,g:"Country",tp:"Original"},
-  {t:"Ring of Fire",a:"Johnny Cash",y:1963,g:"Country",tp:"Original"},
-  {t:"Hurt",a:"Johnny Cash",y:2002,g:"Country",tp:"Original"},
-  {t:"Man in Black",a:"Johnny Cash",y:1971,g:"Country",tp:"Original"},
-  // Country Acoustic
-  {t:"Jolene (Acoustic)",a:"Dolly Parton",y:1973,g:"Country",tp:"Acoustic"},
-  {t:"Hurt (Acoustic)",a:"Johnny Cash",y:2002,g:"Country",tp:"Acoustic"},
-  // Metal / Hard Rock - Original
-  {t:"Master of Puppets",a:"Metallica",y:1986,g:"Metal",tp:"Original"},
-  {t:"Enter Sandman",a:"Metallica",y:1991,g:"Metal",tp:"Original"},
-  {t:"Nothing Else Matters",a:"Metallica",y:1991,g:"Metal",tp:"Original"},
-  {t:"Fade to Black",a:"Metallica",y:1984,g:"Metal",tp:"Original"},
-  {t:"One",a:"Metallica",y:1989,g:"Metal",tp:"Original"},
-  {t:"Paranoid",a:"Black Sabbath",y:1970,g:"Metal",tp:"Original"},
-  {t:"Iron Man",a:"Black Sabbath",y:1970,g:"Metal",tp:"Original"},
-  {t:"War Pigs",a:"Black Sabbath",y:1970,g:"Metal",tp:"Original"},
-  {t:"Crazy Train",a:"Ozzy Osbourne",y:1980,g:"Metal",tp:"Original"},
-  {t:"Welcome to the Jungle",a:"Guns N' Roses",y:1987,g:"Metal",tp:"Original"},
-  {t:"November Rain",a:"Guns N' Roses",y:1991,g:"Metal",tp:"Original"},
-  {t:"Sweet Child O' Mine",a:"Guns N' Roses",y:1988,g:"Metal",tp:"Original"},
-  {t:"Schism",a:"Tool",y:2001,g:"Metal",tp:"Original"},
-  {t:"Sober",a:"Tool",y:1993,g:"Metal",tp:"Original"},
-  {t:"Lateralus",a:"Tool",y:2001,g:"Metal",tp:"Original"},
-  // Metal Acoustic
-  {t:"Nothing Else Matters (Acoustic)",a:"Metallica",y:1991,g:"Metal",tp:"Acoustic"},
-  {t:"November Rain (Acoustic)",a:"Guns N' Roses",y:1991,g:"Metal",tp:"Acoustic"},
-  // Latin / Reggaeton - Original
-  {t:"Despacito",a:"Luis Fonsi ft. Daddy Yankee",y:2017,g:"Latin",tp:"Original"},
-  {t:"Con Calma",a:"Daddy Yankee",y:2019,g:"Latin",tp:"Original"},
-  {t:"Gasolina",a:"Daddy Yankee",y:2004,g:"Latin",tp:"Original"},
-  {t:"Mi Gente",a:"J Balvin ft. Willy William",y:2017,g:"Latin",tp:"Original"},
-  {t:"Safari",a:"J Balvin",y:2016,g:"Latin",tp:"Original"},
-  {t:"Tusa",a:"KAROL G & Nicki Minaj",y:2019,g:"Latin",tp:"Original"},
-  {t:"Bichota",a:"KAROL G",y:2020,g:"Latin",tp:"Original"},
-  {t:"Hawái",a:"Maluma",y:2020,g:"Latin",tp:"Original"},
-  {t:"Felices los 4",a:"Maluma",y:2017,g:"Latin",tp:"Original"},
-  {t:"Shakira: Bzrp Music Sessions #53",a:"Bizarrap & Shakira",y:2023,g:"Latin",tp:"Original"},
-  {t:"Waka Waka",a:"Shakira",y:2010,g:"Latin",tp:"Original"},
-  {t:"Hips Don't Lie",a:"Shakira",y:2005,g:"Latin",tp:"Original"},
-  {t:"Baila Conmigo",a:"Selena Gomez & Rauw Alejandro",y:2021,g:"Latin",tp:"Original"},
-  {t:"Butter",a:"BTS",y:2021,g:"Latin",tp:"Original"},
-  {t:"Cielito Lindo",a:"Traditional",y:1882,g:"Latin",tp:"Original"},
-  // Latin Remix
-  {t:"Despacito (Remix)",a:"Luis Fonsi ft. Justin Bieber",y:2017,g:"Latin",tp:"Remix"},
-  {t:"Mi Gente (Remix)",a:"J Balvin ft. Beyoncé",y:2017,g:"Latin",tp:"Remix"},
-  // Afrobeats / World - Original
-  {t:"Fall",a:"Davido",y:2017,g:"Afrobeats",tp:"Original"},
-  {t:"One Dance",a:"Drake ft. WizKid",y:2016,g:"Afrobeats",tp:"Original"},
-  {t:"Come Closer",a:"WizKid ft. Drake",y:2017,g:"Afrobeats",tp:"Original"},
-  {t:"Essence",a:"WizKid ft. Tems",y:2020,g:"Afrobeats",tp:"Original"},
-  {t:"Ye",a:"Burna Boy",y:2018,g:"Afrobeats",tp:"Original"},
-  {t:"Last Last",a:"Burna Boy",y:2022,g:"Afrobeats",tp:"Original"},
-  {t:"Kilometer",a:"Burna Boy",y:2020,g:"Afrobeats",tp:"Original"},
-  {t:"Blessed",a:"Burna Boy",y:2020,g:"Afrobeats",tp:"Original"},
-  {t:"Ye (Remix)",a:"Burna Boy ft. Nicki Minaj",y:2019,g:"Afrobeats",tp:"Remix"},
-  {t:"Water",a:"Tyla",y:2023,g:"Afrobeats",tp:"Original"},
-  {t:"Pana",a:"Tekno",y:2016,g:"Afrobeats",tp:"Original"},
-  {t:"Ke Star",a:"Focalistic ft. Davido",y:2021,g:"Afrobeats",tp:"Original"},
-  // K-pop - Original
-  {t:"Dynamite",a:"BTS",y:2020,g:"K-pop",tp:"Original"},
-  {t:"DNA",a:"BTS",y:2017,g:"K-pop",tp:"Original"},
-  {t:"Boy With Luv",a:"BTS",y:2019,g:"K-pop",tp:"Original"},
-  {t:"ON",a:"BTS",y:2020,g:"K-pop",tp:"Original"},
-  {t:"Fire",a:"BTS",y:2016,g:"K-pop",tp:"Original"},
-  {t:"Kill This Love",a:"BLACKPINK",y:2019,g:"K-pop",tp:"Original"},
-  {t:"DDU-DU DDU-DU",a:"BLACKPINK",y:2018,g:"K-pop",tp:"Original"},
-  {t:"How You Like That",a:"BLACKPINK",y:2020,g:"K-pop",tp:"Original"},
-  {t:"Pink Venom",a:"BLACKPINK",y:2022,g:"K-pop",tp:"Original"},
-  {t:"Gangnam Style",a:"PSY",y:2012,g:"K-pop",tp:"Original"},
-  {t:"Next Level",a:"aespa",y:2021,g:"K-pop",tp:"Original"},
-  {t:"Ditto",a:"NewJeans",y:2022,g:"K-pop",tp:"Original"},
-  {t:"Hype Boy",a:"NewJeans",y:2022,g:"K-pop",tp:"Original"},
-  // K-pop Remix
-  {t:"Dynamite (Cooler Remix)",a:"BTS",y:2020,g:"K-pop",tp:"Remix"},
-  {t:"Kill This Love (R3HAB Remix)",a:"BLACKPINK",y:2019,g:"K-pop",tp:"Remix"},
-  // Reggae - Original
-  {t:"No Woman No Cry",a:"Bob Marley",y:1975,g:"Reggae",tp:"Original"},
-  {t:"Redemption Song",a:"Bob Marley",y:1980,g:"Reggae",tp:"Original"},
-  {t:"One Love",a:"Bob Marley",y:1977,g:"Reggae",tp:"Original"},
-  {t:"Buffalo Soldier",a:"Bob Marley",y:1983,g:"Reggae",tp:"Original"},
-  {t:"Three Little Birds",a:"Bob Marley",y:1977,g:"Reggae",tp:"Original"},
-  {t:"Is This Love",a:"Bob Marley",y:1978,g:"Reggae",tp:"Original"},
-  {t:"Stir It Up",a:"Bob Marley",y:1973,g:"Reggae",tp:"Original"},
-  {t:"Pressure Drop",a:"Toots and the Maytals",y:1970,g:"Reggae",tp:"Original"},
-  // Reggae Acoustic
-  {t:"Redemption Song (Acoustic)",a:"Bob Marley",y:1980,g:"Reggae",tp:"Acoustic"},
-  // Ambient / Instrumental
-  {t:"Weightless",a:"Marconi Union",y:2011,g:"Ambient",tp:"Lo-fi"},
-  {t:"Experience",a:"Ludovico Einaudi",y:2015,g:"Ambient",tp:"Classical"},
-  {t:"Nuvole Bianche",a:"Ludovico Einaudi",y:2004,g:"Ambient",tp:"Classical"},
-  {t:"Una Mattina",a:"Ludovico Einaudi",y:2004,g:"Ambient",tp:"Classical"},
-  {t:"Divenire",a:"Ludovico Einaudi",y:2006,g:"Ambient",tp:"Classical"},
-  {t:"Night",a:"Ludovico Einaudi",y:2006,g:"Ambient",tp:"Classical"},
-  {t:"On the Nature of Daylight",a:"Max Richter",y:2004,g:"Ambient",tp:"Classical"},
-  {t:"Infra 5",a:"Max Richter",y:2010,g:"Ambient",tp:"Classical"},
-  {t:"The Leftovers Theme",a:"Max Richter",y:2014,g:"Ambient",tp:"Classical"},
-  {t:"Recomposed: Spring 1",a:"Max Richter",y:2012,g:"Ambient",tp:"Classical"},
-  {t:"Spiegel im Spiegel",a:"Arvo Pärt",y:1978,g:"Ambient",tp:"Classical"},
-  {t:"Für Alina",a:"Arvo Pärt",y:1976,g:"Ambient",tp:"Classical"},
-  {t:"Music for Airports",a:"Brian Eno",y:1978,g:"Ambient",tp:"Lo-fi"},
-  {t:"1/1",a:"Brian Eno",y:1978,g:"Ambient",tp:"Lo-fi"},
-  {t:"An Ending (Ascent)",a:"Brian Eno",y:1983,g:"Ambient",tp:"Lo-fi"},
-  {t:"Thursday Afternoon",a:"Brian Eno",y:1985,g:"Ambient",tp:"Lo-fi"},
-  // More Pop / Synth
-  {t:"Running Up That Hill",a:"Kate Bush",y:1985,g:"Synth Pop",tp:"Original"},
-  {t:"Wuthering Heights",a:"Kate Bush",y:1978,g:"Synth Pop",tp:"Original"},
-  {t:"True",a:"Spandau Ballet",y:1983,g:"Synth Pop",tp:"Original"},
-  {t:"Take My Breath Away",a:"Berlin",y:1986,g:"Synth Pop",tp:"Original"},
-  {t:"Don't You Want Me",a:"Human League",y:1981,g:"Synth Pop",tp:"Original"},
-  {t:"Tainted Love",a:"Soft Cell",y:1981,g:"Synth Pop",tp:"Original"},
-  {t:"Blue (Da Ba Dee)",a:"Eiffel 65",y:1998,g:"Synth Pop",tp:"Original"},
-  {t:"Rhythm of the Night",a:"Corona",y:1993,g:"Synth Pop",tp:"Original"},
-  {t:"The Killing Moon",a:"Echo & the Bunnymen",y:1984,g:"Synth Pop",tp:"Original"},
-  {t:"Love Will Tear Us Apart",a:"Joy Division",y:1980,g:"Synth Pop",tp:"Original"},
-  {t:"Bizarre Love Triangle",a:"New Order",y:1986,g:"Synth Pop",tp:"Original"},
-  {t:"Blue Monday",a:"New Order",y:1983,g:"Synth Pop",tp:"Original"},
-  {t:"Smalltown Boy",a:"Bronski Beat",y:1984,g:"Synth Pop",tp:"Original"},
-  {t:"Running Up That Hill (Remix)",a:"Kate Bush",y:2012,g:"Synth Pop",tp:"Remix"},
-  {t:"Blue Monday (Remix)",a:"New Order",y:1988,g:"Synth Pop",tp:"Remix"},
-  // Gospel / Spiritual
-  {t:"Oh Happy Day",a:"Edwin Hawkins Singers",y:1967,g:"Gospel",tp:"Original"},
-  {t:"Amazing Grace",a:"Traditional",y:1779,g:"Gospel",tp:"Original"},
-  {t:"Hallelujah",a:"Jeff Buckley",y:1994,g:"Gospel",tp:"Original"},
-  {t:"Take My Hand Precious Lord",a:"Mahalia Jackson",y:1956,g:"Gospel",tp:"Original"},
-  {t:"Spirit in the Sky",a:"Norman Greenbaum",y:1969,g:"Gospel",tp:"Original"},
-  {t:"Hallelujah (Acoustic)",a:"Jeff Buckley",y:1994,g:"Gospel",tp:"Acoustic"},
-  // More Electronic / House
-  {t:"Strobe",a:"deadmau5",y:2009,g:"Electronic",tp:"Original"},
-  {t:"I Remember",a:"deadmau5 & Kaskade",y:2008,g:"Electronic",tp:"Original"},
-  {t:"Ghosts N Stuff",a:"deadmau5",y:2009,g:"Electronic",tp:"Original"},
-  {t:"Scary Monsters and Nice Sprites",a:"Skrillex",y:2010,g:"Electronic",tp:"Original"},
-  {t:"Bangarang",a:"Skrillex ft. Sirah",y:2011,g:"Electronic",tp:"Original"},
-  {t:"Cinema",a:"Skrillex ft. Benny Benassi",y:2011,g:"Electronic",tp:"Remix"},
-  {t:"Alive",a:"Daft Punk",y:2007,g:"Electronic",tp:"Original"},
-  {t:"Digital Love",a:"Daft Punk",y:2001,g:"Electronic",tp:"Original"},
-  {t:"Harder Better Faster Stronger",a:"Daft Punk",y:2001,g:"Electronic",tp:"Original"},
-  {t:"Instant Crush",a:"Daft Punk ft. Julian Casablancas",y:2013,g:"Electronic",tp:"Original"},
-  {t:"Touch",a:"Daft Punk ft. Paul Williams",y:2013,g:"Electronic",tp:"Original"},
-  {t:"Within",a:"Daft Punk",y:2013,g:"Electronic",tp:"Original"},
-  {t:"Give Life Back to Music",a:"Daft Punk",y:2013,g:"Electronic",tp:"Original"},
-  {t:"Beyond",a:"Daft Punk",y:2013,g:"Electronic",tp:"Original"},
-  {t:"Voyager",a:"Daft Punk",y:2001,g:"Electronic",tp:"Original"},
-  {t:"Superheroes",a:"Daft Punk",y:2013,g:"Electronic",tp:"Original"},
-  // Punk / Ska
-  {t:"Basket Case",a:"Green Day",y:1994,g:"Punk",tp:"Original"},
-  {t:"Good Riddance",a:"Green Day",y:1997,g:"Punk",tp:"Original"},
-  {t:"Longview",a:"Green Day",y:1994,g:"Punk",tp:"Original"},
-  {t:"American Idiot",a:"Green Day",y:2004,g:"Punk",tp:"Original"},
-  {t:"Boulevard of Broken Dreams",a:"Green Day",y:2004,g:"Punk",tp:"Original"},
-  {t:"Dammit",a:"blink-182",y:1997,g:"Punk",tp:"Original"},
-  {t:"All the Small Things",a:"blink-182",y:1999,g:"Punk",tp:"Original"},
-  {t:"What's My Age Again?",a:"blink-182",y:1999,g:"Punk",tp:"Original"},
-  {t:"I Miss You",a:"blink-182",y:2003,g:"Punk",tp:"Original"},
-  {t:"Fell in Love with a Girl",a:"The White Stripes",y:2002,g:"Punk",tp:"Original"},
-  {t:"Seven Nation Army",a:"The White Stripes",y:2003,g:"Punk",tp:"Original"},
-  {t:"Icky Thump",a:"The White Stripes",y:2007,g:"Punk",tp:"Original"},
-  {t:"Good Riddance (Acoustic)",a:"Green Day",y:1997,g:"Punk",tp:"Acoustic"},
-  {t:"I Miss You (Acoustic)",a:"blink-182",y:2003,g:"Punk",tp:"Acoustic"},
-  // Disco
-  {t:"Stayin' Alive",a:"Bee Gees",y:1977,g:"Disco",tp:"Original"},
-  {t:"Night Fever",a:"Bee Gees",y:1977,g:"Disco",tp:"Original"},
-  {t:"How Deep Is Your Love",a:"Bee Gees",y:1977,g:"Disco",tp:"Original"},
-  {t:"Le Freak",a:"Chic",y:1978,g:"Disco",tp:"Original"},
-  {t:"Good Times",a:"Chic",y:1979,g:"Disco",tp:"Original"},
-  {t:"Last Dance",a:"Donna Summer",y:1978,g:"Disco",tp:"Original"},
-  {t:"Hot Stuff",a:"Donna Summer",y:1979,g:"Disco",tp:"Original"},
-  {t:"I Will Survive",a:"Gloria Gaynor",y:1978,g:"Disco",tp:"Original"},
-  {t:"Dancing Queen",a:"ABBA",y:1976,g:"Disco",tp:"Original"},
-  {t:"Waterloo",a:"ABBA",y:1974,g:"Disco",tp:"Original"},
-  {t:"Fernando",a:"ABBA",y:1976,g:"Disco",tp:"Original"},
-  {t:"Gimme! Gimme! Gimme!",a:"ABBA",y:1979,g:"Disco",tp:"Original"},
-  {t:"Ring Ring",a:"ABBA",y:1973,g:"Disco",tp:"Original"},
-  // More recent / miscellaneous
-  {t:"Peaches",a:"Justin Bieber ft. Daniel Caesar",y:2021,g:"Pop",tp:"Original"},
-  {t:"Stay",a:"The Kid LAROI & Justin Bieber",y:2021,g:"Pop",tp:"Original"},
-  {t:"Montero (Call Me By Your Name)",a:"Lil Nas X",y:2021,g:"Pop",tp:"Original"},
-  {t:"Industry Baby",a:"Lil Nas X ft. Jack Harlow",y:2021,g:"Pop",tp:"Original"},
-  {t:"Easy On Me",a:"Adele",y:2021,g:"Pop",tp:"Original"},
-  {t:"Hello",a:"Adele",y:2015,g:"Pop",tp:"Original"},
-  {t:"Rolling in the Deep",a:"Adele",y:2010,g:"Pop",tp:"Original"},
-  {t:"Someone Like You",a:"Adele",y:2011,g:"Pop",tp:"Original"},
-  {t:"Skyfall",a:"Adele",y:2012,g:"Pop",tp:"Original"},
-  {t:"When We Were Young",a:"Adele",y:2015,g:"Pop",tp:"Original"},
-  {t:"Send My Love",a:"Adele",y:2016,g:"Pop",tp:"Original"},
-  {t:"Señorita",a:"Shawn Mendes & Camila Cabello",y:2019,g:"Pop",tp:"Original"},
-  {t:"Stitches",a:"Shawn Mendes",y:2015,g:"Pop",tp:"Original"},
-  {t:"In My Blood",a:"Shawn Mendes",y:2018,g:"Pop",tp:"Original"},
-  {t:"Havana",a:"Camila Cabello ft. Young Thug",y:2017,g:"Pop",tp:"Original"},
-  {t:"Never Be the Same",a:"Camila Cabello",y:2018,g:"Pop",tp:"Original"},
-  {t:"Positions",a:"Ariana Grande",y:2020,g:"Pop",tp:"Original"},
-  {t:"7 rings",a:"Ariana Grande",y:2019,g:"Pop",tp:"Original"},
-  {t:"thank u next",a:"Ariana Grande",y:2018,g:"Pop",tp:"Original"},
-  {t:"God is a woman",a:"Ariana Grande",y:2018,g:"Pop",tp:"Original"},
-  {t:"Problem",a:"Ariana Grande ft. Iggy Azalea",y:2014,g:"Pop",tp:"Original"},
-  {t:"Break Free",a:"Ariana Grande ft. Zedd",y:2014,g:"Pop",tp:"Original"},
-  {t:"Flowers",a:"Miley Cyrus",y:2023,g:"Pop",tp:"Original"},
-  {t:"Midnight Rain",a:"Taylor Swift",y:2022,g:"Pop",tp:"Original"},
-  {t:"Lavender Haze",a:"Taylor Swift",y:2022,g:"Pop",tp:"Original"},
-  {t:"Snow on the Beach",a:"Taylor Swift ft. Lana Del Rey",y:2022,g:"Pop",tp:"Original"},
-  {t:"Bejeweled",a:"Taylor Swift",y:2022,g:"Pop",tp:"Original"},
-  {t:"Karma",a:"Taylor Swift",y:2022,g:"Pop",tp:"Original"},
-  {t:"Enchanted",a:"Taylor Swift",y:2010,g:"Pop",tp:"Original"},
-  {t:"Treacherous",a:"Taylor Swift",y:2012,g:"Pop",tp:"Original"},
-  {t:"All Too Well",a:"Taylor Swift",y:2012,g:"Pop",tp:"Original"},
-  {t:"Style",a:"Taylor Swift",y:2015,g:"Pop",tp:"Original"},
-  {t:"Wildest Dreams",a:"Taylor Swift",y:2015,g:"Pop",tp:"Original"},
-  {t:"Clean",a:"Taylor Swift",y:2014,g:"Pop",tp:"Original"},
-  {t:"Out of the Woods",a:"Taylor Swift",y:2015,g:"Pop",tp:"Original"},
-  {t:"Getaway Car",a:"Taylor Swift",y:2017,g:"Pop",tp:"Original"},
-  {t:"Delicate",a:"Taylor Swift",y:2018,g:"Pop",tp:"Original"},
-  {t:"New Year's Day",a:"Taylor Swift",y:2017,g:"Pop",tp:"Original"},
-  {t:"Cornelia Street",a:"Taylor Swift",y:2019,g:"Pop",tp:"Original"},
-  {t:"invisible string",a:"Taylor Swift",y:2020,g:"Indie Folk",tp:"Original"},
-  {t:"august",a:"Taylor Swift",y:2020,g:"Indie Folk",tp:"Original"},
-  {t:"this is me trying",a:"Taylor Swift",y:2020,g:"Indie Folk",tp:"Original"},
-  {t:"peace",a:"Taylor Swift",y:2020,g:"Indie Folk",tp:"Original"},
-  // Trap / Modern Hip-hop
-  {t:"XO TOUR Llif3",a:"Lil Uzi Vert",y:2017,g:"Hip-hop",tp:"Original"},
-  {t:"Lucid Dreams",a:"Juice WRLD",y:2018,g:"Hip-hop",tp:"Original"},
-  {t:"Legends",a:"Juice WRLD",y:2018,g:"Hip-hop",tp:"Original"},
-  {t:"Wishing Well",a:"Juice WRLD",y:2020,g:"Hip-hop",tp:"Original"},
-  {t:"All Girls Are the Same",a:"Juice WRLD",y:2018,g:"Hip-hop",tp:"Original"},
-  {t:"Robbery",a:"Juice WRLD",y:2019,g:"Hip-hop",tp:"Original"},
-  {t:"Hate the Other Side",a:"Juice WRLD",y:2020,g:"Hip-hop",tp:"Original"},
-  {t:"Life's a Mess",a:"Juice WRLD ft. Halsey",y:2020,g:"Hip-hop",tp:"Original"},
-  {t:"Numb Numb Juice",a:"ScHoolboy Q",y:2019,g:"Hip-hop",tp:"Original"},
-  {t:"Collard Greens",a:"ScHoolboy Q",y:2013,g:"Hip-hop",tp:"Original"},
-  {t:"Man of the Year",a:"ScHoolboy Q",y:2014,g:"Hip-hop",tp:"Original"},
-  {t:"Pride",a:"Kendrick Lamar",y:2017,g:"Hip-hop",tp:"Original"},
-  {t:"ELEMENT.",a:"Kendrick Lamar",y:2017,g:"Hip-hop",tp:"Original"},
-  {t:"LOVE.",a:"Kendrick Lamar ft. Zacari",y:2017,g:"Hip-hop",tp:"Original"},
-  {t:"LOYALTY.",a:"Kendrick Lamar ft. Rihanna",y:2017,g:"Hip-hop",tp:"Original"},
-  {t:"Swimming Pools (Drank)",a:"Kendrick Lamar",y:2012,g:"Hip-hop",tp:"Original"},
-  {t:"Backseat Freestyle",a:"Kendrick Lamar",y:2012,g:"Hip-hop",tp:"Original"},
-  {t:"Poetic Justice",a:"Kendrick Lamar",y:2012,g:"Hip-hop",tp:"Original"},
-  {t:"Bitch Don't Kill My Vibe",a:"Kendrick Lamar",y:2012,g:"Hip-hop",tp:"Original"},
-  {t:"Good Kid",a:"Kendrick Lamar",y:2012,g:"Hip-hop",tp:"Original"},
-  {t:"m.A.A.d city",a:"Kendrick Lamar ft. MC Eiht",y:2012,g:"Hip-hop",tp:"Original"},
-  {t:"Sing About Me",a:"Kendrick Lamar",y:2012,g:"Hip-hop",tp:"Original"},
-  {t:"Mortal Man",a:"Kendrick Lamar",y:2015,g:"Hip-hop",tp:"Original"},
-  {t:"For Free?",a:"Kendrick Lamar",y:2015,g:"Hip-hop",tp:"Original"},
-  {t:"How Much a Dollar Cost",a:"Kendrick Lamar",y:2015,g:"Hip-hop",tp:"Original"},
-  {t:"The Blacker the Berry",a:"Kendrick Lamar",y:2015,g:"Hip-hop",tp:"Original"},
-  {t:"u",a:"Kendrick Lamar",y:2015,g:"Hip-hop",tp:"Original"},
-  {t:"Wesley's Theory",a:"Kendrick Lamar",y:2015,g:"Hip-hop",tp:"Original"},
-  // Hip-hop Instrumental / Lo-fi
-  {t:"HUMBLE. (Instrumental)",a:"Kendrick Lamar",y:2017,g:"Hip-hop",tp:"Lo-fi"},
-  {t:"Runaway (Instrumental)",a:"Kanye West",y:2010,g:"Hip-hop",tp:"Lo-fi"},
-];
+  <div class="pool-info" id="poolInfo"></div>
 
-const GENRES = [...new Set(ALL_SONGS.map(s=>s.g))].sort();
-const TYPES = ["Original","Remix","Acoustic","Lo-fi","Classical"];
+  <div class="query-box" id="queryBox">
+    <div class="query-label">Last SQL query</div>
+    <div class="query-code" id="queryCode"></div>
+  </div>
 
-let activeGenres = new Set();
-let activeTypes = new Set();
-let lastIdx = -1;
-let count = 0;
+  <!-- sql.js: SQLite compiled to WebAssembly -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.2/sql-wasm.js"></script>
+  <script>
+    const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/main/data/songs.json';
+    const GENRES = ["Hip-hop", "R&B", "Indie Rock", "Indie Folk", "Pop", "Electronic", "Psych Pop", "Alt Rock", "Classic Rock", "Jazz", "Classical", "Lo-fi", "Soul", "Blues", "Country", "Metal", "Latin", "Afrobeats", "K-pop", "Reggae", "Synth Pop", "Punk", "Disco", "Gospel", "Ambient", "Indie Pop"];
+    const TYPES = ["Original", "Remix", "Acoustic", "Lo-fi", "Classical"];
 
-function buildFilters() {
-  const gf = document.getElementById('genreFilters');
-  const tf = document.getElementById('typeFilters');
-  gf.innerHTML = '<button class="chip active" data-g="all" onclick="toggleGenre(this,\'all\')">All</button>'
-    + GENRES.map(g=>`<button class="chip" data-g="${g}" onclick="toggleGenre(this,'${g}')">${g}</button>`).join('');
-  tf.innerHTML = '<button class="chip active" data-t="all" onclick="toggleType(this,\'all\')">All</button>'
-    + TYPES.map(tp=>`<button class="chip" data-t="${tp}" onclick="toggleType(this,'${tp}')">${tp}</button>`).join('');
-}
+    let db = null;
+    let activeGenres = new Set();
+    let activeTypes = new Set();
+    let shuffleCount = 0;
+    let lastRowId = -1;
 
-function toggleGenre(el, val) {
-  if(val==='all') {
-    activeGenres.clear();
-    document.querySelectorAll('#genreFilters .chip').forEach(c=>c.classList.remove('active'));
-    el.classList.add('active');
-  } else {
-    document.querySelector('#genreFilters .chip[data-g="all"]').classList.remove('active');
-    el.classList.toggle('active');
-    if(el.classList.contains('active')) activeGenres.add(val); else activeGenres.delete(val);
-    if(activeGenres.size===0) {
-      document.querySelector('#genreFilters .chip[data-g="all"]').classList.add('active');
+    // ── Progress bar ──────────────────────────────────────────
+    function setProgress(pct) {
+      document.getElementById('loadingBar').style.width = pct + '%';
     }
-  }
-}
 
-function toggleType(el, val) {
-  if(val==='all') {
-    activeTypes.clear();
-    document.querySelectorAll('#typeFilters .chip').forEach(c=>c.classList.remove('active'));
-    el.classList.add('active');
-  } else {
-    document.querySelector('#typeFilters .chip[data-t="all"]').classList.remove('active');
-    el.classList.toggle('active');
-    if(el.classList.contains('active')) activeTypes.add(val); else activeTypes.delete(val);
-    if(activeTypes.size===0) {
-      document.querySelector('#typeFilters .chip[data-t="all"]').classList.add('active');
+    // ── Build filter chips ────────────────────────────────────
+    function buildFilters() {
+      const gf = document.getElementById('genreFilters');
+      const tf = document.getElementById('typeFilters');
+
+      gf.innerHTML = `<button class="chip active" data-g="all" onclick="toggleGenre(this,'all')">All</button>` +
+        GENRES.map(g => `<button class="chip" data-g="${g}" onclick="toggleGenre(this,'${g.replace(/'/g, "\\'")}')">${g}</button>`).join('');
+
+      tf.innerHTML = `<button class="chip active" data-t="all" onclick="toggleType(this,'all')">All</button>` +
+        TYPES.map(t => `<button class="chip" data-t="${t}" onclick="toggleType(this,'${t}')">${t}</button>`).join('');
     }
-  }
-}
 
-function getPool() {
-  return ALL_SONGS.filter(s =>
-    (activeGenres.size===0 || activeGenres.has(s.g)) &&
-    (activeTypes.size===0 || activeTypes.has(s.tp))
-  );
-}
+    function getColor(str) {
+      let hash = 0;
+      for (let i = 0; i < str.length; i++) {
+        hash = str.charCodeAt(i) + ((hash << 5) - hash);
+      }
+      const h = Math.abs(hash) % 360;
+      return `hsl(${h}, 70%, 45%)`;
+    }
 
-function ytSearch(s) {
-  return 'https://www.youtube.com/results?search_query='+encodeURIComponent(s.t+' '+s.a+' official audio');
-}
+    function toggleGenre(el, val) {
+      if(val==='all') {
+        activeGenres.clear();
+        document.querySelectorAll('#genreFilters .chip').forEach(c=>{
+          c.classList.remove('active');
+          c.style.backgroundColor='';
+          c.style.color='';
+          c.style.borderColor='';
+        });
+        el.classList.add('active');
+      } else {
+        const all = document.querySelector('#genreFilters .chip[data-g="all"]');
+        all.classList.remove('active');
+        all.style.backgroundColor='';
+        all.style.color='';
+        all.style.borderColor='';
+        
+        el.classList.toggle('active');
+        if(el.classList.contains('active')) {
+          activeGenres.add(val);
+          el.style.backgroundColor = getColor(val);
+          el.style.color = '#fff';
+          el.style.borderColor = 'transparent';
+        } else {
+          activeGenres.delete(val);
+          el.style.backgroundColor = '';
+          el.style.color = '';
+          el.style.borderColor = '';
+        }
+        if(activeGenres.size===0) {
+          all.classList.add('active');
+        }
+      }
+      updatePoolInfo();
+    }
 
-function shuffle() {
-  const pool = getPool();
-  if(pool.length===0) {
-    document.getElementById('card').innerHTML='<p class="placeholder">No songs match your filters</p>';
-    return;
-  }
-  const btn = document.getElementById('shuffleBtn');
-  const icon = document.getElementById('btnIcon');
-  icon.innerHTML='<span class="spin">&#x21BB;</span>';
-  btn.disabled=true;
-  setTimeout(()=>{
-    let idx;
-    do { idx=Math.floor(Math.random()*pool.length); } while(pool.length>1 && pool[idx]===pool[lastIdx]);
-    lastIdx=idx;
-    count++;
-    const s=pool[idx];
-    const card=document.getElementById('card');
-    card.classList.add('loaded');
-    card.innerHTML=`<div class="fade-in">
-      <div class="tag-row">
-        <span class="tag tag-genre">${s.g}</span>
-        <span class="tag tag-type">${s.tp}</span>
-      </div>
-      <p class="song-title">${s.t}</p>
-      <p class="song-artist">${s.a}</p>
-      <p class="song-year">${s.y}</p>
-    </div>`;
-    const ytBtn=document.getElementById('ytBtn');
-    ytBtn.href=ytSearch(s);
-    ytBtn.style.display='inline-flex';
-    document.getElementById('meta').textContent=count+' shuffled · '+pool.length+' songs in pool';
-    icon.innerHTML='&#x21BB;';
-    btn.disabled=false;
-  },300);
-}
+    function toggleType(el, val) {
+      if(val==='all') {
+        activeTypes.clear();
+        document.querySelectorAll('#typeFilters .chip').forEach(c=>{
+          c.classList.remove('active');
+          c.style.backgroundColor='';
+          c.style.color='';
+          c.style.borderColor='';
+        });
+        el.classList.add('active');
+      } else {
+        const all = document.querySelector('#typeFilters .chip[data-t="all"]');
+        all.classList.remove('active');
+        all.style.backgroundColor='';
+        all.style.color='';
+        all.style.borderColor='';
 
-buildFilters();
-</script>
+        el.classList.toggle('active');
+        if(el.classList.contains('active')) {
+          activeTypes.add(val);
+          el.style.backgroundColor = getColor(val);
+          el.style.color = '#fff';
+          el.style.borderColor = 'transparent';
+        } else {
+          activeTypes.delete(val);
+          el.style.backgroundColor = '';
+          el.style.color = '';
+          el.style.borderColor = '';
+        }
+        if(activeTypes.size===0) {
+          all.classList.add('active');
+        }
+      }
+      updatePoolInfo();
+    }
+
+    // ── SQL query builder ─────────────────────────────────────
+    function buildQuery(forCount = false) {
+      const conditions = [];
+      const params = {};
+
+      if (activeGenres.size > 0) {
+        const gKeys = [...activeGenres].map((g, i) => { params[`:g${i}`] = g; return `:g${i}`; });
+        conditions.push(`genre IN (${gKeys.join(',')})`);
+      }
+      if (activeTypes.size > 0) {
+        const tKeys = [...activeTypes].map((t, i) => { params[`:t${i}`] = t; return `:t${i}`; });
+        conditions.push(`type IN (${tKeys.join(',')})`);
+      }
+
+      const where = conditions.length ? `WHERE ${conditions.join(' AND ')}` : '';
+      const sql = forCount
+        ? `SELECT COUNT(*) as cnt FROM songs ${where}`
+        : `SELECT * FROM songs ${where} ORDER BY RANDOM() LIMIT 1`;
+
+      return { sql, params };
+    }
+
+    function formatQueryDisplay(sql, params) {
+      let pretty = sql;
+      for (const [k, v] of Object.entries(params)) {
+        pretty = pretty.replace(k, `'${v}'`);
+      }
+      return pretty
+        .replace(/\b(SELECT|FROM|WHERE|IN|AND|ORDER BY|LIMIT|COUNT)\b/g, '<span class="kw">$1</span>')
+        .replace(/'([^']+)'/g, '<span class="val">\'$1\'</span>');
+    }
+
+    // ── Update pool count ─────────────────────────────────────
+    function updatePoolInfo() {
+      if (!db) return;
+      try {
+        const { sql, params } = buildQuery(true);
+        const result = db.exec(sql, params);
+        const count = result[0]?.values[0][0] ?? 0;
+        const gLabel = activeGenres.size === 0 ? 'all genres' : `${activeGenres.size} genre${activeGenres.size > 1 ? 's' : ''}`;
+        const tLabel = activeTypes.size === 0 ? 'all types' : `${activeTypes.size} type${activeTypes.size > 1 ? 's' : ''}`;
+        document.getElementById('poolInfo').innerHTML = `<span>${count.toLocaleString()}</span> songs in pool · ${gLabel} · ${tLabel}`;
+      } catch (e) { }
+    }
+
+    // ── Shuffle ───────────────────────────────────────────────
+    function shuffle() {
+      if (!db) return;
+
+      const btn = document.getElementById('shuffleBtn');
+      const icon = document.getElementById('btnIcon');
+      icon.innerHTML = '<span class="spin">&#x21BB;</span>';
+      btn.disabled = true;
+
+      setTimeout(() => {
+        try {
+          const { sql, params } = buildQuery(false);
+
+          // Show query
+          const qBox = document.getElementById('queryBox');
+          document.getElementById('queryCode').innerHTML = formatQueryDisplay(sql, params);
+          qBox.classList.add('visible');
+
+          const result = db.exec(sql, params);
+
+          if (!result.length || !result[0].values.length) {
+            document.getElementById('card').innerHTML = `<p class="empty-state">No songs match your filters</p>`;
+            document.getElementById('ytBtn').style.display = 'none';
+            icon.innerHTML = '&#x21BB;';
+            btn.disabled = false;
+            return;
+          }
+
+          const cols = result[0].columns;
+          const row = result[0].values[0];
+          const song = {};
+          cols.forEach((c, i) => song[c] = row[i]);
+
+          shuffleCount++;
+          lastRowId = song.id;
+
+          const card = document.getElementById('card');
+          card.classList.add('has-song');
+          card.innerHTML = `
+        <div class="fade-up">
+          <div class="tag-row">
+            <span class="tag tag-genre">${song.genre}</span>
+            <span class="tag tag-type">${song.type}</span>
+          </div>
+          <p class="song-title">${song.title}</p>
+          <p class="song-artist">${song.artist}</p>
+          <p class="song-year">${song.year}</p>
+        </div>
+      `;
+
+          const ytUrl = 'https://www.youtube.com/results?search_query=' + encodeURIComponent(`${song.title} ${song.artist} official audio`);
+          const ytBtn = document.getElementById('ytBtn');
+          ytBtn.href = ytUrl;
+          ytBtn.style.display = 'inline-flex';
+          
+          document.getElementById('meta').textContent = shuffleCount + ' shuffled';
+          
+          const playlist = document.getElementById('playlist');
+          const item = document.createElement('div');
+          item.className = 'playlist-item fade-in';
+          item.innerHTML = `
+            <div class="song-info">
+              <span class="song-title-sm">${song.title}</span>
+              <span class="song-artist-sm">${song.artist}</span>
+            </div>
+            <div class="song-tags-sm">
+              <span class="tag-sm" style="background:${getColor(song.genre)}; color:#fff">${song.genre}</span>
+              <span class="tag-sm" style="background:${getColor(song.type)}; color:#fff">${song.type}</span>
+            </div>
+          `;
+          playlist.prepend(item);
+        } catch (e) {
+          document.getElementById('card').innerHTML = `<p class="empty-state">Query error: ${e.message}</p>`;
+        }
+
+        icon.innerHTML = '&#x21BB;';
+        btn.disabled = false;
+      }, 200);
+    }
+
+    // ── Init: load sql.js + fetch JSON + populate DB ──────────
+    async function init() {
+      const statusEl = document.getElementById('dbStatus');
+      buildFilters();
+
+      try {
+        setProgress(10);
+        statusEl.textContent = 'loading sql engine…';
+
+        const SQL = await initSqlJs({
+          locateFile: file => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.2/${file}`
+        });
+
+        setProgress(35);
+        statusEl.textContent = 'fetching songs…';
+
+        const res = await fetch(SONGS_URL);
+        if (!res.ok) throw new Error(`HTTP ${res.status} — check your GitHub repo and songs.json path`);
+        const songs = await res.json();
+
+        setProgress(65);
+        statusEl.textContent = 'building database…';
+
+        db = new SQL.Database();
+
+        db.run(`
+      CREATE TABLE songs (
+        id INTEGER PRIMARY KEY,
+        title TEXT NOT NULL,
+        artist TEXT NOT NULL,
+        year INTEGER,
+        genre TEXT,
+        type TEXT
+      );
+      CREATE INDEX idx_genre ON songs(genre);
+      CREATE INDEX idx_type ON songs(type);
+      CREATE INDEX idx_genre_type ON songs(genre, type);
+    `);
+
+        // Batch insert with prepared statement
+        db.run('BEGIN TRANSACTION');
+        const stmt = db.prepare('INSERT INTO songs VALUES (:id,:title,:artist,:year,:genre,:type)');
+        for (const s of songs) {
+          stmt.run({ ':id': s.id, ':title': s.title, ':artist': s.artist, ':year': s.year, ':genre': s.genre, ':type': s.type });
+        }
+        stmt.free();
+        db.run('COMMIT');
+
+        setProgress(100);
+        statusEl.textContent = `${songs.length.toLocaleString()} songs ready`;
+        statusEl.classList.add('ready');
+
+        document.getElementById('shuffleBtn').disabled = false;
+        updatePoolInfo();
+
+        setTimeout(() => setProgress(0), 600);
+
+      } catch (e) {
+        statusEl.textContent = `error: ${e.message}`;
+        statusEl.classList.add('error');
+        setProgress(0);
+        console.error(e);
+      }
+    }
+
+    init();
+  </script>
+</body>
+
+</html>
