@@ -5,7 +5,8 @@
     "artist": "Kendrick Lamar",
     "year": 2017,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=tvTRZJ-4EyI"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "artist": "Kendrick Lamar",
     "year": 2015,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=Z-48u_uWMHY"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "artist": "Kendrick Lamar",
     "year": 2017,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=J87pJrxvJ5E"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "artist": "Kendrick Lamar",
     "year": 2012,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=hwR_1EP18eo"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "artist": "Kendrick Lamar",
     "year": 2012,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=B5YNiCfWC3A"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "artist": "Kendrick Lamar",
     "year": 2012,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=EZW7et3tPuQ"
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "artist": "Kendrick Lamar",
     "year": 2012,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=yyr2gEouEMM"
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "artist": "Kendrick Lamar",
     "year": 2012,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=GF8aaTu2kg0"
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "artist": "Kendrick Lamar ft. MC Eiht",
     "year": 2012,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=mprkqDNUQb0"
   },
   {
     "id": 10,
@@ -77,7 +86,8 @@
     "artist": "Kendrick Lamar",
     "year": 2012,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=wjmd1nAH3hg"
   },
   {
     "id": 11,
@@ -85,7 +95,8 @@
     "artist": "Kendrick Lamar",
     "year": 2015,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=y8kEiL81_R4"
   },
   {
     "id": 12,
@@ -93,7 +104,8 @@
     "artist": "Kendrick Lamar",
     "year": 2015,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=FCGCTACOV2A"
   },
   {
     "id": 13,
@@ -101,7 +113,8 @@
     "artist": "Kendrick Lamar",
     "year": 2015,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=4wZytWFm7x0"
   },
   {
     "id": 14,
@@ -109,7 +122,8 @@
     "artist": "Kendrick Lamar",
     "year": 2015,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=l9fN-8NjrvI"
   },
   {
     "id": 15,
@@ -117,7 +131,8 @@
     "artist": "Kendrick Lamar",
     "year": 2017,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=glaG64Ao7sM"
   },
   {
     "id": 16,
@@ -125,7 +140,8 @@
     "artist": "Kendrick Lamar ft. Zacari",
     "year": 2017,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=ox7RsX1Ee34"
   },
   {
     "id": 17,
@@ -133,7 +149,8 @@
     "artist": "Kendrick Lamar ft. Rihanna",
     "year": 2017,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=Dlh-dzB2U4Y"
   },
   {
     "id": 18,
@@ -141,7 +158,8 @@
     "artist": "Kanye West",
     "year": 2010,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=Bm5iA4Zupek"
   },
   {
     "id": 19,
@@ -149,7 +167,8 @@
     "artist": "Kanye West",
     "year": 2007,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=ila-hAUXR5U"
   },
   {
     "id": 20,
@@ -157,7 +176,8 @@
     "artist": "Kanye West",
     "year": 2004,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=8kyWDhB_QeI"
   },
   {
     "id": 21,
@@ -165,7 +185,8 @@
     "artist": "Kanye West",
     "year": 2018,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=460rvKpzjOc"
   },
   {
     "id": 22,
@@ -173,7 +194,8 @@
     "artist": "Kanye West",
     "year": 2010,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=L53gjP-TtGE"
   },
   {
     "id": 23,
@@ -181,7 +203,8 @@
     "artist": "Kanye West",
     "year": 2016,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=6oHdAA3AqnE"
   },
   {
     "id": 24,
@@ -189,7 +212,8 @@
     "artist": "Kanye West",
     "year": 2016,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=wuO4_P_8p-Q"
   },
   {
     "id": 25,
@@ -197,7 +221,8 @@
     "artist": "Kanye West",
     "year": 2016,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=-PhAwhYhaeI"
   },
   {
     "id": 26,
@@ -205,7 +230,8 @@
     "artist": "Drake",
     "year": 2018,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=xpVfcZ0ZcFM"
   },
   {
     "id": 27,
@@ -213,7 +239,8 @@
     "artist": "Drake",
     "year": 2017,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=EgfsXTOn_pI"
   },
   {
     "id": 28,
@@ -221,7 +248,8 @@
     "artist": "Drake",
     "year": 2013,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=GxgqpCdOKak"
   },
   {
     "id": 29,
@@ -229,7 +257,8 @@
     "artist": "Drake",
     "year": 2011,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=1VAqaftzcC8"
   },
   {
     "id": 30,
@@ -237,7 +266,8 @@
     "artist": "Drake",
     "year": 2015,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=uxpDa-c-4Mc"
   },
   {
     "id": 31,
@@ -245,7 +275,8 @@
     "artist": "Drake ft. WizKid",
     "year": 2016,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=ki0Ocze98U8"
   },
   {
     "id": 32,
@@ -253,7 +284,8 @@
     "artist": "Travis Scott",
     "year": 2018,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=6ONRf7h3Mdk"
   },
   {
     "id": 33,
@@ -261,7 +293,8 @@
     "artist": "Travis Scott",
     "year": 2015,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=KnZ8h3MRuYg"
   },
   {
     "id": 34,
@@ -269,7 +302,8 @@
     "artist": "Travis Scott",
     "year": 2016,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=Dst9gZkq1a8"
   },
   {
     "id": 35,
@@ -277,7 +311,8 @@
     "artist": "Post Malone",
     "year": 2017,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=UceaB4D0jpo"
   },
   {
     "id": 36,
@@ -285,7 +320,8 @@
     "artist": "Post Malone",
     "year": 2016,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=SC4xMk98Pdc"
   },
   {
     "id": 37,
@@ -293,7 +329,8 @@
     "artist": "Post Malone",
     "year": 2015,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=SLsTskih7_I"
   },
   {
     "id": 38,
@@ -301,7 +338,8 @@
     "artist": "Post Malone",
     "year": 2019,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=wXhTHyIgQ_U"
   },
   {
     "id": 39,
@@ -309,7 +347,8 @@
     "artist": "Post Malone & Swae Lee",
     "year": 2018,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=ApXoWvfEYVU"
   },
   {
     "id": 40,
@@ -317,7 +356,8 @@
     "artist": "Lil Uzi Vert",
     "year": 2017,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=k5PO17AC3Kg"
   },
   {
     "id": 41,
@@ -325,7 +365,8 @@
     "artist": "Juice WRLD",
     "year": 2018,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=hHtv2XMZlKs"
   },
   {
     "id": 42,
@@ -333,7 +374,8 @@
     "artist": "Juice WRLD",
     "year": 2019,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=oxQwpCqs3ro"
   },
   {
     "id": 43,
@@ -341,7 +383,8 @@
     "artist": "Juice WRLD",
     "year": 2018,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=BoKlbFPIAPs"
   },
   {
     "id": 44,
@@ -349,7 +392,8 @@
     "artist": "Juice WRLD",
     "year": 2020,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=C5i-UnuUKUI"
   },
   {
     "id": 45,
@@ -357,7 +401,8 @@
     "artist": "Lil Nas X",
     "year": 2019,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=r7qovpFAGrQ"
   },
   {
     "id": 46,
@@ -365,7 +410,8 @@
     "artist": "Lil Nas X",
     "year": 2021,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=6swmTBVI83k"
   },
   {
     "id": 47,
@@ -373,7 +419,8 @@
     "artist": "Lil Nas X ft. Jack Harlow",
     "year": 2021,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=UTHLKHL_whs"
   },
   {
     "id": 48,
@@ -381,7 +428,8 @@
     "artist": "Nas",
     "year": 1994,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=Rp4qXCneXRU"
   },
   {
     "id": 49,
@@ -389,7 +437,8 @@
     "artist": "Nas",
     "year": 1994,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=e5PnuIRnJW8"
   },
   {
     "id": 50,
@@ -397,7 +446,8 @@
     "artist": "Nas",
     "year": 1994,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=Rp4qXCneXRU"
   },
   {
     "id": 51,
@@ -405,7 +455,8 @@
     "artist": "Wu-Tang Clan",
     "year": 1993,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=PBwAxmrE194"
   },
   {
     "id": 52,
@@ -413,7 +464,8 @@
     "artist": "Eminem",
     "year": 2002,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=xFYQQPAOz7Y"
   },
   {
     "id": 53,
@@ -421,7 +473,8 @@
     "artist": "Eminem",
     "year": 2000,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=gOMhN-hfMtY"
   },
   {
     "id": 54,
@@ -429,7 +482,8 @@
     "artist": "Eminem",
     "year": 2013,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=XbGs_qK2PQA"
   },
   {
     "id": 55,
@@ -437,7 +491,8 @@
     "artist": "The Notorious B.I.G.",
     "year": 1994,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=_JZom_gVfuw"
   },
   {
     "id": 56,
@@ -445,7 +500,8 @@
     "artist": "The Notorious B.I.G.",
     "year": 1997,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=glEiPXAYE-U"
   },
   {
     "id": 57,
@@ -453,7 +509,8 @@
     "artist": "Souls of Mischief",
     "year": 1993,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=fXJc2NYwHjw"
   },
   {
     "id": 58,
@@ -461,7 +518,8 @@
     "artist": "ScHoolboy Q",
     "year": 2013,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=_L2vJEb6lVE"
   },
   {
     "id": 59,
@@ -469,7 +527,8 @@
     "artist": "ScHoolboy Q",
     "year": 2014,
     "genre": "Hip-hop",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=rEMsjeq43_U"
   },
   {
     "id": 60,
@@ -477,7 +536,8 @@
     "artist": "Lil Nas X ft. Billy Ray Cyrus",
     "year": 2019,
     "genre": "Hip-hop",
-    "type": "Remix"
+    "type": "Remix",
+    "youtube_url": "https://music.youtube.com/watch?v=r7qovpFAGrQ"
   },
   {
     "id": 61,
@@ -485,7 +545,8 @@
     "artist": "Juice WRLD ft. Lil Uzi Vert",
     "year": 2018,
     "genre": "Hip-hop",
-    "type": "Remix"
+    "type": "Remix",
+    "youtube_url": "https://music.youtube.com/watch?v=EBp341tSu_Q"
   },
   {
     "id": 62,
@@ -493,7 +554,8 @@
     "artist": "Kendrick Lamar",
     "year": 2017,
     "genre": "Hip-hop",
-    "type": "Lo-fi"
+    "type": "Lo-fi",
+    "youtube_url": "https://music.youtube.com/watch?v=_WTlWnQFYSI"
   },
   {
     "id": 63,
@@ -501,7 +563,8 @@
     "artist": "Kanye West",
     "year": 2010,
     "genre": "Hip-hop",
-    "type": "Lo-fi"
+    "type": "Lo-fi",
+    "youtube_url": "https://music.youtube.com/watch?v=fxdJInWWGtU"
   },
   {
     "id": 64,
@@ -509,7 +572,8 @@
     "artist": "Childish Gambino",
     "year": 2016,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=ezbsbkqoRrs"
   },
   {
     "id": 65,
@@ -517,7 +581,8 @@
     "artist": "Frank Ocean",
     "year": 2012,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=6JHu3b-pbh8"
   },
   {
     "id": 66,
@@ -525,7 +590,8 @@
     "artist": "Frank Ocean",
     "year": 2016,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=K9AtF6lKsnU"
   },
   {
     "id": 67,
@@ -533,7 +599,8 @@
     "artist": "Frank Ocean",
     "year": 2016,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=vI8cDhfSiNE"
   },
   {
     "id": 68,
@@ -541,7 +608,8 @@
     "artist": "Frank Ocean",
     "year": 2016,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=RKD8sVVTEAA"
   },
   {
     "id": 69,
@@ -549,7 +617,8 @@
     "artist": "Frank Ocean",
     "year": 2016,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=SXHpcYneDeM"
   },
   {
     "id": 70,
@@ -557,7 +626,8 @@
     "artist": "Frank Ocean",
     "year": 2011,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=WtyX_Ec5MZw"
   },
   {
     "id": 71,
@@ -565,7 +635,8 @@
     "artist": "Frank Ocean",
     "year": 2016,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=5NcsFnSzhms"
   },
   {
     "id": 72,
@@ -573,7 +644,8 @@
     "artist": "The Weeknd",
     "year": 2014,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=JPIhUaONiLU"
   },
   {
     "id": 73,
@@ -581,7 +653,8 @@
     "artist": "The Weeknd",
     "year": 2015,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=waU75jdUnYw"
   },
   {
     "id": 74,
@@ -589,7 +662,8 @@
     "artist": "The Weeknd",
     "year": 2015,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=yzTuBuRdAyA"
   },
   {
     "id": 75,
@@ -597,7 +671,8 @@
     "artist": "The Weeknd",
     "year": 2016,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=34Na4j8AVgA"
   },
   {
     "id": 76,
@@ -605,7 +680,8 @@
     "artist": "The Weeknd",
     "year": 2020,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=XXYlFuWEuKI"
   },
   {
     "id": 77,
@@ -613,7 +689,8 @@
     "artist": "The Weeknd",
     "year": 2019,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=4NRXx6U8ABQ"
   },
   {
     "id": 78,
@@ -621,7 +698,8 @@
     "artist": "The Weeknd",
     "year": 2018,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=M4ZoCHID9GI"
   },
   {
     "id": 79,
@@ -629,7 +707,8 @@
     "artist": "The Weeknd",
     "year": 2020,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=oq9AgxHvGjw"
   },
   {
     "id": 80,
@@ -637,7 +716,8 @@
     "artist": "The Weeknd",
     "year": 2019,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=1DpH-icPpl0"
   },
   {
     "id": 81,
@@ -645,7 +725,8 @@
     "artist": "Beyoncé",
     "year": 2013,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=p1JPKLa-Ofc"
   },
   {
     "id": 82,
@@ -653,7 +734,8 @@
     "artist": "Beyoncé",
     "year": 2003,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=ViwtNLUqkMY"
   },
   {
     "id": 83,
@@ -661,7 +743,8 @@
     "artist": "Beyoncé",
     "year": 2006,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=2EwViQxSJJQ"
   },
   {
     "id": 84,
@@ -669,7 +752,8 @@
     "artist": "Beyoncé",
     "year": 2008,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=bnVUHWCynig"
   },
   {
     "id": 85,
@@ -677,7 +761,8 @@
     "artist": "Solange",
     "year": 2016,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=S0qrinhNnOM"
   },
   {
     "id": 86,
@@ -685,7 +770,8 @@
     "artist": "Erykah Badu",
     "year": 2000,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=dNk3R23Twgw"
   },
   {
     "id": 87,
@@ -693,7 +779,8 @@
     "artist": "Erykah Badu",
     "year": 1997,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=-CPCs7vVz6s"
   },
   {
     "id": 88,
@@ -701,7 +788,8 @@
     "artist": "Lauryn Hill",
     "year": 1998,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=cE-bnWqLqxE"
   },
   {
     "id": 89,
@@ -709,7 +797,8 @@
     "artist": "Lauryn Hill",
     "year": 1998,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=Y12YXVAYKjE"
   },
   {
     "id": 90,
@@ -717,7 +806,8 @@
     "artist": "Whitney Houston",
     "year": 1992,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=3JWTaaS7LdU"
   },
   {
     "id": 91,
@@ -725,7 +815,8 @@
     "artist": "Mariah Carey",
     "year": 1995,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=qq09UkPRdFY"
   },
   {
     "id": 92,
@@ -733,7 +824,8 @@
     "artist": "TLC",
     "year": 1999,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=FrLequ6dUdM"
   },
   {
     "id": 93,
@@ -741,7 +833,8 @@
     "artist": "TLC",
     "year": 1995,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=8WEtxJ4-sh4"
   },
   {
     "id": 94,
@@ -749,7 +842,8 @@
     "artist": "Usher",
     "year": 2001,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=o3IWTfcks4k"
   },
   {
     "id": 95,
@@ -757,7 +851,8 @@
     "artist": "Usher",
     "year": 2004,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=GxBSyx85Kp8"
   },
   {
     "id": 96,
@@ -765,7 +860,8 @@
     "artist": "Usher",
     "year": 2004,
     "genre": "R&B",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=5Sy19X0xxrM"
   },
   {
     "id": 97,
@@ -773,7 +869,8 @@
     "artist": "The Weeknd ft. Rosalía",
     "year": 2020,
     "genre": "R&B",
-    "type": "Remix"
+    "type": "Remix",
+    "youtube_url": "https://music.youtube.com/watch?v=Soly0ne467M"
   },
   {
     "id": 98,
@@ -781,7 +878,8 @@
     "artist": "Beyoncé ft. Jay-Z",
     "year": 2003,
     "genre": "R&B",
-    "type": "Remix"
+    "type": "Remix",
+    "youtube_url": "https://music.youtube.com/watch?v=JxMZPdZLehs"
   },
   {
     "id": 99,
@@ -789,7 +887,8 @@
     "artist": "Arctic Monkeys",
     "year": 2013,
     "genre": "Indie Rock",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=bpOSxM0rNPM"
   },
   {
     "id": 100,
@@ -797,7 +896,8 @@
     "artist": "Arctic Monkeys",
     "year": 2007,
     "genre": "Indie Rock",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=iIfl5k2nQBQ"
   },
   {
     "id": 101,
@@ -821,7 +921,8 @@
     "artist": "Arctic Monkeys",
     "year": 2009,
     "genre": "Indie Rock",
-    "type": "Original"
+    "type": "Original",
+    "youtube_url": "https://music.youtube.com/watch?v=LIQz6zZi7R0"
   },
   {
     "id": 104,

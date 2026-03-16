@@ -201,7 +201,7 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
         </div>
       `;
 
-          const ytUrl = 'https://www.youtube.com/results?search_query=' + encodeURIComponent(`${song.title} ${song.artist} official music video`);
+          const ytUrl = song.youtube_url || 'https://www.youtube.com/results?search_query=' + encodeURIComponent(`${song.title} ${song.artist} official music video`);
           const ytBtn = document.getElementById('ytBtn');
           ytBtn.href = ytUrl;
           ytBtn.style.display = 'inline-flex';
@@ -263,7 +263,8 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
         artist TEXT NOT NULL,
         year INTEGER,
         genre TEXT,
-        type TEXT
+        type TEXT,
+        youtube_url TEXT
       );
       CREATE INDEX idx_genre ON songs(genre);
       CREATE INDEX idx_type ON songs(type);
@@ -272,9 +273,9 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
 
         // Batch insert with prepared statement
         db.run('BEGIN TRANSACTION');
-        const stmt = db.prepare('INSERT INTO songs VALUES (:id,:title,:artist,:year,:genre,:type)');
+        const stmt = db.prepare('INSERT INTO songs VALUES (:id,:title,:artist,:year,:genre,:type,:youtube_url)');
         for (const s of songs) {
-          stmt.run({ ':id': s.id, ':title': s.title, ':artist': s.artist, ':year': s.year, ':genre': s.genre, ':type': s.type });
+          stmt.run({ ':id': s.id, ':title': s.title, ':artist': s.artist, ':year': s.year, ':genre': s.genre, ':type': s.type, ':youtube_url': s.youtube_url || null });
         }
         stmt.free();
         db.run('COMMIT');
