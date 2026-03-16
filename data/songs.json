@@ -9,10 +9,7994 @@
   },
   {
     "id": 2,
+    "title": "Alright",
+    "artist": "Kendrick Lamar",
+    "year": 2015,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 3,
+    "title": "PRIDE.",
+    "artist": "Kendrick Lamar",
+    "year": 2017,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 4,
+    "title": "Money Trees",
+    "artist": "Kendrick Lamar",
+    "year": 2012,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 5,
+    "title": "Swimming Pools (Drank)",
+    "artist": "Kendrick Lamar",
+    "year": 2012,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 6,
+    "title": "Backseat Freestyle",
+    "artist": "Kendrick Lamar",
+    "year": 2012,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 7,
+    "title": "Poetic Justice",
+    "artist": "Kendrick Lamar",
+    "year": 2012,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 8,
+    "title": "Bitch Don't Kill My Vibe",
+    "artist": "Kendrick Lamar",
+    "year": 2012,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 9,
+    "title": "m.A.A.d city",
+    "artist": "Kendrick Lamar ft. MC Eiht",
+    "year": 2012,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 10,
+    "title": "Sing About Me",
+    "artist": "Kendrick Lamar",
+    "year": 2012,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 11,
+    "title": "How Much a Dollar Cost",
+    "artist": "Kendrick Lamar",
+    "year": 2015,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 12,
+    "title": "The Blacker the Berry",
+    "artist": "Kendrick Lamar",
+    "year": 2015,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 13,
+    "title": "u",
+    "artist": "Kendrick Lamar",
+    "year": 2015,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 14,
+    "title": "Wesley's Theory",
+    "artist": "Kendrick Lamar",
+    "year": 2015,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 15,
+    "title": "ELEMENT.",
+    "artist": "Kendrick Lamar",
+    "year": 2017,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 16,
+    "title": "LOVE.",
+    "artist": "Kendrick Lamar ft. Zacari",
+    "year": 2017,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 17,
+    "title": "LOYALTY.",
+    "artist": "Kendrick Lamar ft. Rihanna",
+    "year": 2017,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 18,
+    "title": "Runaway",
+    "artist": "Kanye West",
+    "year": 2010,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 19,
+    "title": "Flashing Lights",
+    "artist": "Kanye West",
+    "year": 2007,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 20,
+    "title": "All Falls Down",
+    "artist": "Kanye West",
+    "year": 2004,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 21,
+    "title": "Ghost Town",
+    "artist": "Kanye West",
+    "year": 2018,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 22,
+    "title": "Power",
+    "artist": "Kanye West",
+    "year": 2010,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 23,
+    "title": "Ultralight Beam",
+    "artist": "Kanye West",
+    "year": 2016,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 24,
+    "title": "Father Stretch My Hands Pt. 1",
+    "artist": "Kanye West",
+    "year": 2016,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 25,
+    "title": "Waves",
+    "artist": "Kanye West",
+    "year": 2016,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 26,
+    "title": "God's Plan",
+    "artist": "Drake",
+    "year": 2018,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 27,
+    "title": "Passionfruit",
+    "artist": "Drake",
+    "year": 2017,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 28,
+    "title": "Hold On We're Going Home",
+    "artist": "Drake",
+    "year": 2013,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 29,
+    "title": "Marvin's Room",
+    "artist": "Drake",
+    "year": 2011,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 30,
+    "title": "Hotline Bling",
+    "artist": "Drake",
+    "year": 2015,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 31,
+    "title": "One Dance",
+    "artist": "Drake ft. WizKid",
+    "year": 2016,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 32,
+    "title": "SICKO MODE",
+    "artist": "Travis Scott",
+    "year": 2018,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 33,
+    "title": "Antidote",
+    "artist": "Travis Scott",
+    "year": 2015,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 34,
+    "title": "goosebumps",
+    "artist": "Travis Scott",
+    "year": 2016,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 35,
+    "title": "Rockstar",
+    "artist": "Post Malone",
+    "year": 2017,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 36,
+    "title": "Congratulations",
+    "artist": "Post Malone",
+    "year": 2016,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 37,
+    "title": "White Iverson",
+    "artist": "Post Malone",
+    "year": 2015,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 38,
+    "title": "Circles",
+    "artist": "Post Malone",
+    "year": 2019,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 39,
+    "title": "Sunflower",
+    "artist": "Post Malone & Swae Lee",
+    "year": 2018,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 40,
+    "title": "XO TOUR Llif3",
+    "artist": "Lil Uzi Vert",
+    "year": 2017,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 41,
+    "title": "Lucid Dreams",
+    "artist": "Juice WRLD",
+    "year": 2018,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 42,
+    "title": "Robbery",
+    "artist": "Juice WRLD",
+    "year": 2019,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 43,
+    "title": "All Girls Are the Same",
+    "artist": "Juice WRLD",
+    "year": 2018,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 44,
+    "title": "Wishing Well",
+    "artist": "Juice WRLD",
+    "year": 2020,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 45,
+    "title": "Old Town Road",
+    "artist": "Lil Nas X",
+    "year": 2019,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 46,
+    "title": "MONTERO",
+    "artist": "Lil Nas X",
+    "year": 2021,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 47,
+    "title": "Industry Baby",
+    "artist": "Lil Nas X ft. Jack Harlow",
+    "year": 2021,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 48,
+    "title": "New York State of Mind",
+    "artist": "Nas",
+    "year": 1994,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 49,
+    "title": "The World Is Yours",
+    "artist": "Nas",
+    "year": 1994,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 50,
+    "title": "N.Y. State of Mind",
+    "artist": "Nas",
+    "year": 1994,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 51,
+    "title": "C.R.E.A.M.",
+    "artist": "Wu-Tang Clan",
+    "year": 1993,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 52,
+    "title": "Lose Yourself",
+    "artist": "Eminem",
+    "year": 2002,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 53,
+    "title": "Stan",
+    "artist": "Eminem",
+    "year": 2000,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 54,
+    "title": "Rap God",
+    "artist": "Eminem",
+    "year": 2013,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 55,
+    "title": "Juicy",
+    "artist": "The Notorious B.I.G.",
+    "year": 1994,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 56,
+    "title": "Hypnotize",
+    "artist": "The Notorious B.I.G.",
+    "year": 1997,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 57,
+    "title": "93 'Til Infinity",
+    "artist": "Souls of Mischief",
+    "year": 1993,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 58,
+    "title": "Collard Greens",
+    "artist": "ScHoolboy Q",
+    "year": 2013,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 59,
+    "title": "Man of the Year",
+    "artist": "ScHoolboy Q",
+    "year": 2014,
+    "genre": "Hip-hop",
+    "type": "Original"
+  },
+  {
+    "id": 60,
     "title": "Old Town Road (Remix)",
     "artist": "Lil Nas X ft. Billy Ray Cyrus",
     "year": 2019,
     "genre": "Hip-hop",
     "type": "Remix"
+  },
+  {
+    "id": 61,
+    "title": "Lucid Dreams (Remix)",
+    "artist": "Juice WRLD ft. Lil Uzi Vert",
+    "year": 2018,
+    "genre": "Hip-hop",
+    "type": "Remix"
+  },
+  {
+    "id": 62,
+    "title": "HUMBLE. (Instrumental)",
+    "artist": "Kendrick Lamar",
+    "year": 2017,
+    "genre": "Hip-hop",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 63,
+    "title": "Runaway (Instrumental)",
+    "artist": "Kanye West",
+    "year": 2010,
+    "genre": "Hip-hop",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 64,
+    "title": "Redbone",
+    "artist": "Childish Gambino",
+    "year": 2016,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 65,
+    "title": "Thinkin Bout You",
+    "artist": "Frank Ocean",
+    "year": 2012,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 66,
+    "title": "White Ferrari",
+    "artist": "Frank Ocean",
+    "year": 2016,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 67,
+    "title": "Nights",
+    "artist": "Frank Ocean",
+    "year": 2016,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 68,
+    "title": "Self Control",
+    "artist": "Frank Ocean",
+    "year": 2016,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 69,
+    "title": "Pink + White",
+    "artist": "Frank Ocean",
+    "year": 2016,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 70,
+    "title": "Novacane",
+    "artist": "Frank Ocean",
+    "year": 2011,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 71,
+    "title": "Ivy",
+    "artist": "Frank Ocean",
+    "year": 2016,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 72,
+    "title": "Often",
+    "artist": "The Weeknd",
+    "year": 2014,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 73,
+    "title": "Earned It",
+    "artist": "The Weeknd",
+    "year": 2015,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 74,
+    "title": "The Hills",
+    "artist": "The Weeknd",
+    "year": 2015,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 75,
+    "title": "Starboy",
+    "artist": "The Weeknd",
+    "year": 2016,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 76,
+    "title": "Save Your Tears",
+    "artist": "The Weeknd",
+    "year": 2020,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 77,
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "year": 2019,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 78,
+    "title": "Call Out My Name",
+    "artist": "The Weeknd",
+    "year": 2018,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 79,
+    "title": "After Hours",
+    "artist": "The Weeknd",
+    "year": 2020,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 80,
+    "title": "Heartless",
+    "artist": "The Weeknd",
+    "year": 2019,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 81,
+    "title": "Drunk in Love",
+    "artist": "Beyoncé",
+    "year": 2013,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 82,
+    "title": "Crazy in Love",
+    "artist": "Beyoncé",
+    "year": 2003,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 83,
+    "title": "Irreplaceable",
+    "artist": "Beyoncé",
+    "year": 2006,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 84,
+    "title": "Halo",
+    "artist": "Beyoncé",
+    "year": 2008,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 85,
+    "title": "CRANES IN THE SKY",
+    "artist": "Solange",
+    "year": 2016,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 86,
+    "title": "Superstar",
+    "artist": "Erykah Badu",
+    "year": 2000,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 87,
+    "title": "On & On",
+    "artist": "Erykah Badu",
+    "year": 1997,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 88,
+    "title": "Ex-Factor",
+    "artist": "Lauryn Hill",
+    "year": 1998,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 89,
+    "title": "The Sweetest Thing",
+    "artist": "Lauryn Hill",
+    "year": 1998,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 90,
+    "title": "I Will Always Love You",
+    "artist": "Whitney Houston",
+    "year": 1992,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 91,
+    "title": "Fantasy",
+    "artist": "Mariah Carey",
+    "year": 1995,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 92,
+    "title": "No Scrubs",
+    "artist": "TLC",
+    "year": 1999,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 93,
+    "title": "Waterfalls",
+    "artist": "TLC",
+    "year": 1995,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 94,
+    "title": "U Got It Bad",
+    "artist": "Usher",
+    "year": 2001,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 95,
+    "title": "Yeah!",
+    "artist": "Usher",
+    "year": 2004,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 96,
+    "title": "Confessions Part II",
+    "artist": "Usher",
+    "year": 2004,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 97,
+    "title": "Blinding Lights (Remix)",
+    "artist": "The Weeknd ft. Rosalía",
+    "year": 2020,
+    "genre": "R&B",
+    "type": "Remix"
+  },
+  {
+    "id": 98,
+    "title": "Crazy in Love (Remix)",
+    "artist": "Beyoncé ft. Jay-Z",
+    "year": 2003,
+    "genre": "R&B",
+    "type": "Remix"
+  },
+  {
+    "id": 99,
+    "title": "Do I Wanna Know?",
+    "artist": "Arctic Monkeys",
+    "year": 2013,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 100,
+    "title": "505",
+    "artist": "Arctic Monkeys",
+    "year": 2007,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 101,
+    "title": "R U Mine?",
+    "artist": "Arctic Monkeys",
+    "year": 2013,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 102,
+    "title": "Fluorescent Adolescent",
+    "artist": "Arctic Monkeys",
+    "year": 2011,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 103,
+    "title": "Cornerstone",
+    "artist": "Arctic Monkeys",
+    "year": 2009,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 104,
+    "title": "Arabella",
+    "artist": "Arctic Monkeys",
+    "year": 2013,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 105,
+    "title": "Why'd You Only Call Me When You're High?",
+    "artist": "Arctic Monkeys",
+    "year": 2013,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 106,
+    "title": "I Wanna Be Yours",
+    "artist": "Arctic Monkeys",
+    "year": 2013,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 107,
+    "title": "Mr. Brightside",
+    "artist": "The Killers",
+    "year": 2003,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 108,
+    "title": "Somebody Told Me",
+    "artist": "The Killers",
+    "year": 2004,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 109,
+    "title": "All These Things That I've Done",
+    "artist": "The Killers",
+    "year": 2004,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 110,
+    "title": "Human",
+    "artist": "The Killers",
+    "year": 2008,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 111,
+    "title": "Shake It Out",
+    "artist": "Florence + The Machine",
+    "year": 2011,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 112,
+    "title": "Dog Days Are Over",
+    "artist": "Florence + The Machine",
+    "year": 2009,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 113,
+    "title": "You've Got the Love",
+    "artist": "Florence + The Machine",
+    "year": 2009,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 114,
+    "title": "Spectrum",
+    "artist": "Florence + The Machine",
+    "year": 2011,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 115,
+    "title": "Sweet Disposition",
+    "artist": "The Temper Trap",
+    "year": 2008,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 116,
+    "title": "Two Weeks",
+    "artist": "Grizzly Bear",
+    "year": 2009,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 117,
+    "title": "Crystalised",
+    "artist": "The xx",
+    "year": 2009,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 118,
+    "title": "Intro",
+    "artist": "The xx",
+    "year": 2009,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 119,
+    "title": "VCR",
+    "artist": "The xx",
+    "year": 2009,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 120,
+    "title": "On Hold",
+    "artist": "The xx",
+    "year": 2017,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 121,
+    "title": "Ribs",
+    "artist": "Lorde",
+    "year": 2013,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 122,
+    "title": "Tennis Court",
+    "artist": "Lorde",
+    "year": 2013,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 123,
+    "title": "Royals",
+    "artist": "Lorde",
+    "year": 2013,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 124,
+    "title": "Green Light",
+    "artist": "Lorde",
+    "year": 2017,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 125,
+    "title": "Liability",
+    "artist": "Lorde",
+    "year": 2017,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 126,
+    "title": "The Night Will Always Win",
+    "artist": "Manchester Orchestra",
+    "year": 2014,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 127,
+    "title": "Take Me Out",
+    "artist": "Franz Ferdinand",
+    "year": 2004,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 128,
+    "title": "Take the Lead",
+    "artist": "Franz Ferdinand",
+    "year": 2005,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 129,
+    "title": "Stubborn Love",
+    "artist": "The Lumineers",
+    "year": 2012,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 130,
+    "title": "Skinny Love",
+    "artist": "Bon Iver",
+    "year": 2008,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 131,
+    "title": "Holocene",
+    "artist": "Bon Iver",
+    "year": 2011,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 132,
+    "title": "Towers",
+    "artist": "Bon Iver",
+    "year": 2011,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 133,
+    "title": "Blood Bank",
+    "artist": "Bon Iver",
+    "year": 2009,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 134,
+    "title": "Calgary",
+    "artist": "Bon Iver",
+    "year": 2011,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 135,
+    "title": "Re: Stacks",
+    "artist": "Bon Iver",
+    "year": 2008,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 136,
+    "title": "Bloom",
+    "artist": "The Paper Kites",
+    "year": 2010,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 137,
+    "title": "Chateau",
+    "artist": "Angus & Julia Stone",
+    "year": 2010,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 138,
+    "title": "Big Jet Plane",
+    "artist": "Angus & Julia Stone",
+    "year": 2010,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 139,
+    "title": "Ho Hey",
+    "artist": "The Lumineers",
+    "year": 2012,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 140,
+    "title": "Flowers in Your Hair",
+    "artist": "The Lumineers",
+    "year": 2012,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 141,
+    "title": "Ophelia",
+    "artist": "The Lumineers",
+    "year": 2016,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 142,
+    "title": "Home",
+    "artist": "Edward Sharpe",
+    "year": 2009,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 143,
+    "title": "Breathe (2 AM)",
+    "artist": "Anna Nalick",
+    "year": 2005,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 144,
+    "title": "The Joke",
+    "artist": "Brandi Carlile",
+    "year": 2018,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 145,
+    "title": "The Story",
+    "artist": "Brandi Carlile",
+    "year": 2007,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 146,
+    "title": "Fast Car",
+    "artist": "Tracy Chapman",
+    "year": 1988,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 147,
+    "title": "Lua",
+    "artist": "Bright Eyes",
+    "year": 2005,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 148,
+    "title": "First Day of My Life",
+    "artist": "Bright Eyes",
+    "year": 2005,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 149,
+    "title": "White Winter Hymnal",
+    "artist": "Fleet Foxes",
+    "year": 2008,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 150,
+    "title": "Helplessness Blues",
+    "artist": "Fleet Foxes",
+    "year": 2011,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 151,
+    "title": "Blue Ridge Mountains",
+    "artist": "Fleet Foxes",
+    "year": 2008,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 152,
+    "title": "Mykonos",
+    "artist": "Fleet Foxes",
+    "year": 2009,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 153,
+    "title": "Carolina",
+    "artist": "Taylor Swift",
+    "year": 2022,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 154,
+    "title": "The 1",
+    "artist": "Taylor Swift",
+    "year": 2020,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 155,
+    "title": "seven",
+    "artist": "Taylor Swift",
+    "year": 2020,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 156,
+    "title": "illicit affairs",
+    "artist": "Taylor Swift",
+    "year": 2020,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 157,
+    "title": "exile",
+    "artist": "Taylor Swift ft. Bon Iver",
+    "year": 2020,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 158,
+    "title": "invisible string",
+    "artist": "Taylor Swift",
+    "year": 2020,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 159,
+    "title": "august",
+    "artist": "Taylor Swift",
+    "year": 2020,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 160,
+    "title": "this is me trying",
+    "artist": "Taylor Swift",
+    "year": 2020,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 161,
+    "title": "peace",
+    "artist": "Taylor Swift",
+    "year": 2020,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 162,
+    "title": "epiphany",
+    "artist": "Taylor Swift",
+    "year": 2020,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 163,
+    "title": "Skinny Love (Acoustic)",
+    "artist": "Bon Iver",
+    "year": 2008,
+    "genre": "Indie Folk",
+    "type": "Acoustic"
+  },
+  {
+    "id": 164,
+    "title": "Fast Car (Acoustic)",
+    "artist": "Tracy Chapman",
+    "year": 1988,
+    "genre": "Indie Folk",
+    "type": "Acoustic"
+  },
+  {
+    "id": 165,
+    "title": "Bloom (Acoustic Live)",
+    "artist": "The Paper Kites",
+    "year": 2010,
+    "genre": "Indie Folk",
+    "type": "Acoustic"
+  },
+  {
+    "id": 166,
+    "title": "Shape of You",
+    "artist": "Ed Sheeran",
+    "year": 2017,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 167,
+    "title": "Thinking Out Loud",
+    "artist": "Ed Sheeran",
+    "year": 2014,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 168,
+    "title": "Perfect",
+    "artist": "Ed Sheeran",
+    "year": 2017,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 169,
+    "title": "Bad Guy",
+    "artist": "Billie Eilish",
+    "year": 2019,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 170,
+    "title": "Ocean Eyes",
+    "artist": "Billie Eilish",
+    "year": 2016,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 171,
+    "title": "everything i wanted",
+    "artist": "Billie Eilish",
+    "year": 2019,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 172,
+    "title": "happier than ever",
+    "artist": "Billie Eilish",
+    "year": 2021,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 173,
+    "title": "lovely",
+    "artist": "Billie Eilish & Khalid",
+    "year": 2018,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 174,
+    "title": "Driver's License",
+    "artist": "Olivia Rodrigo",
+    "year": 2021,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 175,
+    "title": "good 4 u",
+    "artist": "Olivia Rodrigo",
+    "year": 2021,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 176,
+    "title": "brutal",
+    "artist": "Olivia Rodrigo",
+    "year": 2021,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 177,
+    "title": "deja vu",
+    "artist": "Olivia Rodrigo",
+    "year": 2021,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 178,
+    "title": "Watermelon Sugar",
+    "artist": "Harry Styles",
+    "year": 2020,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 179,
+    "title": "Golden",
+    "artist": "Harry Styles",
+    "year": 2020,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 180,
+    "title": "As It Was",
+    "artist": "Harry Styles",
+    "year": 2022,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 181,
+    "title": "Adore You",
+    "artist": "Harry Styles",
+    "year": 2019,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 182,
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "year": 2020,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 183,
+    "title": "Don't Start Now",
+    "artist": "Dua Lipa",
+    "year": 2019,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 184,
+    "title": "Physical",
+    "artist": "Dua Lipa",
+    "year": 2020,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 185,
+    "title": "New Rules",
+    "artist": "Dua Lipa",
+    "year": 2017,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 186,
+    "title": "Shake It Off",
+    "artist": "Taylor Swift",
+    "year": 2014,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 187,
+    "title": "Blank Space",
+    "artist": "Taylor Swift",
+    "year": 2014,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 188,
+    "title": "Anti-Hero",
+    "artist": "Taylor Swift",
+    "year": 2022,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 189,
+    "title": "Love Story",
+    "artist": "Taylor Swift",
+    "year": 2008,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 190,
+    "title": "Cruel Summer",
+    "artist": "Taylor Swift",
+    "year": 2019,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 191,
+    "title": "Style",
+    "artist": "Taylor Swift",
+    "year": 2015,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 192,
+    "title": "Wildest Dreams",
+    "artist": "Taylor Swift",
+    "year": 2015,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 193,
+    "title": "Clean",
+    "artist": "Taylor Swift",
+    "year": 2014,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 194,
+    "title": "All Too Well",
+    "artist": "Taylor Swift",
+    "year": 2012,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 195,
+    "title": "Getaway Car",
+    "artist": "Taylor Swift",
+    "year": 2017,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 196,
+    "title": "Delicate",
+    "artist": "Taylor Swift",
+    "year": 2018,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 197,
+    "title": "Cornelia Street",
+    "artist": "Taylor Swift",
+    "year": 2019,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 198,
+    "title": "Lavender Haze",
+    "artist": "Taylor Swift",
+    "year": 2022,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 199,
+    "title": "Anti-Hero",
+    "artist": "Taylor Swift",
+    "year": 2022,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 200,
+    "title": "Stay With Me",
+    "artist": "Sam Smith",
+    "year": 2014,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 201,
+    "title": "Writing's on the Wall",
+    "artist": "Sam Smith",
+    "year": 2015,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 202,
+    "title": "Uptown Funk",
+    "artist": "Mark Ronson ft. Bruno Mars",
+    "year": 2014,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 203,
+    "title": "Locked Out of Heaven",
+    "artist": "Bruno Mars",
+    "year": 2012,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 204,
+    "title": "Just the Way You Are",
+    "artist": "Bruno Mars",
+    "year": 2010,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 205,
+    "title": "Grenade",
+    "artist": "Bruno Mars",
+    "year": 2010,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 206,
+    "title": "Easy On Me",
+    "artist": "Adele",
+    "year": 2021,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 207,
+    "title": "Hello",
+    "artist": "Adele",
+    "year": 2015,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 208,
+    "title": "Rolling in the Deep",
+    "artist": "Adele",
+    "year": 2010,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 209,
+    "title": "Someone Like You",
+    "artist": "Adele",
+    "year": 2011,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 210,
+    "title": "Skyfall",
+    "artist": "Adele",
+    "year": 2012,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 211,
+    "title": "When We Were Young",
+    "artist": "Adele",
+    "year": 2015,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 212,
+    "title": "Señorita",
+    "artist": "Shawn Mendes & Camila Cabello",
+    "year": 2019,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 213,
+    "title": "Havana",
+    "artist": "Camila Cabello ft. Young Thug",
+    "year": 2017,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 214,
+    "title": "7 rings",
+    "artist": "Ariana Grande",
+    "year": 2019,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 215,
+    "title": "thank u next",
+    "artist": "Ariana Grande",
+    "year": 2018,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 216,
+    "title": "God is a woman",
+    "artist": "Ariana Grande",
+    "year": 2018,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 217,
+    "title": "Positions",
+    "artist": "Ariana Grande",
+    "year": 2020,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 218,
+    "title": "Problem",
+    "artist": "Ariana Grande ft. Iggy Azalea",
+    "year": 2014,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 219,
+    "title": "Flowers",
+    "artist": "Miley Cyrus",
+    "year": 2023,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 220,
+    "title": "Peaches",
+    "artist": "Justin Bieber ft. Daniel Caesar",
+    "year": 2021,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 221,
+    "title": "Stay",
+    "artist": "The Kid LAROI & Justin Bieber",
+    "year": 2021,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 222,
+    "title": "Shape of You (Remix)",
+    "artist": "Ed Sheeran ft. Stormzy",
+    "year": 2017,
+    "genre": "Pop",
+    "type": "Remix"
+  },
+  {
+    "id": 223,
+    "title": "Levitating (Remix)",
+    "artist": "Dua Lipa ft. DaBaby",
+    "year": 2020,
+    "genre": "Pop",
+    "type": "Remix"
+  },
+  {
+    "id": 224,
+    "title": "Bad Guy (Remix)",
+    "artist": "Billie Eilish ft. Justin Bieber",
+    "year": 2019,
+    "genre": "Pop",
+    "type": "Remix"
+  },
+  {
+    "id": 225,
+    "title": "Cruel Summer (Kygo Remix)",
+    "artist": "Taylor Swift",
+    "year": 2019,
+    "genre": "Pop",
+    "type": "Remix"
+  },
+  {
+    "id": 226,
+    "title": "Driver's License (Acoustic)",
+    "artist": "Olivia Rodrigo",
+    "year": 2021,
+    "genre": "Pop",
+    "type": "Acoustic"
+  },
+  {
+    "id": 227,
+    "title": "All of Me (Acoustic)",
+    "artist": "John Legend",
+    "year": 2013,
+    "genre": "Pop",
+    "type": "Acoustic"
+  },
+  {
+    "id": 228,
+    "title": "Midnight City",
+    "artist": "M83",
+    "year": 2011,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 229,
+    "title": "Wait",
+    "artist": "M83",
+    "year": 2016,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 230,
+    "title": "Electric Feel",
+    "artist": "MGMT",
+    "year": 2008,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 231,
+    "title": "Kids",
+    "artist": "MGMT",
+    "year": 2008,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 232,
+    "title": "Time to Pretend",
+    "artist": "MGMT",
+    "year": 2008,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 233,
+    "title": "Oblivion",
+    "artist": "Grimes",
+    "year": 2012,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 234,
+    "title": "Kill V. Maim",
+    "artist": "Grimes",
+    "year": 2015,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 235,
+    "title": "Flesh Without Blood",
+    "artist": "Grimes",
+    "year": 2015,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 236,
+    "title": "Retrograde",
+    "artist": "James Blake",
+    "year": 2013,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 237,
+    "title": "The Wilhelm Scream",
+    "artist": "James Blake",
+    "year": 2011,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 238,
+    "title": "Limit to Your Love",
+    "artist": "James Blake",
+    "year": 2011,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 239,
+    "title": "Latch",
+    "artist": "Disclosure ft. Sam Smith",
+    "year": 2012,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 240,
+    "title": "White Noise",
+    "artist": "Disclosure",
+    "year": 2013,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 241,
+    "title": "Magnets",
+    "artist": "Disclosure ft. Lorde",
+    "year": 2015,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 242,
+    "title": "Levels",
+    "artist": "Avicii",
+    "year": 2011,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 243,
+    "title": "Wake Me Up",
+    "artist": "Avicii",
+    "year": 2013,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 244,
+    "title": "Hey Brother",
+    "artist": "Avicii",
+    "year": 2013,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 245,
+    "title": "Titanium",
+    "artist": "David Guetta ft. Sia",
+    "year": 2011,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 246,
+    "title": "Clarity",
+    "artist": "Zedd ft. Foxes",
+    "year": 2012,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 247,
+    "title": "The Middle",
+    "artist": "Zedd ft. Maren Morris",
+    "year": 2018,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 248,
+    "title": "Animals",
+    "artist": "Martin Garrix",
+    "year": 2013,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 249,
+    "title": "Lean On",
+    "artist": "Major Lazer ft. MØ",
+    "year": 2015,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 250,
+    "title": "One More Time",
+    "artist": "Daft Punk",
+    "year": 2000,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 251,
+    "title": "Get Lucky",
+    "artist": "Daft Punk ft. Pharrell",
+    "year": 2013,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 252,
+    "title": "Around the World",
+    "artist": "Daft Punk",
+    "year": 1997,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 253,
+    "title": "Digital Love",
+    "artist": "Daft Punk",
+    "year": 2001,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 254,
+    "title": "Harder Better Faster Stronger",
+    "artist": "Daft Punk",
+    "year": 2001,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 255,
+    "title": "Instant Crush",
+    "artist": "Daft Punk ft. Julian Casablancas",
+    "year": 2013,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 256,
+    "title": "Give Life Back to Music",
+    "artist": "Daft Punk",
+    "year": 2013,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 257,
+    "title": "Voyager",
+    "artist": "Daft Punk",
+    "year": 2001,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 258,
+    "title": "Strobe",
+    "artist": "deadmau5",
+    "year": 2009,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 259,
+    "title": "Ghosts N Stuff",
+    "artist": "deadmau5",
+    "year": 2009,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 260,
+    "title": "I Remember",
+    "artist": "deadmau5 & Kaskade",
+    "year": 2008,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 261,
+    "title": "Scary Monsters and Nice Sprites",
+    "artist": "Skrillex",
+    "year": 2010,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 262,
+    "title": "Bangarang",
+    "artist": "Skrillex ft. Sirah",
+    "year": 2011,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 263,
+    "title": "Oblivion (Gesaffelstein Remix)",
+    "artist": "Grimes",
+    "year": 2012,
+    "genre": "Electronic",
+    "type": "Remix"
+  },
+  {
+    "id": 264,
+    "title": "Midnight City (Reunion Remix)",
+    "artist": "M83",
+    "year": 2012,
+    "genre": "Electronic",
+    "type": "Remix"
+  },
+  {
+    "id": 265,
+    "title": "Get Lucky (Radio Edit)",
+    "artist": "Daft Punk",
+    "year": 2013,
+    "genre": "Electronic",
+    "type": "Remix"
+  },
+  {
+    "id": 266,
+    "title": "Lean On (Felix Jaehn Remix)",
+    "artist": "Major Lazer",
+    "year": 2015,
+    "genre": "Electronic",
+    "type": "Remix"
+  },
+  {
+    "id": 267,
+    "title": "Cinema (Skrillex Remix)",
+    "artist": "Benny Benassi",
+    "year": 2011,
+    "genre": "Electronic",
+    "type": "Remix"
+  },
+  {
+    "id": 268,
+    "title": "The Less I Know The Better",
+    "artist": "Tame Impala",
+    "year": 2015,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 269,
+    "title": "Let It Happen",
+    "artist": "Tame Impala",
+    "year": 2015,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 270,
+    "title": "Eventually",
+    "artist": "Tame Impala",
+    "year": 2015,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 271,
+    "title": "Feels Like We Only Go Backwards",
+    "artist": "Tame Impala",
+    "year": 2012,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 272,
+    "title": "Elephant",
+    "artist": "Tame Impala",
+    "year": 2012,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 273,
+    "title": "Mind Mischief",
+    "artist": "Tame Impala",
+    "year": 2012,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 274,
+    "title": "New Person Same Old Mistakes",
+    "artist": "Tame Impala",
+    "year": 2015,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 275,
+    "title": "Is It True",
+    "artist": "Tame Impala",
+    "year": 2020,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 276,
+    "title": "Video Games",
+    "artist": "Lana Del Rey",
+    "year": 2011,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 277,
+    "title": "Summertime Sadness",
+    "artist": "Lana Del Rey",
+    "year": 2012,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 278,
+    "title": "Young and Beautiful",
+    "artist": "Lana Del Rey",
+    "year": 2013,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 279,
+    "title": "Brooklyn Baby",
+    "artist": "Lana Del Rey",
+    "year": 2014,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 280,
+    "title": "Blue Jeans",
+    "artist": "Lana Del Rey",
+    "year": 2012,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 281,
+    "title": "Hope is a Dangerous Thing",
+    "artist": "Lana Del Rey",
+    "year": 2019,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 282,
+    "title": "Norman Fucking Rockwell",
+    "artist": "Lana Del Rey",
+    "year": 2019,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 283,
+    "title": "Cinnamon Girl",
+    "artist": "Lana Del Rey",
+    "year": 2019,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 284,
+    "title": "Feels Like We Only Go Backwards (Remix)",
+    "artist": "Tame Impala",
+    "year": 2012,
+    "genre": "Psych Pop",
+    "type": "Remix"
+  },
+  {
+    "id": 285,
+    "title": "Summertime Sadness (Cedric Gervais Remix)",
+    "artist": "Lana Del Rey",
+    "year": 2013,
+    "genre": "Psych Pop",
+    "type": "Remix"
+  },
+  {
+    "id": 286,
+    "title": "Come As You Are",
+    "artist": "Nirvana",
+    "year": 1992,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 287,
+    "title": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "year": 1991,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 288,
+    "title": "Heart-Shaped Box",
+    "artist": "Nirvana",
+    "year": 1993,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 289,
+    "title": "The Man Who Sold the World",
+    "artist": "Nirvana",
+    "year": 1994,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 290,
+    "title": "Black Hole Sun",
+    "artist": "Soundgarden",
+    "year": 1994,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 291,
+    "title": "Even Flow",
+    "artist": "Pearl Jam",
+    "year": 1992,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 292,
+    "title": "Jeremy",
+    "artist": "Pearl Jam",
+    "year": 1991,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 293,
+    "title": "Alive",
+    "artist": "Pearl Jam",
+    "year": 1991,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 294,
+    "title": "Creep",
+    "artist": "Radiohead",
+    "year": 1992,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 295,
+    "title": "Karma Police",
+    "artist": "Radiohead",
+    "year": 1997,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 296,
+    "title": "Fake Plastic Trees",
+    "artist": "Radiohead",
+    "year": 1995,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 297,
+    "title": "No Surprises",
+    "artist": "Radiohead",
+    "year": 1997,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 298,
+    "title": "Exit Music (For a Film)",
+    "artist": "Radiohead",
+    "year": 1997,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 299,
+    "title": "Motion Picture Soundtrack",
+    "artist": "Radiohead",
+    "year": 2000,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 300,
+    "title": "How Soon Is Now?",
+    "artist": "The Smiths",
+    "year": 1985,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 301,
+    "title": "There Is a Light That Never Goes Out",
+    "artist": "The Smiths",
+    "year": 1986,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 302,
+    "title": "This Charming Man",
+    "artist": "The Smiths",
+    "year": 1983,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 303,
+    "title": "Personal Jesus",
+    "artist": "Depeche Mode",
+    "year": 1989,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 304,
+    "title": "Enjoy the Silence",
+    "artist": "Depeche Mode",
+    "year": 1990,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 305,
+    "title": "Just Like Heaven",
+    "artist": "The Cure",
+    "year": 1987,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 306,
+    "title": "Lovesong",
+    "artist": "The Cure",
+    "year": 1989,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 307,
+    "title": "Disintegration",
+    "artist": "The Cure",
+    "year": 1989,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 308,
+    "title": "Creep (Acoustic)",
+    "artist": "Radiohead",
+    "year": 1992,
+    "genre": "Alt Rock",
+    "type": "Acoustic"
+  },
+  {
+    "id": 309,
+    "title": "Come As You Are (Acoustic)",
+    "artist": "Nirvana",
+    "year": 1993,
+    "genre": "Alt Rock",
+    "type": "Acoustic"
+  },
+  {
+    "id": 310,
+    "title": "Africa",
+    "artist": "Toto",
+    "year": 1982,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 311,
+    "title": "Rosanna",
+    "artist": "Toto",
+    "year": 1982,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 312,
+    "title": "Hotel California",
+    "artist": "Eagles",
+    "year": 1977,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 313,
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "year": 1975,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 314,
+    "title": "Don't Stop Me Now",
+    "artist": "Queen",
+    "year": 1978,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 315,
+    "title": "Under Pressure",
+    "artist": "Queen & David Bowie",
+    "year": 1981,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 316,
+    "title": "We Will Rock You",
+    "artist": "Queen",
+    "year": 1977,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 317,
+    "title": "We Are the Champions",
+    "artist": "Queen",
+    "year": 1977,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 318,
+    "title": "Stairway to Heaven",
+    "artist": "Led Zeppelin",
+    "year": 1971,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 319,
+    "title": "Whole Lotta Love",
+    "artist": "Led Zeppelin",
+    "year": 1969,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 320,
+    "title": "Kashmir",
+    "artist": "Led Zeppelin",
+    "year": 1975,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 321,
+    "title": "Black Dog",
+    "artist": "Led Zeppelin",
+    "year": 1971,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 322,
+    "title": "Let It Be",
+    "artist": "The Beatles",
+    "year": 1970,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 323,
+    "title": "Hey Jude",
+    "artist": "The Beatles",
+    "year": 1968,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 324,
+    "title": "Come Together",
+    "artist": "The Beatles",
+    "year": 1969,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 325,
+    "title": "Yesterday",
+    "artist": "The Beatles",
+    "year": 1965,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 326,
+    "title": "Blackbird",
+    "artist": "The Beatles",
+    "year": 1968,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 327,
+    "title": "While My Guitar Gently Weeps",
+    "artist": "The Beatles",
+    "year": 1968,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 328,
+    "title": "Heroes",
+    "artist": "David Bowie",
+    "year": 1977,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 329,
+    "title": "Space Oddity",
+    "artist": "David Bowie",
+    "year": 1969,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 330,
+    "title": "Let's Dance",
+    "artist": "David Bowie",
+    "year": 1983,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 331,
+    "title": "Changes",
+    "artist": "David Bowie",
+    "year": 1971,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 332,
+    "title": "Vienna",
+    "artist": "Billy Joel",
+    "year": 1977,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 333,
+    "title": "Piano Man",
+    "artist": "Billy Joel",
+    "year": 1973,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 334,
+    "title": "Born to Run",
+    "artist": "Bruce Springsteen",
+    "year": 1975,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 335,
+    "title": "Thunder Road",
+    "artist": "Bruce Springsteen",
+    "year": 1975,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 336,
+    "title": "Take on Me",
+    "artist": "a-ha",
+    "year": 1985,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 337,
+    "title": "Don't You (Forget About Me)",
+    "artist": "Simple Minds",
+    "year": 1985,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 338,
+    "title": "Sweet Home Alabama",
+    "artist": "Lynyrd Skynyrd",
+    "year": 1974,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 339,
+    "title": "Blackbird (Acoustic)",
+    "artist": "The Beatles",
+    "year": 1968,
+    "genre": "Classic Rock",
+    "type": "Acoustic"
+  },
+  {
+    "id": 340,
+    "title": "Yesterday (Acoustic)",
+    "artist": "The Beatles",
+    "year": 1965,
+    "genre": "Classic Rock",
+    "type": "Acoustic"
+  },
+  {
+    "id": 341,
+    "title": "Stairway to Heaven (Acoustic)",
+    "artist": "Led Zeppelin",
+    "year": 1971,
+    "genre": "Classic Rock",
+    "type": "Acoustic"
+  },
+  {
+    "id": 342,
+    "title": "So What",
+    "artist": "Miles Davis",
+    "year": 1959,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 343,
+    "title": "All Blues",
+    "artist": "Miles Davis",
+    "year": 1959,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 344,
+    "title": "Blue in Green",
+    "artist": "Miles Davis",
+    "year": 1959,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 345,
+    "title": "Take Five",
+    "artist": "Dave Brubeck Quartet",
+    "year": 1959,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 346,
+    "title": "Blue Rondo à la Turk",
+    "artist": "Dave Brubeck Quartet",
+    "year": 1959,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 347,
+    "title": "Autumn Leaves",
+    "artist": "Bill Evans",
+    "year": 1959,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 348,
+    "title": "Peace Piece",
+    "artist": "Bill Evans",
+    "year": 1958,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 349,
+    "title": "Waltz for Debby",
+    "artist": "Bill Evans Trio",
+    "year": 1961,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 350,
+    "title": "Moanin'",
+    "artist": "Art Blakey",
+    "year": 1958,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 351,
+    "title": "A Night in Tunisia",
+    "artist": "Dizzy Gillespie",
+    "year": 1946,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 352,
+    "title": "Giant Steps",
+    "artist": "John Coltrane",
+    "year": 1960,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 353,
+    "title": "My Favorite Things",
+    "artist": "John Coltrane",
+    "year": 1961,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 354,
+    "title": "A Love Supreme",
+    "artist": "John Coltrane",
+    "year": 1965,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 355,
+    "title": "Misty",
+    "artist": "Erroll Garner",
+    "year": 1954,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 356,
+    "title": "Fly Me to the Moon",
+    "artist": "Frank Sinatra",
+    "year": 1964,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 357,
+    "title": "The Way You Look Tonight",
+    "artist": "Frank Sinatra",
+    "year": 1964,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 358,
+    "title": "What a Wonderful World",
+    "artist": "Louis Armstrong",
+    "year": 1967,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 359,
+    "title": "La Vie en Rose",
+    "artist": "Édith Piaf",
+    "year": 1947,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 360,
+    "title": "Round Midnight",
+    "artist": "Thelonious Monk",
+    "year": 1944,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 361,
+    "title": "Straight No Chaser",
+    "artist": "Thelonious Monk",
+    "year": 1951,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 362,
+    "title": "Corcovado",
+    "artist": "João Gilberto",
+    "year": 1960,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 363,
+    "title": "The Girl from Ipanema",
+    "artist": "João Gilberto",
+    "year": 1964,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 364,
+    "title": "Black Orpheus",
+    "artist": "Luiz Bonfá",
+    "year": 1959,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 365,
+    "title": "So What (Lo-fi Remix)",
+    "artist": "Miles Davis",
+    "year": 2020,
+    "genre": "Jazz",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 366,
+    "title": "Autumn Leaves (Lo-fi)",
+    "artist": "Bill Evans",
+    "year": 2019,
+    "genre": "Jazz",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 367,
+    "title": "Clair de lune",
+    "artist": "Claude Debussy",
+    "year": 1905,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 368,
+    "title": "Moonlight Sonata",
+    "artist": "Ludwig van Beethoven",
+    "year": 1801,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 369,
+    "title": "Für Elise",
+    "artist": "Ludwig van Beethoven",
+    "year": 1810,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 370,
+    "title": "Symphony No. 9",
+    "artist": "Ludwig van Beethoven",
+    "year": 1824,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 371,
+    "title": "Symphony No. 5",
+    "artist": "Ludwig van Beethoven",
+    "year": 1808,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 372,
+    "title": "The Four Seasons - Spring",
+    "artist": "Antonio Vivaldi",
+    "year": 1725,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 373,
+    "title": "The Four Seasons - Summer",
+    "artist": "Antonio Vivaldi",
+    "year": 1725,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 374,
+    "title": "The Four Seasons - Autumn",
+    "artist": "Antonio Vivaldi",
+    "year": 1725,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 375,
+    "title": "The Four Seasons - Winter",
+    "artist": "Antonio Vivaldi",
+    "year": 1725,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 376,
+    "title": "Canon in D",
+    "artist": "Johann Pachelbel",
+    "year": 1694,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 377,
+    "title": "Prelude in C Major",
+    "artist": "J.S. Bach",
+    "year": 1722,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 378,
+    "title": "Toccata and Fugue in D Minor",
+    "artist": "J.S. Bach",
+    "year": 1703,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 379,
+    "title": "Goldberg Variations",
+    "artist": "J.S. Bach",
+    "year": 1741,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 380,
+    "title": "Air on the G String",
+    "artist": "J.S. Bach",
+    "year": 1731,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 381,
+    "title": "Requiem in D Minor",
+    "artist": "W.A. Mozart",
+    "year": 1791,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 382,
+    "title": "Symphony No. 40",
+    "artist": "W.A. Mozart",
+    "year": 1788,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 383,
+    "title": "Piano Concerto No. 21",
+    "artist": "W.A. Mozart",
+    "year": 1785,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 384,
+    "title": "Eine Kleine Nachtmusik",
+    "artist": "W.A. Mozart",
+    "year": 1787,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 385,
+    "title": "The Magic Flute Overture",
+    "artist": "W.A. Mozart",
+    "year": 1791,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 386,
+    "title": "Gymnopédie No. 1",
+    "artist": "Erik Satie",
+    "year": 1888,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 387,
+    "title": "Gnossienne No. 1",
+    "artist": "Erik Satie",
+    "year": 1890,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 388,
+    "title": "Gnossienne No. 3",
+    "artist": "Erik Satie",
+    "year": 1890,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 389,
+    "title": "Rhapsody in Blue",
+    "artist": "George Gershwin",
+    "year": 1924,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 390,
+    "title": "Summertime",
+    "artist": "George Gershwin",
+    "year": 1935,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 391,
+    "title": "Bolero",
+    "artist": "Maurice Ravel",
+    "year": 1928,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 392,
+    "title": "Pavane pour une infante défunte",
+    "artist": "Maurice Ravel",
+    "year": 1899,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 393,
+    "title": "Swan Lake",
+    "artist": "Tchaikovsky",
+    "year": 1877,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 394,
+    "title": "The Nutcracker Suite",
+    "artist": "Tchaikovsky",
+    "year": 1892,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 395,
+    "title": "Piano Concerto No. 1",
+    "artist": "Tchaikovsky",
+    "year": 1875,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 396,
+    "title": "Ride of the Valkyries",
+    "artist": "Richard Wagner",
+    "year": 1870,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 397,
+    "title": "Pictures at an Exhibition",
+    "artist": "Modest Mussorgsky",
+    "year": 1874,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 398,
+    "title": "The Rite of Spring",
+    "artist": "Igor Stravinsky",
+    "year": 1913,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 399,
+    "title": "Peer Gynt Suite",
+    "artist": "Edvard Grieg",
+    "year": 1876,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 400,
+    "title": "Snowfall",
+    "artist": "Øneheart & reidenshi",
+    "year": 2021,
+    "genre": "Lo-fi",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 401,
+    "title": "Death Bed",
+    "artist": "Powfu ft. beabadoobee",
+    "year": 2020,
+    "genre": "Lo-fi",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 402,
+    "title": "Aruarian Dance",
+    "artist": "Nujabes",
+    "year": 2004,
+    "genre": "Lo-fi",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 403,
+    "title": "Luv(sic) Part 3",
+    "artist": "Nujabes ft. Shing02",
+    "year": 2004,
+    "genre": "Lo-fi",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 404,
+    "title": "Feather",
+    "artist": "Nujabes ft. Cise Starr",
+    "year": 2005,
+    "genre": "Lo-fi",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 405,
+    "title": "Modal Soul",
+    "artist": "Nujabes",
+    "year": 2005,
+    "genre": "Lo-fi",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 406,
+    "title": "Reflection Eternal",
+    "artist": "Nujabes",
+    "year": 2004,
+    "genre": "Lo-fi",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 407,
+    "title": "Summer Soul",
+    "artist": "Nujabes",
+    "year": 2004,
+    "genre": "Lo-fi",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 408,
+    "title": "Lady Brown",
+    "artist": "Nujabes ft. Cise Starr",
+    "year": 2004,
+    "genre": "Lo-fi",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 409,
+    "title": "eclipse",
+    "artist": "Idealism",
+    "year": 2020,
+    "genre": "Lo-fi",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 410,
+    "title": "tender",
+    "artist": "Idealism",
+    "year": 2020,
+    "genre": "Lo-fi",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 411,
+    "title": "Caramel",
+    "artist": "Idealism",
+    "year": 2019,
+    "genre": "Lo-fi",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 412,
+    "title": "tokyo",
+    "artist": "Jinsang",
+    "year": 2018,
+    "genre": "Lo-fi",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 413,
+    "title": "solitude",
+    "artist": "Jinsang",
+    "year": 2018,
+    "genre": "Lo-fi",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 414,
+    "title": "Daydream",
+    "artist": "Jinsang",
+    "year": 2017,
+    "genre": "Lo-fi",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 415,
+    "title": "memories",
+    "artist": "arbour",
+    "year": 2019,
+    "genre": "Lo-fi",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 416,
+    "title": "night sky",
+    "artist": "arbour",
+    "year": 2020,
+    "genre": "Lo-fi",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 417,
+    "title": "Weightless",
+    "artist": "Marconi Union",
+    "year": 2011,
+    "genre": "Lo-fi",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 418,
+    "title": "Music for Airports",
+    "artist": "Brian Eno",
+    "year": 1978,
+    "genre": "Lo-fi",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 419,
+    "title": "1/1",
+    "artist": "Brian Eno",
+    "year": 1978,
+    "genre": "Lo-fi",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 420,
+    "title": "An Ending (Ascent)",
+    "artist": "Brian Eno",
+    "year": 1983,
+    "genre": "Lo-fi",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 421,
+    "title": "Superstition",
+    "artist": "Stevie Wonder",
+    "year": 1972,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 422,
+    "title": "Isn't She Lovely",
+    "artist": "Stevie Wonder",
+    "year": 1976,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 423,
+    "title": "Higher Ground",
+    "artist": "Stevie Wonder",
+    "year": 1973,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 424,
+    "title": "Sir Duke",
+    "artist": "Stevie Wonder",
+    "year": 1977,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 425,
+    "title": "I Wish",
+    "artist": "Stevie Wonder",
+    "year": 1976,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 426,
+    "title": "Sex Machine",
+    "artist": "James Brown",
+    "year": 1970,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 427,
+    "title": "I Got You (I Feel Good)",
+    "artist": "James Brown",
+    "year": 1965,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 428,
+    "title": "Papa's Got a Brand New Bag",
+    "artist": "James Brown",
+    "year": 1965,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 429,
+    "title": "Respect",
+    "artist": "Aretha Franklin",
+    "year": 1967,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 430,
+    "title": "Think",
+    "artist": "Aretha Franklin",
+    "year": 1968,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 431,
+    "title": "Natural Woman",
+    "artist": "Aretha Franklin",
+    "year": 1967,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 432,
+    "title": "Let's Stay Together",
+    "artist": "Al Green",
+    "year": 1971,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 433,
+    "title": "What's Going On",
+    "artist": "Marvin Gaye",
+    "year": 1971,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 434,
+    "title": "Sexual Healing",
+    "artist": "Marvin Gaye",
+    "year": 1982,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 435,
+    "title": "Let's Get It On",
+    "artist": "Marvin Gaye",
+    "year": 1973,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 436,
+    "title": "Mercy Mercy Me",
+    "artist": "Marvin Gaye",
+    "year": 1971,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 437,
+    "title": "September",
+    "artist": "Earth Wind & Fire",
+    "year": 1978,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 438,
+    "title": "Boogie Wonderland",
+    "artist": "Earth Wind & Fire",
+    "year": 1979,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 439,
+    "title": "Lean on Me",
+    "artist": "Bill Withers",
+    "year": 1972,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 440,
+    "title": "Lovely Day",
+    "artist": "Bill Withers",
+    "year": 1977,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 441,
+    "title": "Ain't No Sunshine",
+    "artist": "Bill Withers",
+    "year": 1971,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 442,
+    "title": "Use Me",
+    "artist": "Bill Withers",
+    "year": 1972,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 443,
+    "title": "Easy",
+    "artist": "Commodores",
+    "year": 1977,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 444,
+    "title": "Brick House",
+    "artist": "Commodores",
+    "year": 1977,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 445,
+    "title": "September (Kygo Remix)",
+    "artist": "Earth Wind & Fire",
+    "year": 2019,
+    "genre": "Soul",
+    "type": "Remix"
+  },
+  {
+    "id": 446,
+    "title": "Superstition (Remix)",
+    "artist": "Stevie Wonder",
+    "year": 2019,
+    "genre": "Soul",
+    "type": "Remix"
+  },
+  {
+    "id": 447,
+    "title": "The Thrill Is Gone",
+    "artist": "B.B. King",
+    "year": 1969,
+    "genre": "Blues",
+    "type": "Original"
+  },
+  {
+    "id": 448,
+    "title": "Sweet Home Chicago",
+    "artist": "Robert Johnson",
+    "year": 1936,
+    "genre": "Blues",
+    "type": "Original"
+  },
+  {
+    "id": 449,
+    "title": "Cross Road Blues",
+    "artist": "Robert Johnson",
+    "year": 1937,
+    "genre": "Blues",
+    "type": "Original"
+  },
+  {
+    "id": 450,
+    "title": "Pride and Joy",
+    "artist": "Stevie Ray Vaughan",
+    "year": 1983,
+    "genre": "Blues",
+    "type": "Original"
+  },
+  {
+    "id": 451,
+    "title": "Texas Flood",
+    "artist": "Stevie Ray Vaughan",
+    "year": 1983,
+    "genre": "Blues",
+    "type": "Original"
+  },
+  {
+    "id": 452,
+    "title": "Couldn't Stand the Weather",
+    "artist": "Stevie Ray Vaughan",
+    "year": 1984,
+    "genre": "Blues",
+    "type": "Original"
+  },
+  {
+    "id": 453,
+    "title": "Slow Dancing in a Burning Room",
+    "artist": "John Mayer",
+    "year": 2006,
+    "genre": "Blues",
+    "type": "Original"
+  },
+  {
+    "id": 454,
+    "title": "Gravity",
+    "artist": "John Mayer",
+    "year": 2006,
+    "genre": "Blues",
+    "type": "Original"
+  },
+  {
+    "id": 455,
+    "title": "Neon",
+    "artist": "John Mayer",
+    "year": 2001,
+    "genre": "Blues",
+    "type": "Original"
+  },
+  {
+    "id": 456,
+    "title": "Vultures",
+    "artist": "John Mayer",
+    "year": 2006,
+    "genre": "Blues",
+    "type": "Original"
+  },
+  {
+    "id": 457,
+    "title": "The House That Built Me",
+    "artist": "Miranda Lambert",
+    "year": 2009,
+    "genre": "Country",
+    "type": "Original"
+  },
+  {
+    "id": 458,
+    "title": "Before He Cheats",
+    "artist": "Carrie Underwood",
+    "year": 2005,
+    "genre": "Country",
+    "type": "Original"
+  },
+  {
+    "id": 459,
+    "title": "Need You Now",
+    "artist": "Lady A",
+    "year": 2009,
+    "genre": "Country",
+    "type": "Original"
+  },
+  {
+    "id": 460,
+    "title": "Wagon Wheel",
+    "artist": "Old Crow Medicine Show",
+    "year": 2004,
+    "genre": "Country",
+    "type": "Original"
+  },
+  {
+    "id": 461,
+    "title": "Jolene",
+    "artist": "Dolly Parton",
+    "year": 1973,
+    "genre": "Country",
+    "type": "Original"
+  },
+  {
+    "id": 462,
+    "title": "I Will Always Love You",
+    "artist": "Dolly Parton",
+    "year": 1973,
+    "genre": "Country",
+    "type": "Original"
+  },
+  {
+    "id": 463,
+    "title": "Tennessee Whiskey",
+    "artist": "Chris Stapleton",
+    "year": 2015,
+    "genre": "Country",
+    "type": "Original"
+  },
+  {
+    "id": 464,
+    "title": "Broken Halos",
+    "artist": "Chris Stapleton",
+    "year": 2017,
+    "genre": "Country",
+    "type": "Original"
+  },
+  {
+    "id": 465,
+    "title": "Ring of Fire",
+    "artist": "Johnny Cash",
+    "year": 1963,
+    "genre": "Country",
+    "type": "Original"
+  },
+  {
+    "id": 466,
+    "title": "Hurt",
+    "artist": "Johnny Cash",
+    "year": 2002,
+    "genre": "Country",
+    "type": "Original"
+  },
+  {
+    "id": 467,
+    "title": "Man in Black",
+    "artist": "Johnny Cash",
+    "year": 1971,
+    "genre": "Country",
+    "type": "Original"
+  },
+  {
+    "id": 468,
+    "title": "Folsom Prison Blues",
+    "artist": "Johnny Cash",
+    "year": 1955,
+    "genre": "Country",
+    "type": "Original"
+  },
+  {
+    "id": 469,
+    "title": "Jolene (Acoustic)",
+    "artist": "Dolly Parton",
+    "year": 1973,
+    "genre": "Country",
+    "type": "Acoustic"
+  },
+  {
+    "id": 470,
+    "title": "Hurt (Acoustic)",
+    "artist": "Johnny Cash",
+    "year": 2002,
+    "genre": "Country",
+    "type": "Acoustic"
+  },
+  {
+    "id": 471,
+    "title": "Master of Puppets",
+    "artist": "Metallica",
+    "year": 1986,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 472,
+    "title": "Enter Sandman",
+    "artist": "Metallica",
+    "year": 1991,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 473,
+    "title": "Nothing Else Matters",
+    "artist": "Metallica",
+    "year": 1991,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 474,
+    "title": "Fade to Black",
+    "artist": "Metallica",
+    "year": 1984,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 475,
+    "title": "One",
+    "artist": "Metallica",
+    "year": 1989,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 476,
+    "title": "The Unforgiven",
+    "artist": "Metallica",
+    "year": 1991,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 477,
+    "title": "Paranoid",
+    "artist": "Black Sabbath",
+    "year": 1970,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 478,
+    "title": "Iron Man",
+    "artist": "Black Sabbath",
+    "year": 1970,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 479,
+    "title": "War Pigs",
+    "artist": "Black Sabbath",
+    "year": 1970,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 480,
+    "title": "Crazy Train",
+    "artist": "Ozzy Osbourne",
+    "year": 1980,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 481,
+    "title": "Welcome to the Jungle",
+    "artist": "Guns N' Roses",
+    "year": 1987,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 482,
+    "title": "November Rain",
+    "artist": "Guns N' Roses",
+    "year": 1991,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 483,
+    "title": "Sweet Child O' Mine",
+    "artist": "Guns N' Roses",
+    "year": 1988,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 484,
+    "title": "Schism",
+    "artist": "Tool",
+    "year": 2001,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 485,
+    "title": "Sober",
+    "artist": "Tool",
+    "year": 1993,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 486,
+    "title": "Lateralus",
+    "artist": "Tool",
+    "year": 2001,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 487,
+    "title": "Nothing Else Matters (Acoustic)",
+    "artist": "Metallica",
+    "year": 1991,
+    "genre": "Metal",
+    "type": "Acoustic"
+  },
+  {
+    "id": 488,
+    "title": "November Rain (Acoustic)",
+    "artist": "Guns N' Roses",
+    "year": 1991,
+    "genre": "Metal",
+    "type": "Acoustic"
+  },
+  {
+    "id": 489,
+    "title": "Despacito",
+    "artist": "Luis Fonsi ft. Daddy Yankee",
+    "year": 2017,
+    "genre": "Latin",
+    "type": "Original"
+  },
+  {
+    "id": 490,
+    "title": "Con Calma",
+    "artist": "Daddy Yankee",
+    "year": 2019,
+    "genre": "Latin",
+    "type": "Original"
+  },
+  {
+    "id": 491,
+    "title": "Gasolina",
+    "artist": "Daddy Yankee",
+    "year": 2004,
+    "genre": "Latin",
+    "type": "Original"
+  },
+  {
+    "id": 492,
+    "title": "Mi Gente",
+    "artist": "J Balvin ft. Willy William",
+    "year": 2017,
+    "genre": "Latin",
+    "type": "Original"
+  },
+  {
+    "id": 493,
+    "title": "Safari",
+    "artist": "J Balvin",
+    "year": 2016,
+    "genre": "Latin",
+    "type": "Original"
+  },
+  {
+    "id": 494,
+    "title": "Tusa",
+    "artist": "KAROL G & Nicki Minaj",
+    "year": 2019,
+    "genre": "Latin",
+    "type": "Original"
+  },
+  {
+    "id": 495,
+    "title": "Bichota",
+    "artist": "KAROL G",
+    "year": 2020,
+    "genre": "Latin",
+    "type": "Original"
+  },
+  {
+    "id": 496,
+    "title": "Hawái",
+    "artist": "Maluma",
+    "year": 2020,
+    "genre": "Latin",
+    "type": "Original"
+  },
+  {
+    "id": 497,
+    "title": "Shakira: Bzrp Music Sessions #53",
+    "artist": "Bizarrap & Shakira",
+    "year": 2023,
+    "genre": "Latin",
+    "type": "Original"
+  },
+  {
+    "id": 498,
+    "title": "Waka Waka",
+    "artist": "Shakira",
+    "year": 2010,
+    "genre": "Latin",
+    "type": "Original"
+  },
+  {
+    "id": 499,
+    "title": "Hips Don't Lie",
+    "artist": "Shakira",
+    "year": 2005,
+    "genre": "Latin",
+    "type": "Original"
+  },
+  {
+    "id": 500,
+    "title": "Despacito (Remix)",
+    "artist": "Luis Fonsi ft. Justin Bieber",
+    "year": 2017,
+    "genre": "Latin",
+    "type": "Remix"
+  },
+  {
+    "id": 501,
+    "title": "Mi Gente (Remix)",
+    "artist": "J Balvin ft. Beyoncé",
+    "year": 2017,
+    "genre": "Latin",
+    "type": "Remix"
+  },
+  {
+    "id": 502,
+    "title": "Fall",
+    "artist": "Davido",
+    "year": 2017,
+    "genre": "Afrobeats",
+    "type": "Original"
+  },
+  {
+    "id": 503,
+    "title": "Essence",
+    "artist": "WizKid ft. Tems",
+    "year": 2020,
+    "genre": "Afrobeats",
+    "type": "Original"
+  },
+  {
+    "id": 504,
+    "title": "Come Closer",
+    "artist": "WizKid ft. Drake",
+    "year": 2017,
+    "genre": "Afrobeats",
+    "type": "Original"
+  },
+  {
+    "id": 505,
+    "title": "Ye",
+    "artist": "Burna Boy",
+    "year": 2018,
+    "genre": "Afrobeats",
+    "type": "Original"
+  },
+  {
+    "id": 506,
+    "title": "Last Last",
+    "artist": "Burna Boy",
+    "year": 2022,
+    "genre": "Afrobeats",
+    "type": "Original"
+  },
+  {
+    "id": 507,
+    "title": "Kilometer",
+    "artist": "Burna Boy",
+    "year": 2020,
+    "genre": "Afrobeats",
+    "type": "Original"
+  },
+  {
+    "id": 508,
+    "title": "Blessed",
+    "artist": "Burna Boy",
+    "year": 2020,
+    "genre": "Afrobeats",
+    "type": "Original"
+  },
+  {
+    "id": 509,
+    "title": "Water",
+    "artist": "Tyla",
+    "year": 2023,
+    "genre": "Afrobeats",
+    "type": "Original"
+  },
+  {
+    "id": 510,
+    "title": "Pana",
+    "artist": "Tekno",
+    "year": 2016,
+    "genre": "Afrobeats",
+    "type": "Original"
+  },
+  {
+    "id": 511,
+    "title": "Ye (Remix)",
+    "artist": "Burna Boy ft. Nicki Minaj",
+    "year": 2019,
+    "genre": "Afrobeats",
+    "type": "Remix"
+  },
+  {
+    "id": 512,
+    "title": "Dynamite",
+    "artist": "BTS",
+    "year": 2020,
+    "genre": "K-pop",
+    "type": "Original"
+  },
+  {
+    "id": 513,
+    "title": "DNA",
+    "artist": "BTS",
+    "year": 2017,
+    "genre": "K-pop",
+    "type": "Original"
+  },
+  {
+    "id": 514,
+    "title": "Boy With Luv",
+    "artist": "BTS",
+    "year": 2019,
+    "genre": "K-pop",
+    "type": "Original"
+  },
+  {
+    "id": 515,
+    "title": "ON",
+    "artist": "BTS",
+    "year": 2020,
+    "genre": "K-pop",
+    "type": "Original"
+  },
+  {
+    "id": 516,
+    "title": "Fire",
+    "artist": "BTS",
+    "year": 2016,
+    "genre": "K-pop",
+    "type": "Original"
+  },
+  {
+    "id": 517,
+    "title": "Kill This Love",
+    "artist": "BLACKPINK",
+    "year": 2019,
+    "genre": "K-pop",
+    "type": "Original"
+  },
+  {
+    "id": 518,
+    "title": "DDU-DU DDU-DU",
+    "artist": "BLACKPINK",
+    "year": 2018,
+    "genre": "K-pop",
+    "type": "Original"
+  },
+  {
+    "id": 519,
+    "title": "How You Like That",
+    "artist": "BLACKPINK",
+    "year": 2020,
+    "genre": "K-pop",
+    "type": "Original"
+  },
+  {
+    "id": 520,
+    "title": "Pink Venom",
+    "artist": "BLACKPINK",
+    "year": 2022,
+    "genre": "K-pop",
+    "type": "Original"
+  },
+  {
+    "id": 521,
+    "title": "Gangnam Style",
+    "artist": "PSY",
+    "year": 2012,
+    "genre": "K-pop",
+    "type": "Original"
+  },
+  {
+    "id": 522,
+    "title": "Next Level",
+    "artist": "aespa",
+    "year": 2021,
+    "genre": "K-pop",
+    "type": "Original"
+  },
+  {
+    "id": 523,
+    "title": "Ditto",
+    "artist": "NewJeans",
+    "year": 2022,
+    "genre": "K-pop",
+    "type": "Original"
+  },
+  {
+    "id": 524,
+    "title": "Hype Boy",
+    "artist": "NewJeans",
+    "year": 2022,
+    "genre": "K-pop",
+    "type": "Original"
+  },
+  {
+    "id": 525,
+    "title": "OMG",
+    "artist": "NewJeans",
+    "year": 2023,
+    "genre": "K-pop",
+    "type": "Original"
+  },
+  {
+    "id": 526,
+    "title": "Dynamite (Cooler Remix)",
+    "artist": "BTS",
+    "year": 2020,
+    "genre": "K-pop",
+    "type": "Remix"
+  },
+  {
+    "id": 527,
+    "title": "Kill This Love (R3HAB Remix)",
+    "artist": "BLACKPINK",
+    "year": 2019,
+    "genre": "K-pop",
+    "type": "Remix"
+  },
+  {
+    "id": 528,
+    "title": "No Woman No Cry",
+    "artist": "Bob Marley",
+    "year": 1975,
+    "genre": "Reggae",
+    "type": "Original"
+  },
+  {
+    "id": 529,
+    "title": "Redemption Song",
+    "artist": "Bob Marley",
+    "year": 1980,
+    "genre": "Reggae",
+    "type": "Original"
+  },
+  {
+    "id": 530,
+    "title": "One Love",
+    "artist": "Bob Marley",
+    "year": 1977,
+    "genre": "Reggae",
+    "type": "Original"
+  },
+  {
+    "id": 531,
+    "title": "Buffalo Soldier",
+    "artist": "Bob Marley",
+    "year": 1983,
+    "genre": "Reggae",
+    "type": "Original"
+  },
+  {
+    "id": 532,
+    "title": "Three Little Birds",
+    "artist": "Bob Marley",
+    "year": 1977,
+    "genre": "Reggae",
+    "type": "Original"
+  },
+  {
+    "id": 533,
+    "title": "Is This Love",
+    "artist": "Bob Marley",
+    "year": 1978,
+    "genre": "Reggae",
+    "type": "Original"
+  },
+  {
+    "id": 534,
+    "title": "Stir It Up",
+    "artist": "Bob Marley",
+    "year": 1973,
+    "genre": "Reggae",
+    "type": "Original"
+  },
+  {
+    "id": 535,
+    "title": "Pressure Drop",
+    "artist": "Toots and the Maytals",
+    "year": 1970,
+    "genre": "Reggae",
+    "type": "Original"
+  },
+  {
+    "id": 536,
+    "title": "Redemption Song (Acoustic)",
+    "artist": "Bob Marley",
+    "year": 1980,
+    "genre": "Reggae",
+    "type": "Acoustic"
+  },
+  {
+    "id": 537,
+    "title": "Running Up That Hill",
+    "artist": "Kate Bush",
+    "year": 1985,
+    "genre": "Synth Pop",
+    "type": "Original"
+  },
+  {
+    "id": 538,
+    "title": "Wuthering Heights",
+    "artist": "Kate Bush",
+    "year": 1978,
+    "genre": "Synth Pop",
+    "type": "Original"
+  },
+  {
+    "id": 539,
+    "title": "True",
+    "artist": "Spandau Ballet",
+    "year": 1983,
+    "genre": "Synth Pop",
+    "type": "Original"
+  },
+  {
+    "id": 540,
+    "title": "Don't You Want Me",
+    "artist": "Human League",
+    "year": 1981,
+    "genre": "Synth Pop",
+    "type": "Original"
+  },
+  {
+    "id": 541,
+    "title": "Tainted Love",
+    "artist": "Soft Cell",
+    "year": 1981,
+    "genre": "Synth Pop",
+    "type": "Original"
+  },
+  {
+    "id": 542,
+    "title": "Blue Monday",
+    "artist": "New Order",
+    "year": 1983,
+    "genre": "Synth Pop",
+    "type": "Original"
+  },
+  {
+    "id": 543,
+    "title": "Bizarre Love Triangle",
+    "artist": "New Order",
+    "year": 1986,
+    "genre": "Synth Pop",
+    "type": "Original"
+  },
+  {
+    "id": 544,
+    "title": "Love Will Tear Us Apart",
+    "artist": "Joy Division",
+    "year": 1980,
+    "genre": "Synth Pop",
+    "type": "Original"
+  },
+  {
+    "id": 545,
+    "title": "The Killing Moon",
+    "artist": "Echo & the Bunnymen",
+    "year": 1984,
+    "genre": "Synth Pop",
+    "type": "Original"
+  },
+  {
+    "id": 546,
+    "title": "Blue (Da Ba Dee)",
+    "artist": "Eiffel 65",
+    "year": 1998,
+    "genre": "Synth Pop",
+    "type": "Original"
+  },
+  {
+    "id": 547,
+    "title": "Running Up That Hill (Remix)",
+    "artist": "Kate Bush",
+    "year": 2012,
+    "genre": "Synth Pop",
+    "type": "Remix"
+  },
+  {
+    "id": 548,
+    "title": "Blue Monday (Remix)",
+    "artist": "New Order",
+    "year": 1988,
+    "genre": "Synth Pop",
+    "type": "Remix"
+  },
+  {
+    "id": 549,
+    "title": "Basket Case",
+    "artist": "Green Day",
+    "year": 1994,
+    "genre": "Punk",
+    "type": "Original"
+  },
+  {
+    "id": 550,
+    "title": "Good Riddance",
+    "artist": "Green Day",
+    "year": 1997,
+    "genre": "Punk",
+    "type": "Original"
+  },
+  {
+    "id": 551,
+    "title": "American Idiot",
+    "artist": "Green Day",
+    "year": 2004,
+    "genre": "Punk",
+    "type": "Original"
+  },
+  {
+    "id": 552,
+    "title": "Boulevard of Broken Dreams",
+    "artist": "Green Day",
+    "year": 2004,
+    "genre": "Punk",
+    "type": "Original"
+  },
+  {
+    "id": 553,
+    "title": "Longview",
+    "artist": "Green Day",
+    "year": 1994,
+    "genre": "Punk",
+    "type": "Original"
+  },
+  {
+    "id": 554,
+    "title": "Dammit",
+    "artist": "blink-182",
+    "year": 1997,
+    "genre": "Punk",
+    "type": "Original"
+  },
+  {
+    "id": 555,
+    "title": "All the Small Things",
+    "artist": "blink-182",
+    "year": 1999,
+    "genre": "Punk",
+    "type": "Original"
+  },
+  {
+    "id": 556,
+    "title": "What's My Age Again?",
+    "artist": "blink-182",
+    "year": 1999,
+    "genre": "Punk",
+    "type": "Original"
+  },
+  {
+    "id": 557,
+    "title": "I Miss You",
+    "artist": "blink-182",
+    "year": 2003,
+    "genre": "Punk",
+    "type": "Original"
+  },
+  {
+    "id": 558,
+    "title": "Seven Nation Army",
+    "artist": "The White Stripes",
+    "year": 2003,
+    "genre": "Punk",
+    "type": "Original"
+  },
+  {
+    "id": 559,
+    "title": "Fell in Love with a Girl",
+    "artist": "The White Stripes",
+    "year": 2002,
+    "genre": "Punk",
+    "type": "Original"
+  },
+  {
+    "id": 560,
+    "title": "Icky Thump",
+    "artist": "The White Stripes",
+    "year": 2007,
+    "genre": "Punk",
+    "type": "Original"
+  },
+  {
+    "id": 561,
+    "title": "Good Riddance (Acoustic)",
+    "artist": "Green Day",
+    "year": 1997,
+    "genre": "Punk",
+    "type": "Acoustic"
+  },
+  {
+    "id": 562,
+    "title": "I Miss You (Acoustic)",
+    "artist": "blink-182",
+    "year": 2003,
+    "genre": "Punk",
+    "type": "Acoustic"
+  },
+  {
+    "id": 563,
+    "title": "Stayin' Alive",
+    "artist": "Bee Gees",
+    "year": 1977,
+    "genre": "Disco",
+    "type": "Original"
+  },
+  {
+    "id": 564,
+    "title": "Night Fever",
+    "artist": "Bee Gees",
+    "year": 1977,
+    "genre": "Disco",
+    "type": "Original"
+  },
+  {
+    "id": 565,
+    "title": "How Deep Is Your Love",
+    "artist": "Bee Gees",
+    "year": 1977,
+    "genre": "Disco",
+    "type": "Original"
+  },
+  {
+    "id": 566,
+    "title": "Le Freak",
+    "artist": "Chic",
+    "year": 1978,
+    "genre": "Disco",
+    "type": "Original"
+  },
+  {
+    "id": 567,
+    "title": "Good Times",
+    "artist": "Chic",
+    "year": 1979,
+    "genre": "Disco",
+    "type": "Original"
+  },
+  {
+    "id": 568,
+    "title": "Last Dance",
+    "artist": "Donna Summer",
+    "year": 1978,
+    "genre": "Disco",
+    "type": "Original"
+  },
+  {
+    "id": 569,
+    "title": "Hot Stuff",
+    "artist": "Donna Summer",
+    "year": 1979,
+    "genre": "Disco",
+    "type": "Original"
+  },
+  {
+    "id": 570,
+    "title": "I Will Survive",
+    "artist": "Gloria Gaynor",
+    "year": 1978,
+    "genre": "Disco",
+    "type": "Original"
+  },
+  {
+    "id": 571,
+    "title": "Dancing Queen",
+    "artist": "ABBA",
+    "year": 1976,
+    "genre": "Disco",
+    "type": "Original"
+  },
+  {
+    "id": 572,
+    "title": "Waterloo",
+    "artist": "ABBA",
+    "year": 1974,
+    "genre": "Disco",
+    "type": "Original"
+  },
+  {
+    "id": 573,
+    "title": "Fernando",
+    "artist": "ABBA",
+    "year": 1976,
+    "genre": "Disco",
+    "type": "Original"
+  },
+  {
+    "id": 574,
+    "title": "Gimme! Gimme! Gimme!",
+    "artist": "ABBA",
+    "year": 1979,
+    "genre": "Disco",
+    "type": "Original"
+  },
+  {
+    "id": 575,
+    "title": "Ring Ring",
+    "artist": "ABBA",
+    "year": 1973,
+    "genre": "Disco",
+    "type": "Original"
+  },
+  {
+    "id": 576,
+    "title": "Oh Happy Day",
+    "artist": "Edwin Hawkins Singers",
+    "year": 1967,
+    "genre": "Gospel",
+    "type": "Original"
+  },
+  {
+    "id": 577,
+    "title": "Amazing Grace",
+    "artist": "Traditional",
+    "year": 1779,
+    "genre": "Gospel",
+    "type": "Original"
+  },
+  {
+    "id": 578,
+    "title": "Hallelujah",
+    "artist": "Jeff Buckley",
+    "year": 1994,
+    "genre": "Gospel",
+    "type": "Original"
+  },
+  {
+    "id": 579,
+    "title": "Spirit in the Sky",
+    "artist": "Norman Greenbaum",
+    "year": 1969,
+    "genre": "Gospel",
+    "type": "Original"
+  },
+  {
+    "id": 580,
+    "title": "Take My Hand Precious Lord",
+    "artist": "Mahalia Jackson",
+    "year": 1956,
+    "genre": "Gospel",
+    "type": "Original"
+  },
+  {
+    "id": 581,
+    "title": "Hallelujah (Acoustic)",
+    "artist": "Jeff Buckley",
+    "year": 1994,
+    "genre": "Gospel",
+    "type": "Acoustic"
+  },
+  {
+    "id": 582,
+    "title": "Experience",
+    "artist": "Ludovico Einaudi",
+    "year": 2015,
+    "genre": "Ambient",
+    "type": "Classical"
+  },
+  {
+    "id": 583,
+    "title": "Nuvole Bianche",
+    "artist": "Ludovico Einaudi",
+    "year": 2004,
+    "genre": "Ambient",
+    "type": "Classical"
+  },
+  {
+    "id": 584,
+    "title": "Una Mattina",
+    "artist": "Ludovico Einaudi",
+    "year": 2004,
+    "genre": "Ambient",
+    "type": "Classical"
+  },
+  {
+    "id": 585,
+    "title": "Divenire",
+    "artist": "Ludovico Einaudi",
+    "year": 2006,
+    "genre": "Ambient",
+    "type": "Classical"
+  },
+  {
+    "id": 586,
+    "title": "Night",
+    "artist": "Ludovico Einaudi",
+    "year": 2006,
+    "genre": "Ambient",
+    "type": "Classical"
+  },
+  {
+    "id": 587,
+    "title": "On the Nature of Daylight",
+    "artist": "Max Richter",
+    "year": 2004,
+    "genre": "Ambient",
+    "type": "Classical"
+  },
+  {
+    "id": 588,
+    "title": "Infra 5",
+    "artist": "Max Richter",
+    "year": 2010,
+    "genre": "Ambient",
+    "type": "Classical"
+  },
+  {
+    "id": 589,
+    "title": "The Leftovers Theme",
+    "artist": "Max Richter",
+    "year": 2014,
+    "genre": "Ambient",
+    "type": "Classical"
+  },
+  {
+    "id": 590,
+    "title": "Recomposed: Spring 1",
+    "artist": "Max Richter",
+    "year": 2012,
+    "genre": "Ambient",
+    "type": "Classical"
+  },
+  {
+    "id": 591,
+    "title": "Spiegel im Spiegel",
+    "artist": "Arvo Pärt",
+    "year": 1978,
+    "genre": "Ambient",
+    "type": "Classical"
+  },
+  {
+    "id": 592,
+    "title": "Für Alina",
+    "artist": "Arvo Pärt",
+    "year": 1976,
+    "genre": "Ambient",
+    "type": "Classical"
+  },
+  {
+    "id": 593,
+    "title": "Thursday Afternoon",
+    "artist": "Brian Eno",
+    "year": 1985,
+    "genre": "Ambient",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 594,
+    "title": "The Pearl",
+    "artist": "Brian Eno & Harold Budd",
+    "year": 1984,
+    "genre": "Ambient",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 595,
+    "title": "Neroli",
+    "artist": "Brian Eno",
+    "year": 1993,
+    "genre": "Ambient",
+    "type": "Lo-fi"
+  },
+  {
+    "id": 596,
+    "title": "The Dress",
+    "artist": "Big Thief",
+    "year": 2019,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 597,
+    "title": "Not",
+    "artist": "Big Thief",
+    "year": 2019,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 598,
+    "title": "Paul",
+    "artist": "Big Thief",
+    "year": 2017,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 599,
+    "title": "Masterpiece",
+    "artist": "Big Thief",
+    "year": 2016,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 600,
+    "title": "Magic Trick",
+    "artist": "Real Estate",
+    "year": 2011,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 601,
+    "title": "Talking Backwards",
+    "artist": "Real Estate",
+    "year": 2014,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 602,
+    "title": "Crime",
+    "artist": "Real Estate",
+    "year": 2020,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 603,
+    "title": "Ribs",
+    "artist": "Lorde",
+    "year": 2013,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 604,
+    "title": "Liability (Reprise)",
+    "artist": "Lorde",
+    "year": 2017,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 605,
+    "title": "Hard Feelings/Loveless",
+    "artist": "Lorde",
+    "year": 2017,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 606,
+    "title": "Perfect Places",
+    "artist": "Lorde",
+    "year": 2017,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 607,
+    "title": "Solar Power",
+    "artist": "Lorde",
+    "year": 2021,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 608,
+    "title": "Stoned at the Nail Salon",
+    "artist": "Lorde",
+    "year": 2021,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 609,
+    "title": "Buzzcut Season",
+    "artist": "Lorde",
+    "year": 2013,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 610,
+    "title": "Beggin'",
+    "artist": "Måneskin",
+    "year": 2021,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 611,
+    "title": "Zitti e buoni",
+    "artist": "Måneskin",
+    "year": 2021,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 612,
+    "title": "I Wanna Be Your Slave",
+    "artist": "Måneskin",
+    "year": 2021,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 613,
+    "title": "Supermodel",
+    "artist": "SZA",
+    "year": 2022,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 614,
+    "title": "Good Days",
+    "artist": "SZA",
+    "year": 2020,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 615,
+    "title": "Kill Bill",
+    "artist": "SZA",
+    "year": 2022,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 616,
+    "title": "Snooze",
+    "artist": "SZA",
+    "year": 2022,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 617,
+    "title": "Love Galore",
+    "artist": "SZA ft. Travis Scott",
+    "year": 2017,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 618,
+    "title": "The Weekend",
+    "artist": "SZA",
+    "year": 2017,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 619,
+    "title": "Drew Barrymore",
+    "artist": "SZA",
+    "year": 2017,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 620,
+    "title": "Broken Clocks",
+    "artist": "SZA",
+    "year": 2017,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 621,
+    "title": "20 Something",
+    "artist": "SZA",
+    "year": 2017,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 622,
+    "title": "Consideration",
+    "artist": "Rihanna ft. SZA",
+    "year": 2016,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 623,
+    "title": "Needed Me",
+    "artist": "Rihanna",
+    "year": 2016,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 624,
+    "title": "Love on the Brain",
+    "artist": "Rihanna",
+    "year": 2016,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 625,
+    "title": "Stay",
+    "artist": "Rihanna ft. Mikky Ekko",
+    "year": 2012,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 626,
+    "title": "Diamonds",
+    "artist": "Rihanna",
+    "year": 2012,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 627,
+    "title": "We Found Love",
+    "artist": "Rihanna ft. Calvin Harris",
+    "year": 2011,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 628,
+    "title": "Umbrella",
+    "artist": "Rihanna",
+    "year": 2007,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 629,
+    "title": "Take Care",
+    "artist": "Drake ft. Rihanna",
+    "year": 2011,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 630,
+    "title": "Best Part",
+    "artist": "Daniel Caesar ft. H.E.R.",
+    "year": 2017,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 631,
+    "title": "Get You",
+    "artist": "Daniel Caesar ft. Kali Uchis",
+    "year": 2017,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 632,
+    "title": "Freudian",
+    "artist": "Daniel Caesar",
+    "year": 2017,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 633,
+    "title": "Japanese Denim",
+    "artist": "Daniel Caesar",
+    "year": 2017,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 634,
+    "title": "After the Storm",
+    "artist": "Kali Uchis ft. Tyler the Creator",
+    "year": 2018,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 635,
+    "title": "Telepatía",
+    "artist": "Kali Uchis",
+    "year": 2020,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 636,
+    "title": "isolation",
+    "artist": "Kali Uchis",
+    "year": 2018,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 637,
+    "title": "Issues",
+    "artist": "Julia Michaels",
+    "year": 2017,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 638,
+    "title": "Nervous",
+    "artist": "Gavin James",
+    "year": 2016,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 639,
+    "title": "Budapest",
+    "artist": "George Ezra",
+    "year": 2014,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 640,
+    "title": "Shotgun",
+    "artist": "George Ezra",
+    "year": 2018,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 641,
+    "title": "Barcelona",
+    "artist": "George Ezra",
+    "year": 2014,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 642,
+    "title": "Ophelia",
+    "artist": "The Lumineers",
+    "year": 2016,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 643,
+    "title": "Salt & the Sea",
+    "artist": "The Lumineers",
+    "year": 2019,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 644,
+    "title": "Gloria",
+    "artist": "The Lumineers",
+    "year": 2019,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 645,
+    "title": "Donna",
+    "artist": "The Lumineers",
+    "year": 2019,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 646,
+    "title": "Cleopatra",
+    "artist": "The Lumineers",
+    "year": 2016,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 647,
+    "title": "Sleep on the Floor",
+    "artist": "The Lumineers",
+    "year": 2016,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 648,
+    "title": "Mess Is Mine",
+    "artist": "Vance Joy",
+    "year": 2014,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 649,
+    "title": "Riptide",
+    "artist": "Vance Joy",
+    "year": 2014,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 650,
+    "title": "Georgia",
+    "artist": "Vance Joy",
+    "year": 2014,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 651,
+    "title": "Straight Into Your Arms",
+    "artist": "Vance Joy",
+    "year": 2014,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 652,
+    "title": "Fire and the Flood",
+    "artist": "Vance Joy",
+    "year": 2015,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 653,
+    "title": "lay me down",
+    "artist": "Sam Smith",
+    "year": 2014,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 654,
+    "title": "I'm Not the Only One",
+    "artist": "Sam Smith",
+    "year": 2014,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 655,
+    "title": "Unholy",
+    "artist": "Sam Smith & Kim Petras",
+    "year": 2022,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 656,
+    "title": "Lush Life",
+    "artist": "Zara Larsson",
+    "year": 2015,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 657,
+    "title": "Never Forget You",
+    "artist": "Zara Larsson & MNEK",
+    "year": 2015,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 658,
+    "title": "Symphony",
+    "artist": "Clean Bandit ft. Zara Larsson",
+    "year": 2017,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 659,
+    "title": "Rockabye",
+    "artist": "Clean Bandit ft. Sean Paul",
+    "year": 2016,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 660,
+    "title": "Rather Be",
+    "artist": "Clean Bandit ft. Jess Glynne",
+    "year": 2014,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 661,
+    "title": "Waterfall",
+    "artist": "TLC",
+    "year": 1995,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 662,
+    "title": "Creep",
+    "artist": "TLC",
+    "year": 1994,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 663,
+    "title": "Vision of Love",
+    "artist": "Mariah Carey",
+    "year": 1990,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 664,
+    "title": "Emotions",
+    "artist": "Mariah Carey",
+    "year": 1991,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 665,
+    "title": "Hero",
+    "artist": "Mariah Carey",
+    "year": 1993,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 666,
+    "title": "Always Be My Baby",
+    "artist": "Mariah Carey",
+    "year": 1995,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 667,
+    "title": "We Belong Together",
+    "artist": "Mariah Carey",
+    "year": 2005,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 668,
+    "title": "Obsessed",
+    "artist": "Mariah Carey",
+    "year": 2009,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 669,
+    "title": "Exhale (Shoop Shoop)",
+    "artist": "Whitney Houston",
+    "year": 1995,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 670,
+    "title": "Greatest Love of All",
+    "artist": "Whitney Houston",
+    "year": 1985,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 671,
+    "title": "I Have Nothing",
+    "artist": "Whitney Houston",
+    "year": 1992,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 672,
+    "title": "I Wanna Dance with Somebody",
+    "artist": "Whitney Houston",
+    "year": 1987,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 673,
+    "title": "Saving All My Love for You",
+    "artist": "Whitney Houston",
+    "year": 1985,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 674,
+    "title": "Counting Stars",
+    "artist": "OneRepublic",
+    "year": 2013,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 675,
+    "title": "Apologize",
+    "artist": "Timbaland ft. OneRepublic",
+    "year": 2006,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 676,
+    "title": "Good Life",
+    "artist": "OneRepublic",
+    "year": 2010,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 677,
+    "title": "Secrets",
+    "artist": "OneRepublic",
+    "year": 2010,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 678,
+    "title": "Love Runs Out",
+    "artist": "OneRepublic",
+    "year": 2014,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 679,
+    "title": "Radioactive",
+    "artist": "Imagine Dragons",
+    "year": 2012,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 680,
+    "title": "Demons",
+    "artist": "Imagine Dragons",
+    "year": 2012,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 681,
+    "title": "Believer",
+    "artist": "Imagine Dragons",
+    "year": 2017,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 682,
+    "title": "Thunder",
+    "artist": "Imagine Dragons",
+    "year": 2017,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 683,
+    "title": "Enemy",
+    "artist": "Imagine Dragons ft. J.I.D.",
+    "year": 2021,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 684,
+    "title": "Viva la Vida",
+    "artist": "Coldplay",
+    "year": 2008,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 685,
+    "title": "The Scientist",
+    "artist": "Coldplay",
+    "year": 2002,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 686,
+    "title": "Yellow",
+    "artist": "Coldplay",
+    "year": 2000,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 687,
+    "title": "Fix You",
+    "artist": "Coldplay",
+    "year": 2005,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 688,
+    "title": "Clocks",
+    "artist": "Coldplay",
+    "year": 2002,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 689,
+    "title": "The Hardest Part",
+    "artist": "Coldplay",
+    "year": 2006,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 690,
+    "title": "In My Place",
+    "artist": "Coldplay",
+    "year": 2002,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 691,
+    "title": "Speed of Sound",
+    "artist": "Coldplay",
+    "year": 2005,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 692,
+    "title": "Don't Panic",
+    "artist": "Coldplay",
+    "year": 2001,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 693,
+    "title": "Magic",
+    "artist": "Coldplay",
+    "year": 2014,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 694,
+    "title": "A Sky Full of Stars",
+    "artist": "Coldplay",
+    "year": 2014,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 695,
+    "title": "My Universe",
+    "artist": "Coldplay x BTS",
+    "year": 2021,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 696,
+    "title": "Murmuration",
+    "artist": "alt-J",
+    "year": 2022,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 697,
+    "title": "Something Good",
+    "artist": "alt-J",
+    "year": 2012,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 698,
+    "title": "Breezeblocks",
+    "artist": "alt-J",
+    "year": 2012,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 699,
+    "title": "Tessellate",
+    "artist": "alt-J",
+    "year": 2012,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 700,
+    "title": "Fitzpleasure",
+    "artist": "alt-J",
+    "year": 2012,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 701,
+    "title": "Matilda",
+    "artist": "alt-J",
+    "year": 2012,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 702,
+    "title": "Hunger of the Pine",
+    "artist": "alt-J",
+    "year": 2014,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 703,
+    "title": "Every Other Freckle",
+    "artist": "alt-J",
+    "year": 2014,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 704,
+    "title": "Lovely",
+    "artist": "Billie Eilish",
+    "year": 2018,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 705,
+    "title": "when the party's over",
+    "artist": "Billie Eilish",
+    "year": 2018,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 706,
+    "title": "bury a friend",
+    "artist": "Billie Eilish",
+    "year": 2019,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 707,
+    "title": "idontwannabeyouanymore",
+    "artist": "Billie Eilish",
+    "year": 2017,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 708,
+    "title": "wish you were gay",
+    "artist": "Billie Eilish",
+    "year": 2019,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 709,
+    "title": "Oxytocin",
+    "artist": "Billie Eilish",
+    "year": 2021,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 710,
+    "title": "NDA",
+    "artist": "Billie Eilish",
+    "year": 2021,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 711,
+    "title": "Your Power",
+    "artist": "Billie Eilish",
+    "year": 2021,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 712,
+    "title": "Lost Cause",
+    "artist": "Billie Eilish",
+    "year": 2021,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 713,
+    "title": "Therefore I Am",
+    "artist": "Billie Eilish",
+    "year": 2020,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 714,
+    "title": "my future",
+    "artist": "Billie Eilish",
+    "year": 2020,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 715,
+    "title": "Male Fantasy",
+    "artist": "Billie Eilish",
+    "year": 2021,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 716,
+    "title": "Bossa Nova Baby",
+    "artist": "Elvis Presley",
+    "year": 1963,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 717,
+    "title": "Can't Help Falling in Love",
+    "artist": "Elvis Presley",
+    "year": 1961,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 718,
+    "title": "Jailhouse Rock",
+    "artist": "Elvis Presley",
+    "year": 1957,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 719,
+    "title": "Hound Dog",
+    "artist": "Elvis Presley",
+    "year": 1956,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 720,
+    "title": "Suspicious Minds",
+    "artist": "Elvis Presley",
+    "year": 1969,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 721,
+    "title": "In the Ghetto",
+    "artist": "Elvis Presley",
+    "year": 1969,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 722,
+    "title": "A Little Less Conversation",
+    "artist": "Elvis Presley",
+    "year": 1968,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 723,
+    "title": "Burning Love",
+    "artist": "Elvis Presley",
+    "year": 1972,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 724,
+    "title": "Way Down",
+    "artist": "Elvis Presley",
+    "year": 1977,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 725,
+    "title": "Trouble",
+    "artist": "Elvis Presley",
+    "year": 1958,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 726,
+    "title": "The Sound of Silence",
+    "artist": "Simon & Garfunkel",
+    "year": 1964,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 727,
+    "title": "Mrs. Robinson",
+    "artist": "Simon & Garfunkel",
+    "year": 1968,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 728,
+    "title": "Bridge Over Troubled Water",
+    "artist": "Simon & Garfunkel",
+    "year": 1970,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 729,
+    "title": "The Boxer",
+    "artist": "Simon & Garfunkel",
+    "year": 1969,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 730,
+    "title": "Scarborough Fair",
+    "artist": "Simon & Garfunkel",
+    "year": 1966,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 731,
+    "title": "America",
+    "artist": "Simon & Garfunkel",
+    "year": 1968,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 732,
+    "title": "Cecilia",
+    "artist": "Simon & Garfunkel",
+    "year": 1970,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 733,
+    "title": "California Dreamin'",
+    "artist": "The Mamas & The Papas",
+    "year": 1965,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 734,
+    "title": "Monday Monday",
+    "artist": "The Mamas & The Papas",
+    "year": 1966,
+    "genre": "Indie Folk",
+    "type": "Original"
+  },
+  {
+    "id": 735,
+    "title": "Dream a Little Dream of Me",
+    "artist": "Mama Cass",
+    "year": 1968,
+    "genre": "Jazz",
+    "type": "Original"
+  },
+  {
+    "id": 736,
+    "title": "Proud Mary",
+    "artist": "Creedence Clearwater Revival",
+    "year": 1969,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 737,
+    "title": "Bad Moon Rising",
+    "artist": "Creedence Clearwater Revival",
+    "year": 1969,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 738,
+    "title": "Have You Ever Seen the Rain?",
+    "artist": "Creedence Clearwater Revival",
+    "year": 1971,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 739,
+    "title": "Fortunate Son",
+    "artist": "Creedence Clearwater Revival",
+    "year": 1969,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 740,
+    "title": "Brown Eyed Girl",
+    "artist": "Van Morrison",
+    "year": 1967,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 741,
+    "title": "Moondance",
+    "artist": "Van Morrison",
+    "year": 1970,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 742,
+    "title": "Into the Mystic",
+    "artist": "Van Morrison",
+    "year": 1970,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 743,
+    "title": "Roxanne",
+    "artist": "The Police",
+    "year": 1978,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 744,
+    "title": "Every Breath You Take",
+    "artist": "The Police",
+    "year": 1983,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 745,
+    "title": "Message in a Bottle",
+    "artist": "The Police",
+    "year": 1979,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 746,
+    "title": "Don't Stand So Close to Me",
+    "artist": "The Police",
+    "year": 1980,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 747,
+    "title": "Heart of Gold",
+    "artist": "Neil Young",
+    "year": 1972,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 748,
+    "title": "Old Man",
+    "artist": "Neil Young",
+    "year": 1972,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 749,
+    "title": "The Needle and the Damage Done",
+    "artist": "Neil Young",
+    "year": 1972,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 750,
+    "title": "Harvest Moon",
+    "artist": "Neil Young",
+    "year": 1992,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 751,
+    "title": "Like a Rolling Stone",
+    "artist": "Bob Dylan",
+    "year": 1965,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 752,
+    "title": "Blowin' in the Wind",
+    "artist": "Bob Dylan",
+    "year": 1963,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 753,
+    "title": "The Times They Are a-Changin'",
+    "artist": "Bob Dylan",
+    "year": 1964,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 754,
+    "title": "Mr. Tambourine Man",
+    "artist": "Bob Dylan",
+    "year": 1965,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 755,
+    "title": "Knockin' on Heaven's Door",
+    "artist": "Bob Dylan",
+    "year": 1973,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 756,
+    "title": "Tangled Up in Blue",
+    "artist": "Bob Dylan",
+    "year": 1975,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 757,
+    "title": "Lay Lady Lay",
+    "artist": "Bob Dylan",
+    "year": 1969,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 758,
+    "title": "Subterranean Homesick Blues",
+    "artist": "Bob Dylan",
+    "year": 1965,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 759,
+    "title": "Blowin' in the Wind (Acoustic)",
+    "artist": "Bob Dylan",
+    "year": 1963,
+    "genre": "Classic Rock",
+    "type": "Acoustic"
+  },
+  {
+    "id": 760,
+    "title": "The Times They Are a-Changin' (Acoustic)",
+    "artist": "Bob Dylan",
+    "year": 1964,
+    "genre": "Classic Rock",
+    "type": "Acoustic"
+  },
+  {
+    "id": 761,
+    "title": "Comptine d'un autre été",
+    "artist": "Yann Tiersen",
+    "year": 2001,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 762,
+    "title": "La valse d'Amélie",
+    "artist": "Yann Tiersen",
+    "year": 2001,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 763,
+    "title": "Sous le ciel de Paris",
+    "artist": "Yann Tiersen",
+    "year": 2001,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 764,
+    "title": "River Flows in You",
+    "artist": "Yiruma",
+    "year": 2001,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 765,
+    "title": "Kiss the Rain",
+    "artist": "Yiruma",
+    "year": 2003,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 766,
+    "title": "Maybe",
+    "artist": "Yiruma",
+    "year": 2003,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 767,
+    "title": "If I Could See You Again",
+    "artist": "Yiruma",
+    "year": 2008,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 768,
+    "title": "Stay in Memory",
+    "artist": "Yiruma",
+    "year": 2012,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 769,
+    "title": "Intermezzo in A Major",
+    "artist": "Johannes Brahms",
+    "year": 1892,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 770,
+    "title": "Hungarian Dances",
+    "artist": "Johannes Brahms",
+    "year": 1869,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 771,
+    "title": "Liebesträume No. 3",
+    "artist": "Franz Liszt",
+    "year": 1850,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 772,
+    "title": "La Campanella",
+    "artist": "Franz Liszt",
+    "year": 1851,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 773,
+    "title": "Cello Suite No. 1",
+    "artist": "J.S. Bach",
+    "year": 1720,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 774,
+    "title": "Violin Concerto in E Major",
+    "artist": "J.S. Bach",
+    "year": 1723,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 775,
+    "title": "Sonata No. 14 Moonlight",
+    "artist": "Beethoven",
+    "year": 1801,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 776,
+    "title": "Appassionata Sonata",
+    "artist": "Beethoven",
+    "year": 1807,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 777,
+    "title": "Pathetique Sonata",
+    "artist": "Beethoven",
+    "year": 1799,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 778,
+    "title": "Piano Sonata No. 11 Alla Turca",
+    "artist": "W.A. Mozart",
+    "year": 1784,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 779,
+    "title": "Serenade No. 13",
+    "artist": "W.A. Mozart",
+    "year": 1787,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 780,
+    "title": "Requiem - Lacrimosa",
+    "artist": "W.A. Mozart",
+    "year": 1791,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 781,
+    "title": "Nocturne Op. 9 No. 2",
+    "artist": "Frédéric Chopin",
+    "year": 1832,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 782,
+    "title": "Ballade No. 1",
+    "artist": "Frédéric Chopin",
+    "year": 1836,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 783,
+    "title": "Étude Op. 10 No. 3",
+    "artist": "Frédéric Chopin",
+    "year": 1833,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 784,
+    "title": "Waltz in D-flat major",
+    "artist": "Frédéric Chopin",
+    "year": 1847,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 785,
+    "title": "Prelude Op. 28 No. 15",
+    "artist": "Frédéric Chopin",
+    "year": 1839,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 786,
+    "title": "Mazurka Op. 17 No. 4",
+    "artist": "Frédéric Chopin",
+    "year": 1833,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 787,
+    "title": "Fantaisie Impromptu",
+    "artist": "Frédéric Chopin",
+    "year": 1835,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 788,
+    "title": "Piano Concerto No. 1",
+    "artist": "Frédéric Chopin",
+    "year": 1830,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 789,
+    "title": "Spring Sonata",
+    "artist": "Beethoven",
+    "year": 1801,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 790,
+    "title": "Emperor Concerto",
+    "artist": "Beethoven",
+    "year": 1811,
+    "genre": "Classical",
+    "type": "Classical"
+  },
+  {
+    "id": 791,
+    "title": "Colors of the Wind",
+    "artist": "Vanessa Williams",
+    "year": 1995,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 792,
+    "title": "Part of Your World",
+    "artist": "Jodi Benson",
+    "year": 1989,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 793,
+    "title": "Under the Sea",
+    "artist": "Samuel E. Wright",
+    "year": 1989,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 794,
+    "title": "A Whole New World",
+    "artist": "Peabo Bryson & Regina Belle",
+    "year": 1992,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 795,
+    "title": "Can You Feel the Love Tonight",
+    "artist": "Elton John",
+    "year": 1994,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 796,
+    "title": "Circle of Life",
+    "artist": "Elton John",
+    "year": 1994,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 797,
+    "title": "Your Song",
+    "artist": "Elton John",
+    "year": 1970,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 798,
+    "title": "Tiny Dancer",
+    "artist": "Elton John",
+    "year": 1971,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 799,
+    "title": "Rocket Man",
+    "artist": "Elton John",
+    "year": 1972,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 800,
+    "title": "Crocodile Rock",
+    "artist": "Elton John",
+    "year": 1972,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 801,
+    "title": "Goodbye Yellow Brick Road",
+    "artist": "Elton John",
+    "year": 1973,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 802,
+    "title": "I'm Still Standing",
+    "artist": "Elton John",
+    "year": 1983,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 803,
+    "title": "Don't Let the Sun Go Down on Me",
+    "artist": "Elton John",
+    "year": 1974,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 804,
+    "title": "Bennie and the Jets",
+    "artist": "Elton John",
+    "year": 1973,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 805,
+    "title": "Saturday Night's Alright for Fighting",
+    "artist": "Elton John",
+    "year": 1973,
+    "genre": "Classic Rock",
+    "type": "Original"
+  },
+  {
+    "id": 806,
+    "title": "Tiny Dancer (Acoustic)",
+    "artist": "Elton John",
+    "year": 1971,
+    "genre": "Classic Rock",
+    "type": "Acoustic"
+  },
+  {
+    "id": 807,
+    "title": "Your Song (Acoustic)",
+    "artist": "Elton John",
+    "year": 1970,
+    "genre": "Classic Rock",
+    "type": "Acoustic"
+  },
+  {
+    "id": 808,
+    "title": "Stressed Out",
+    "artist": "Twenty One Pilots",
+    "year": 2015,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 809,
+    "title": "Ride",
+    "artist": "Twenty One Pilots",
+    "year": 2016,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 810,
+    "title": "Heathens",
+    "artist": "Twenty One Pilots",
+    "year": 2016,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 811,
+    "title": "Car Radio",
+    "artist": "Twenty One Pilots",
+    "year": 2013,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 812,
+    "title": "Jumpsuit",
+    "artist": "Twenty One Pilots",
+    "year": 2018,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 813,
+    "title": "Chlorine",
+    "artist": "Twenty One Pilots",
+    "year": 2018,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 814,
+    "title": "Tear in My Heart",
+    "artist": "Twenty One Pilots",
+    "year": 2015,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 815,
+    "title": "Holding On to You",
+    "artist": "Twenty One Pilots",
+    "year": 2013,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 816,
+    "title": "Polarize",
+    "artist": "Twenty One Pilots",
+    "year": 2015,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 817,
+    "title": "Goner",
+    "artist": "Twenty One Pilots",
+    "year": 2015,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 818,
+    "title": "heat waves",
+    "artist": "Glass Animals",
+    "year": 2020,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 819,
+    "title": "Gooey",
+    "artist": "Glass Animals",
+    "year": 2014,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 820,
+    "title": "Agnes",
+    "artist": "Glass Animals",
+    "year": 2016,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 821,
+    "title": "Black Mambo",
+    "artist": "Glass Animals",
+    "year": 2014,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 822,
+    "title": "Pork Soda",
+    "artist": "Glass Animals",
+    "year": 2016,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 823,
+    "title": "Take a Slice",
+    "artist": "Glass Animals",
+    "year": 2016,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 824,
+    "title": "The Other Side of Paradise",
+    "artist": "Glass Animals",
+    "year": 2016,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 825,
+    "title": "Your Love (Déjà Vu)",
+    "artist": "Glass Animals",
+    "year": 2020,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 826,
+    "title": "Space Song",
+    "artist": "Beach House",
+    "year": 2015,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 827,
+    "title": "Silver Soul",
+    "artist": "Beach House",
+    "year": 2010,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 828,
+    "title": "Myth",
+    "artist": "Beach House",
+    "year": 2012,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 829,
+    "title": "Lazuli",
+    "artist": "Beach House",
+    "year": 2012,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 830,
+    "title": "Wishes",
+    "artist": "Beach House",
+    "year": 2012,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 831,
+    "title": "Norway",
+    "artist": "Beach House",
+    "year": 2010,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 832,
+    "title": "Teen Dream",
+    "artist": "Beach House",
+    "year": 2010,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 833,
+    "title": "Wild",
+    "artist": "Beach House",
+    "year": 2015,
+    "genre": "Psych Pop",
+    "type": "Original"
+  },
+  {
+    "id": 834,
+    "title": "Drunk in Love (Remix)",
+    "artist": "Beyoncé ft. Jay-Z",
+    "year": 2013,
+    "genre": "R&B",
+    "type": "Remix"
+  },
+  {
+    "id": 835,
+    "title": "Telephone",
+    "artist": "Lady Gaga ft. Beyoncé",
+    "year": 2010,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 836,
+    "title": "Bad Romance",
+    "artist": "Lady Gaga",
+    "year": 2009,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 837,
+    "title": "Poker Face",
+    "artist": "Lady Gaga",
+    "year": 2008,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 838,
+    "title": "Just Dance",
+    "artist": "Lady Gaga",
+    "year": 2008,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 839,
+    "title": "Alejandro",
+    "artist": "Lady Gaga",
+    "year": 2010,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 840,
+    "title": "The Edge of Glory",
+    "artist": "Lady Gaga",
+    "year": 2011,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 841,
+    "title": "Born This Way",
+    "artist": "Lady Gaga",
+    "year": 2011,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 842,
+    "title": "Applause",
+    "artist": "Lady Gaga",
+    "year": 2013,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 843,
+    "title": "Million Reasons",
+    "artist": "Lady Gaga",
+    "year": 2016,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 844,
+    "title": "Shallow",
+    "artist": "Lady Gaga & Bradley Cooper",
+    "year": 2018,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 845,
+    "title": "Bad Romance (Acoustic)",
+    "artist": "Lady Gaga",
+    "year": 2011,
+    "genre": "Pop",
+    "type": "Acoustic"
+  },
+  {
+    "id": 846,
+    "title": "Shallow (Acoustic)",
+    "artist": "Lady Gaga",
+    "year": 2019,
+    "genre": "Pop",
+    "type": "Acoustic"
+  },
+  {
+    "id": 847,
+    "title": "Sweater Weather",
+    "artist": "The Neighbourhood",
+    "year": 2013,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 848,
+    "title": "Wires",
+    "artist": "The Neighbourhood",
+    "year": 2013,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 849,
+    "title": "Female Robbery",
+    "artist": "The Neighbourhood",
+    "year": 2013,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 850,
+    "title": "Afraid",
+    "artist": "The Neighbourhood",
+    "year": 2013,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 851,
+    "title": "R.I.P. 2 My Youth",
+    "artist": "The Neighbourhood",
+    "year": 2015,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 852,
+    "title": "Daddy Issues",
+    "artist": "The Neighbourhood",
+    "year": 2016,
+    "genre": "Indie Rock",
+    "type": "Original"
+  },
+  {
+    "id": 853,
+    "title": "Stargazing",
+    "artist": "Kygo ft. Justin Jesso",
+    "year": 2017,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 854,
+    "title": "Firestone",
+    "artist": "Kygo ft. Conrad Sewell",
+    "year": 2014,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 855,
+    "title": "Stay",
+    "artist": "Kygo ft. Maty Noyes",
+    "year": 2016,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 856,
+    "title": "It Ain't Me",
+    "artist": "Kygo & Selena Gomez",
+    "year": 2017,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 857,
+    "title": "Happy Now",
+    "artist": "Kygo ft. Sandro Cavazza",
+    "year": 2018,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 858,
+    "title": "Higher Love",
+    "artist": "Kygo & Whitney Houston",
+    "year": 2019,
+    "genre": "Electronic",
+    "type": "Remix"
+  },
+  {
+    "id": 859,
+    "title": "Closer",
+    "artist": "The Chainsmokers ft. Halsey",
+    "year": 2016,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 860,
+    "title": "Don't Let Me Down",
+    "artist": "The Chainsmokers ft. Daya",
+    "year": 2016,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 861,
+    "title": "Something Just Like This",
+    "artist": "The Chainsmokers & Coldplay",
+    "year": 2017,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 862,
+    "title": "Paris",
+    "artist": "The Chainsmokers",
+    "year": 2016,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 863,
+    "title": "Young",
+    "artist": "The Chainsmokers",
+    "year": 2017,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 864,
+    "title": "Roses",
+    "artist": "The Chainsmokers ft. ROZES",
+    "year": 2015,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 865,
+    "title": "Lose Control",
+    "artist": "Teddy Swims",
+    "year": 2023,
+    "genre": "Soul",
+    "type": "Original"
+  },
+  {
+    "id": 866,
+    "title": "Bad Habit",
+    "artist": "Steve Lacy",
+    "year": 2022,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 867,
+    "title": "Helmet",
+    "artist": "Steve Lacy",
+    "year": 2022,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 868,
+    "title": "Mercury",
+    "artist": "Steve Lacy ft. Nick Hakim",
+    "year": 2019,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 869,
+    "title": "N Side",
+    "artist": "Steve Lacy",
+    "year": 2022,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 870,
+    "title": "Playground",
+    "artist": "Steve Lacy",
+    "year": 2022,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 871,
+    "title": "Light",
+    "artist": "Steve Lacy",
+    "year": 2019,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 872,
+    "title": "Buttons",
+    "artist": "Steve Lacy",
+    "year": 2017,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 873,
+    "title": "Who Are You?",
+    "artist": "Steve Lacy",
+    "year": 2023,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 874,
+    "title": "Peach Fuzz",
+    "artist": "Steve Lacy",
+    "year": 2019,
+    "genre": "R&B",
+    "type": "Original"
+  },
+  {
+    "id": 875,
+    "title": "Still Feel.",
+    "artist": "half•alive",
+    "year": 2019,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 876,
+    "title": "What's Wrong",
+    "artist": "half•alive",
+    "year": 2019,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 877,
+    "title": "Arrow",
+    "artist": "half•alive",
+    "year": 2019,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 878,
+    "title": "Creature",
+    "artist": "half•alive",
+    "year": 2018,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 879,
+    "title": "Tip Toes",
+    "artist": "half•alive",
+    "year": 2020,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 880,
+    "title": "Come on",
+    "artist": "half•alive",
+    "year": 2019,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 881,
+    "title": "Runaway",
+    "artist": "Aurora",
+    "year": 2015,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 882,
+    "title": "Queendom",
+    "artist": "Aurora",
+    "year": 2019,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 883,
+    "title": "Half the World Away",
+    "artist": "Aurora",
+    "year": 2015,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 884,
+    "title": "Conqueror",
+    "artist": "Aurora",
+    "year": 2016,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 885,
+    "title": "Lucky",
+    "artist": "Aurora",
+    "year": 2018,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 886,
+    "title": "I Went Too Far",
+    "artist": "Aurora",
+    "year": 2015,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 887,
+    "title": "No Dreamer",
+    "artist": "Aurora",
+    "year": 2016,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 888,
+    "title": "Daydreamer",
+    "artist": "Aurora",
+    "year": 2016,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 889,
+    "title": "Murder Song",
+    "artist": "Aurora",
+    "year": 2015,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 890,
+    "title": "All Is Soft Inside",
+    "artist": "Aurora",
+    "year": 2015,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 891,
+    "title": "Winter Bird",
+    "artist": "Aurora",
+    "year": 2015,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 892,
+    "title": "Animal",
+    "artist": "Aurora",
+    "year": 2019,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 893,
+    "title": "Exist for Love",
+    "artist": "Aurora",
+    "year": 2019,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 894,
+    "title": "In Boxes",
+    "artist": "Aurora",
+    "year": 2019,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 895,
+    "title": "The Seed",
+    "artist": "Aurora",
+    "year": 2019,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 896,
+    "title": "Soft Universe",
+    "artist": "Aurora",
+    "year": 2022,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 897,
+    "title": "A Little Place Called the Moon",
+    "artist": "Aurora",
+    "year": 2022,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 898,
+    "title": "Cure for Me",
+    "artist": "Aurora",
+    "year": 2021,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 899,
+    "title": "Iron",
+    "artist": "Aurora",
+    "year": 2022,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 900,
+    "title": "Giving In to the Love",
+    "artist": "Aurora",
+    "year": 2022,
+    "genre": "Indie Pop",
+    "type": "Original"
+  },
+  {
+    "id": 901,
+    "title": "A Thousand Miles",
+    "artist": "Vanessa Carlton",
+    "year": 2002,
+    "genre": "Pop",
+    "type": "Original"
+  },
+  {
+    "id": 902,
+    "title": "Ordinary World",
+    "artist": "Duran Duran",
+    "year": 1993,
+    "genre": "Synth Pop",
+    "type": "Original"
+  },
+  {
+    "id": 903,
+    "title": "Hungry Like the Wolf",
+    "artist": "Duran Duran",
+    "year": 1982,
+    "genre": "Synth Pop",
+    "type": "Original"
+  },
+  {
+    "id": 904,
+    "title": "Girls on Film",
+    "artist": "Duran Duran",
+    "year": 1981,
+    "genre": "Synth Pop",
+    "type": "Original"
+  },
+  {
+    "id": 905,
+    "title": "Rio",
+    "artist": "Duran Duran",
+    "year": 1982,
+    "genre": "Synth Pop",
+    "type": "Original"
+  },
+  {
+    "id": 906,
+    "title": "Come Undone",
+    "artist": "Duran Duran",
+    "year": 1993,
+    "genre": "Synth Pop",
+    "type": "Original"
+  },
+  {
+    "id": 907,
+    "title": "Numb",
+    "artist": "Linkin Park",
+    "year": 2003,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 908,
+    "title": "In the End",
+    "artist": "Linkin Park",
+    "year": 2000,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 909,
+    "title": "Crawling",
+    "artist": "Linkin Park",
+    "year": 2000,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 910,
+    "title": "Somewhere I Belong",
+    "artist": "Linkin Park",
+    "year": 2003,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 911,
+    "title": "Breaking the Habit",
+    "artist": "Linkin Park",
+    "year": 2004,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 912,
+    "title": "What I've Done",
+    "artist": "Linkin Park",
+    "year": 2007,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 913,
+    "title": "New Divide",
+    "artist": "Linkin Park",
+    "year": 2009,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 914,
+    "title": "Leave Out All the Rest",
+    "artist": "Linkin Park",
+    "year": 2007,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 915,
+    "title": "Shadow of the Day",
+    "artist": "Linkin Park",
+    "year": 2007,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 916,
+    "title": "Iridescent",
+    "artist": "Linkin Park",
+    "year": 2010,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 917,
+    "title": "Numb (Encore)",
+    "artist": "Linkin Park & Jay-Z",
+    "year": 2004,
+    "genre": "Alt Rock",
+    "type": "Remix"
+  },
+  {
+    "id": 918,
+    "title": "Cornflake Girl",
+    "artist": "Tori Amos",
+    "year": 1994,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 919,
+    "title": "Silent All These Years",
+    "artist": "Tori Amos",
+    "year": 1991,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 920,
+    "title": "Crucify",
+    "artist": "Tori Amos",
+    "year": 1991,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 921,
+    "title": "Professional Widow",
+    "artist": "Tori Amos",
+    "year": 1996,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 922,
+    "title": "Strange Little Girl",
+    "artist": "Tori Amos",
+    "year": 2001,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 923,
+    "title": "Raspberry Swirl",
+    "artist": "Tori Amos",
+    "year": 1998,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 924,
+    "title": "Talula",
+    "artist": "Tori Amos",
+    "year": 1996,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 925,
+    "title": "Winter",
+    "artist": "Tori Amos",
+    "year": 1991,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 926,
+    "title": "God",
+    "artist": "Tori Amos",
+    "year": 1994,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 927,
+    "title": "Spark",
+    "artist": "Tori Amos",
+    "year": 1998,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 928,
+    "title": "Teardrop",
+    "artist": "Massive Attack",
+    "year": 1998,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 929,
+    "title": "Unfinished Sympathy",
+    "artist": "Massive Attack",
+    "year": 1991,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 930,
+    "title": "Safe from Harm",
+    "artist": "Massive Attack",
+    "year": 1991,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 931,
+    "title": "Angel",
+    "artist": "Massive Attack",
+    "year": 1998,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 932,
+    "title": "Dissolved Girl",
+    "artist": "Massive Attack",
+    "year": 1998,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 933,
+    "title": "Protection",
+    "artist": "Massive Attack",
+    "year": 1994,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 934,
+    "title": "Inertia Creeps",
+    "artist": "Massive Attack",
+    "year": 1998,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 935,
+    "title": "Atlas Air",
+    "artist": "Massive Attack",
+    "year": 2016,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 936,
+    "title": "Paradise Circus",
+    "artist": "Massive Attack",
+    "year": 2010,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 937,
+    "title": "Ritual Spirit",
+    "artist": "Massive Attack",
+    "year": 2016,
+    "genre": "Electronic",
+    "type": "Original"
+  },
+  {
+    "id": 938,
+    "title": "Strange Mercy",
+    "artist": "St. Vincent",
+    "year": 2011,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 939,
+    "title": "Birth in Reverse",
+    "artist": "St. Vincent",
+    "year": 2014,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 940,
+    "title": "Rattlesnake",
+    "artist": "St. Vincent",
+    "year": 2014,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 941,
+    "title": "Digital Witness",
+    "artist": "St. Vincent",
+    "year": 2014,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 942,
+    "title": "Los Ageless",
+    "artist": "St. Vincent",
+    "year": 2017,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 943,
+    "title": "New York",
+    "artist": "St. Vincent",
+    "year": 2017,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 944,
+    "title": "Savior",
+    "artist": "St. Vincent",
+    "year": 2017,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 945,
+    "title": "Pills",
+    "artist": "St. Vincent",
+    "year": 2017,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 946,
+    "title": "Pay Your Way in Pain",
+    "artist": "St. Vincent",
+    "year": 2021,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 947,
+    "title": "The Melting of the Sun",
+    "artist": "St. Vincent",
+    "year": 2021,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 948,
+    "title": "Down",
+    "artist": "St. Vincent",
+    "year": 2021,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 949,
+    "title": "Paper Tiger",
+    "artist": "Beck",
+    "year": 2002,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 950,
+    "title": "Loser",
+    "artist": "Beck",
+    "year": 1994,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 951,
+    "title": "Where It's At",
+    "artist": "Beck",
+    "year": 1996,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 952,
+    "title": "Devils Haircut",
+    "artist": "Beck",
+    "year": 1996,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 953,
+    "title": "Everybody's Gotta Learn Sometime",
+    "artist": "Beck",
+    "year": 2004,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 954,
+    "title": "Morning Phase",
+    "artist": "Beck",
+    "year": 2014,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 955,
+    "title": "Heart Is a Drum",
+    "artist": "Beck",
+    "year": 2014,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 956,
+    "title": "Say Goodbye",
+    "artist": "Beck",
+    "year": 2014,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 957,
+    "title": "Blue Moon",
+    "artist": "Beck",
+    "year": 2014,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 958,
+    "title": "Wave",
+    "artist": "Beck",
+    "year": 2014,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 959,
+    "title": "Country Down",
+    "artist": "Beck",
+    "year": 2014,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 960,
+    "title": "Turn Away",
+    "artist": "Beck",
+    "year": 2014,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 961,
+    "title": "Waking Light",
+    "artist": "Beck",
+    "year": 2014,
+    "genre": "Alt Rock",
+    "type": "Original"
+  },
+  {
+    "id": 962,
+    "title": "Unforgiven III",
+    "artist": "Metallica",
+    "year": 2008,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 963,
+    "title": "Wherever I May Roam",
+    "artist": "Metallica",
+    "year": 1991,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 964,
+    "title": "Until It Sleeps",
+    "artist": "Metallica",
+    "year": 1996,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 965,
+    "title": "Hero of the Day",
+    "artist": "Metallica",
+    "year": 1996,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 966,
+    "title": "The Memory Remains",
+    "artist": "Metallica",
+    "year": 1997,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 967,
+    "title": "Fuel",
+    "artist": "Metallica",
+    "year": 1997,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 968,
+    "title": "No Leaf Clover",
+    "artist": "Metallica",
+    "year": 1999,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 969,
+    "title": "The Unforgiven II",
+    "artist": "Metallica",
+    "year": 1997,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 970,
+    "title": "Sad but True",
+    "artist": "Metallica",
+    "year": 1991,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 971,
+    "title": "Through the Never",
+    "artist": "Metallica",
+    "year": 1991,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 972,
+    "title": "Holier Than Thou",
+    "artist": "Metallica",
+    "year": 1991,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 973,
+    "title": "The God That Failed",
+    "artist": "Metallica",
+    "year": 1991,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 974,
+    "title": "My Friend of Misery",
+    "artist": "Metallica",
+    "year": 1991,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 975,
+    "title": "Hate Train",
+    "artist": "Trivium",
+    "year": 2021,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 976,
+    "title": "In Waves",
+    "artist": "Trivium",
+    "year": 2011,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 977,
+    "title": "Strife",
+    "artist": "Trivium",
+    "year": 2015,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 978,
+    "title": "Like Light to the Flies",
+    "artist": "Trivium",
+    "year": 2005,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 979,
+    "title": "Pull Harder on the Strings of Your Martyr",
+    "artist": "Trivium",
+    "year": 2005,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 980,
+    "title": "Entrance of the Conflagration",
+    "artist": "Trivium",
+    "year": 2006,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 981,
+    "title": "Kirisute Gomen",
+    "artist": "Trivium",
+    "year": 2008,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 982,
+    "title": "Down from the Sky",
+    "artist": "Trivium",
+    "year": 2008,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 983,
+    "title": "Drowning in the Sound",
+    "artist": "Trivium",
+    "year": 2017,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 984,
+    "title": "The Sin and the Sentence",
+    "artist": "Trivium",
+    "year": 2017,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 985,
+    "title": "Catastrophist",
+    "artist": "Trivium",
+    "year": 2021,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 986,
+    "title": "What the Dead Men Say",
+    "artist": "Trivium",
+    "year": 2020,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 987,
+    "title": "Amongst the Shadows & the Stones",
+    "artist": "Trivium",
+    "year": 2020,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 988,
+    "title": "The Ones We Leave Behind",
+    "artist": "Trivium",
+    "year": 2021,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 989,
+    "title": "No Way Back Just Through",
+    "artist": "Trivium",
+    "year": 2023,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 990,
+    "title": "In the Court of the Dragon",
+    "artist": "Trivium",
+    "year": 2021,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 991,
+    "title": "Rain",
+    "artist": "Trivium",
+    "year": 2015,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 992,
+    "title": "Until the World Goes Cold",
+    "artist": "Trivium",
+    "year": 2015,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 993,
+    "title": "Betrayer",
+    "artist": "Trivium",
+    "year": 2017,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 994,
+    "title": "The Heart from Your Hate",
+    "artist": "Trivium",
+    "year": 2017,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 995,
+    "title": "Thrown Into the Fire",
+    "artist": "Trivium",
+    "year": 2017,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 996,
+    "title": "Endless Night",
+    "artist": "Trivium",
+    "year": 2021,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 997,
+    "title": "Fall Into Your Arms",
+    "artist": "Trivium",
+    "year": 2021,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 998,
+    "title": "From Chaos",
+    "artist": "Trivium",
+    "year": 2023,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 999,
+    "title": "Bending the Arc to Fear",
+    "artist": "Trivium",
+    "year": 2023,
+    "genre": "Metal",
+    "type": "Original"
+  },
+  {
+    "id": 1000,
+    "title": "Feast of Fire",
+    "artist": "Trivium",
+    "year": 2023,
+    "genre": "Metal",
+    "type": "Original"
   }
 ]
