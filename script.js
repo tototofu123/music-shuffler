@@ -123,7 +123,7 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
       const where = conditions.length ? `WHERE ${conditions.join(' AND ')}` : '';
       const sql = forCount
         ? `SELECT COUNT(*) as cnt FROM songs ${where}`
-        : `SELECT * FROM songs ${where} ORDER BY RANDOM() LIMIT 1`;
+        : `SELECT * FROM songs ${where} ORDER BY youtube_url IS NOT NULL DESC, RANDOM() LIMIT 1`;
 
       return { sql, params };
     }
@@ -194,6 +194,7 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
           <div class="tag-row">
             <span class="tag tag-genre">${song.genre}</span>
             <span class="tag tag-type">${song.type}</span>
+            ${song.youtube_url ? '<span class="tag tag-url" style="background:var(--accent); color:#fff; border-color:var(--accent);">Direct URL</span>' : ''}
           </div>
           <p class="song-title">${song.title}</p>
           <p class="song-artist">${song.artist}</p>
