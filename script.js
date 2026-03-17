@@ -35,72 +35,74 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
     }
 
     function toggleGenre(el, val) {
-      if(val==='all') {
+      const allChip = document.querySelector('#genreFilters .chip[data-g="all"]');
+      
+      if(val === 'all') {
         activeGenres.clear();
-        document.querySelectorAll('#genreFilters .chip').forEach(c=>{
+        document.querySelectorAll('#genreFilters .chip').forEach(c => {
           c.classList.remove('active');
-          c.style.backgroundColor='';
-          c.style.color='';
-          c.style.borderColor='';
+          c.style.backgroundColor = '';
+          c.style.color = '';
+          c.style.borderColor = '';
         });
-        el.classList.add('active');
+        allChip.classList.add('active');
       } else {
-        const all = document.querySelector('#genreFilters .chip[data-g="all"]');
-        all.classList.remove('active');
-        all.style.backgroundColor='';
-        all.style.color='';
-        all.style.borderColor='';
+        const wasActive = el.classList.contains('active');
         
-        el.classList.toggle('active');
-        if(el.classList.contains('active')) {
+        // Clear all chips
+        document.querySelectorAll('#genreFilters .chip').forEach(c => {
+          c.classList.remove('active');
+          c.style.backgroundColor = '';
+          c.style.color = '';
+          c.style.borderColor = '';
+        });
+        activeGenres.clear();
+
+        if (wasActive) {
+          allChip.classList.add('active');
+        } else {
+          el.classList.add('active');
           activeGenres.add(val);
           el.style.backgroundColor = getColor(val);
           el.style.color = '#fff';
           el.style.borderColor = 'transparent';
-        } else {
-          activeGenres.delete(val);
-          el.style.backgroundColor = '';
-          el.style.color = '';
-          el.style.borderColor = '';
-        }
-        if(activeGenres.size===0) {
-          all.classList.add('active');
         }
       }
       updatePoolInfo();
     }
 
     function toggleType(el, val) {
-      if(val==='all') {
+      const allChip = document.querySelector('#typeFilters .chip[data-t="all"]');
+      
+      if(val === 'all') {
         activeTypes.clear();
-        document.querySelectorAll('#typeFilters .chip').forEach(c=>{
+        document.querySelectorAll('#typeFilters .chip').forEach(c => {
           c.classList.remove('active');
-          c.style.backgroundColor='';
-          c.style.color='';
-          c.style.borderColor='';
+          c.style.backgroundColor = '';
+          c.style.color = '';
+          c.style.borderColor = '';
         });
-        el.classList.add('active');
+        allChip.classList.add('active');
       } else {
-        const all = document.querySelector('#typeFilters .chip[data-t="all"]');
-        all.classList.remove('active');
-        all.style.backgroundColor='';
-        all.style.color='';
-        all.style.borderColor='';
+        const wasActive = el.classList.contains('active');
+        
+        // Clear all chips
+        document.querySelectorAll('#typeFilters .chip').forEach(c => {
+          c.classList.remove('active');
+          c.style.backgroundColor = '';
+          c.style.color = '';
+          c.style.borderColor = '';
+        });
+        activeTypes.clear();
 
-        el.classList.toggle('active');
-        if(el.classList.contains('active')) {
+        if (wasActive) {
+          allChip.classList.add('active');
+        } else {
+          el.classList.add('active');
           activeTypes.add(val);
           el.style.backgroundColor = getColor(val);
           el.style.color = '#fff';
           el.style.borderColor = 'transparent';
-        } else {
-          activeTypes.delete(val);
-          el.style.backgroundColor = '';
-          el.style.color = '';
-          el.style.borderColor = '';
-        }
-        if(activeTypes.size===0) {
-          all.classList.add('active');
         }
       }
       updatePoolInfo();
