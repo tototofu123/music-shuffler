@@ -2,7 +2,8 @@
 .agent/
 data/songs2.json
 data/songs3.json
-CONTINUE_FETCHING.md
+add_songs/CONTINUE_FETCHING.md
 *.webp
 *.png
 *.jpg
+node_modules/
