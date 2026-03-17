@@ -19,10 +19,10 @@ This project uses automated scripts to fetch YouTube metadata. To protect privat
    ```
 
 ### Fetching Metadata
-- `fetch_gemini_urls.js`: Uses AI to batch process metadata.
-- `fetch_youtube_urls.js`: Fetches official video IDs directly from YouTube API.
+- `add_songs/fetch_gemini_urls.js`: Uses AI to batch process metadata.
+- `add_songs/fetch_youtube_urls.js`: Fetches official video IDs directly from YouTube API.
 - **Quota Note**: The YouTube Data API v3 has a daily limit of 10,000 units. Each search costs 100 units, allowing for approximately **100 searches per day** on the free tier.
-- All fetcher scripts automatically load keys from the `.env` file. To run them: `node fetch_youtube_urls.js`.
+- All fetcher scripts automatically load keys from the `.env` file. To run them: `node add_songs/fetch_youtube_urls.js`.
 
 ## Technologies
 - **Frontend**: HTML5, CSS3, Vanilla JavaScript.
