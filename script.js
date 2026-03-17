@@ -130,15 +130,6 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
       return { sql, params };
     }
 
-    function formatQueryDisplay(sql, params) {
-      let pretty = sql;
-      for (const [k, v] of Object.entries(params)) {
-        pretty = pretty.replace(k, `'${v}'`);
-      }
-      return pretty
-        .replace(/\b(SELECT|FROM|WHERE|IN|AND|ORDER BY|LIMIT|COUNT)\b/g, '<span class="kw">$1</span>')
-        .replace(/'([^']+)'/g, '<span class="val">\'$1\'</span>');
-    }
 
     // ── Update pool count ─────────────────────────────────────
     function updatePoolInfo() {
@@ -166,10 +157,6 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
         try {
           const { sql, params } = buildQuery(false);
 
-          // Show query
-          const qBox = document.getElementById('queryBox');
-          document.getElementById('queryCode').innerHTML = formatQueryDisplay(sql, params);
-          qBox.classList.add('visible');
 
           const result = db.exec(sql, params);
 
