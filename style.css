@@ -278,8 +278,14 @@
       background: var(--bg2);
     }
 
-    .btn:active {
-      transform: scale(0.97);
+    .btn img {
+      margin-right: 8px;
+    }
+    
+    #btnIcon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .btn-primary {

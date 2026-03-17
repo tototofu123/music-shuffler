@@ -150,7 +150,7 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
 
       const btn = document.getElementById('shuffleBtn');
       const icon = document.getElementById('btnIcon');
-      icon.innerHTML = '<span class="spin">&#x21BB;</span>';
+      icon.innerHTML = '<img src="shuffle.svg" class="spin" alt="shuffle" width="18" height="18" style="vertical-align: middle;">';
       btn.disabled = true;
 
       setTimeout(() => {
@@ -163,7 +163,7 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
           if (!result.length || !result[0].values.length) {
             document.getElementById('card').innerHTML = `<p class="empty-state">No songs match your filters</p>`;
             document.getElementById('ytBtn').style.display = 'none';
-            icon.innerHTML = '&#x21BB;';
+        icon.innerHTML = '<img src="shuffle.svg" alt="shuffle" width="18" height="18" style="vertical-align: middle;">';
             btn.disabled = false;
             return;
           }
@@ -230,7 +230,7 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
           document.getElementById('card').innerHTML = `<p class="empty-state">Query error: ${e.message}</p>`;
         }
 
-        icon.innerHTML = '&#x21BB;';
+        icon.innerHTML = '<img src="shuffle.svg" alt="shuffle" width="18" height="18" style="vertical-align: middle;">';
         btn.disabled = false;
       }, 200);
     }
