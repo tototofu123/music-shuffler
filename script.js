@@ -8,6 +8,33 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
     let shuffleCount = 0;
     let lastRowId = -1;
 
+    // ── Theme System ──────────────────────────────────────────
+    function initTheme() {
+      const savedTheme = localStorage.getItem('theme') || 'light';
+      document.documentElement.setAttribute('data-theme', savedTheme);
+      updateThemeIcon(savedTheme);
+      
+      document.getElementById('themeToggle').addEventListener('click', () => {
+        const current = document.documentElement.getAttribute('data-theme');
+        const next = current === 'light' ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+        updateThemeIcon(next);
+      });
+    }
+
+    function updateThemeIcon(theme) {
+      const icon = document.getElementById('themeIcon');
+      const meta = document.getElementById('themeMeta');
+      if (theme === 'dark') {
+        icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.364 17.364l-.707.707M6.364 6.364l-.707.707M17.364 17.364l-.707.707M15 12a3 3 0 11-6 0 3 3 0 016 0z" />';
+        meta.setAttribute('content', '#121212');
+      } else {
+        icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />';
+        meta.setAttribute('content', '#f7f5f0');
+      }
+    }
+
     // ── Progress bar ──────────────────────────────────────────
     function setProgress(pct) {
       document.getElementById('loadingBar').style.width = pct + '%';
@@ -108,6 +135,22 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
       updatePoolInfo();
     }
 
+    // ── Copy Utility ──────────────────────────────────────────
+    async function copyLink(btn, text) {
+      try {
+        await navigator.clipboard.writeText(text);
+        const original = btn.innerHTML;
+        btn.classList.add('success');
+        btn.innerHTML = '<span>&#x2713;</span> Copied!';
+        setTimeout(() => {
+          btn.classList.remove('success');
+          btn.innerHTML = original;
+        }, 2000);
+      } catch (err) {
+        console.error('Failed to copy: ', err);
+      }
+    }
+
     // ── SQL query builder ─────────────────────────────────────
     function buildQuery(forCount = false) {
       const conditions = [];
@@ -202,6 +245,7 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
           <p class="song-artist">${song.artist}</p>
           <p class="song-year">${song.year}</p>
           ${videoHtml}
+          ${song.youtube_url ? `<button class="copy-btn" onclick="copyLink(this, '${song.youtube_url}')"><span>&#x2399;</span> Copy Link</button>` : ''}
         </div>
       `;
 
@@ -289,6 +333,7 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
         statusEl.classList.add('ready');
 
         document.getElementById('shuffleBtn').disabled = false;
+        initTheme();
         updatePoolInfo();
 
         setTimeout(() => setProgress(0), 600);

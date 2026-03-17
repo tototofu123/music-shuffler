@@ -19,6 +19,24 @@
       --accent2: #f0ebe3;
       --radius: 14px;
       --radius-sm: 8px;
+      --card-bg: #ffffff;
+      --shadow: 0 4px 20px rgba(0,0,0,0.04);
+      --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    [data-theme='dark'] {
+      --bg: #121212;
+      --bg2: #1e1e1e;
+      --bg3: #2a2a2a;
+      --text: #e0e0e0;
+      --text2: #b0b0b0;
+      --text3: #808080;
+      --border: rgba(255, 255, 255, 0.1);
+      --border2: rgba(255, 255, 255, 0.2);
+      --accent: #ff7e5f;
+      --accent2: #2a2a2a;
+      --card-bg: #1e1e1e;
+      --shadow: 0 4px 30px rgba(0,0,0,0.3);
     }
 
     html,
@@ -278,14 +296,68 @@
       background: var(--bg2);
     }
 
-    .btn img {
-      margin-right: 8px;
+    .btn {
+      transition: var(--transition);
     }
-    
-    #btnIcon {
-      display: inline-flex;
+
+    .btn:hover {
+      transform: translateY(-2px);
+      filter: brightness(1.1);
+    }
+
+    .btn:active {
+      transform: translateY(0) scale(0.97);
+    }
+
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--text);
+      cursor: pointer;
+      padding: 8px;
+      border-radius: 50%;
+      display: flex;
       align-items: center;
       justify-content: center;
+      transition: var(--transition);
+      margin-left: 12px;
+    }
+
+    .theme-toggle:hover {
+      background: var(--bg2);
+      border-color: var(--text3);
+    }
+
+    .theme-toggle svg {
+      width: 18px;
+      height: 18px;
+    }
+
+    .copy-btn {
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--text3);
+      cursor: pointer;
+      padding: 6px 10px;
+      border-radius: var(--radius-sm);
+      font-size: 11px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 12px;
+      transition: var(--transition);
+    }
+
+    .copy-btn:hover {
+      color: var(--text);
+      background: var(--bg2);
+      border-color: var(--text2);
+    }
+
+    .copy-btn.success {
+      color: #5a8a5a;
+      border-color: #5a8a5a;
+      background: rgba(90, 138, 90, 0.05);
     }
 
     .btn-primary {
