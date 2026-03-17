@@ -5,6 +5,7 @@ const API_KEY = 'AIzaSyAB6BULN9tBuW5ffXJClXDVUdcGK-7-CAk';
 const INPUT_FILE = './data/songs.json';
 const OUTPUT_FILE = './data/songs.json';
 const DELAY_MS = 120; // stay well under quota
+const MAX_FETCHES = 100; // stop after fetching these many
 
 function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
@@ -67,6 +68,11 @@ async function main() {
         s.youtube_url = `https://music.youtube.com/watch?v=${videoId}`;
         found++;
         console.log(`[${i+1}/${total}] FOUND ${s.title} — ${s.artist} → ${videoId}`);
+        
+        if (found >= MAX_FETCHES) {
+          console.log(`\nReached Limit of ${MAX_FETCHES} fetches. Stopping...`);
+          break;
+        }
       } else {
         missing++;
         console.log(`[${i+1}/${total}] MISS  ${s.title} — ${s.artist}`);
