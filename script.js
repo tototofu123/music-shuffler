@@ -189,6 +189,19 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
 
           const card = document.getElementById('card');
           card.classList.add('has-song');
+          
+          let videoHtml = '';
+          if (shuffleCount <= 5 && song.youtube_url) {
+            const videoId = song.youtube_url.split('v=')[1]?.split('&')[0];
+            if (videoId) {
+              videoHtml = `
+                <div class="video-container fade-up" style="animation-delay: 0.1s">
+                  <iframe src="https://www.youtube.com/embed/${videoId}" allowfullscreen></iframe>
+                </div>
+              `;
+            }
+          }
+
           card.innerHTML = `
         <div class="fade-up">
           <div class="tag-row">
@@ -199,6 +212,7 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
           <p class="song-title">${song.title}</p>
           <p class="song-artist">${song.artist}</p>
           <p class="song-year">${song.year}</p>
+          ${videoHtml}
         </div>
       `;
 
