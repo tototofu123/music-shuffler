@@ -12,7 +12,7 @@ This project uses automated scripts to fetch YouTube metadata. To protect privat
 
 ### Setup
 1. Create a `.env` file in the root directory.
-2. Add your API keys:
+2. Add your API keys from Google Cloud Console (YouTube Data API v3) and Gemini API:
    ```env
    GEMINI_API_KEY=your_key_here
    YOUTUBE_API_KEY=your_key_here
@@ -21,7 +21,8 @@ This project uses automated scripts to fetch YouTube metadata. To protect privat
 ### Fetching Metadata
 - `fetch_gemini_urls.js`: Uses AI to batch process metadata.
 - `fetch_youtube_urls.js`: Fetches official video IDs directly from YouTube API.
-- All fetcher scripts automatically load keys from the `.env` file.
+- **Quota Note**: The YouTube Data API v3 has a daily limit of 10,000 units. Each search costs 100 units, allowing for approximately **100 searches per day** on the free tier.
+- All fetcher scripts automatically load keys from the `.env` file. To run them: `node fetch_youtube_urls.js`.
 
 ## Technologies
 - **Frontend**: HTML5, CSS3, Vanilla JavaScript.

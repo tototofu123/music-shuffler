@@ -2,10 +2,6 @@
 .agent/
 data/songs2.json
 data/songs3.json
-fetch_gemini_urls.js
-fetch_perplexity_urls.js
-fetch_youtube_urls.js
-split.py
 CONTINUE_FETCHING.md
 *.webp
 *.png
