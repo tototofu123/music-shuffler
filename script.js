@@ -193,7 +193,7 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
 
       const btn = document.getElementById('shuffleBtn');
       const icon = document.getElementById('btnIcon');
-      icon.innerHTML = '<img src="shuffle.svg" class="spin" alt="shuffle" width="18" height="18" style="vertical-align: middle;">';
+      icon.innerHTML = '<img src="add_songs/shuffle.svg" class="spin" alt="shuffle" width="18" height="18" style="vertical-align: middle;">';
       btn.disabled = true;
 
       setTimeout(() => {
