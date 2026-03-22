@@ -7,3 +7,4 @@ add_songs/CONTINUE_FETCHING.md
 *.png
 *.jpg
 node_modules/
+.github/workflows/notify-repo-blog-hub.yml
