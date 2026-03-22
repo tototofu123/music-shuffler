@@ -8,3 +8,4 @@ add_songs/CONTINUE_FETCHING.md
 *.jpg
 node_modules/
 .github/workflows/notify-repo-blog-hub.yml
+.opencode/
