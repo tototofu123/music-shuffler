@@ -1,13 +1,12 @@
 const fs = require('fs');
 const https = require('https');
 
-// --- CONFIGURATION ---
+// put your keys and limits here
 const PERPLEXITY_API_KEY = 'YOUR_PERPLEXITY_API_KEY_HERE';
 const INPUT_FILE = './data/songs.json';
 const OUTPUT_FILE = './data/songs.json';
 const MAX_NEW_FETCHES = 70; // We want 100 total, 30 are done.
 const BATCH_SIZE = 5;      // Perplexity can handle multiple songs at once
-// ----------------------
 
 if (PERPLEXITY_API_KEY === 'YOUR_PERPLEXITY_API_KEY_HERE') {
   console.error('Please provide your Perplexity API key in the script.');
@@ -86,13 +85,13 @@ async function main() {
         }
       }
       
-      // Save progress after each batch
+      // write results to disk so we don't lose them if something breaks
       fs.writeFileSync(OUTPUT_FILE, JSON.stringify(songs, null, 2));
     } catch (e) {
       console.error(`Error in batch starting with ID ${batch[0].id}: ${e.message}`);
     }
 
-    // Small delay to be polite
+    // short pause between batches so we don't hammer the api
     await new Promise(r => setTimeout(r, 1000));
   }
 
