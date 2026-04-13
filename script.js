@@ -8,7 +8,7 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
     let shuffleCount = 0;
     let lastRowId = -1;
 
-    // ── Theme System ──────────────────────────────────────────
+    // load saved theme on startup and hook up the toggle button
     function initTheme() {
       const savedTheme = localStorage.getItem('theme') || 'light';
       document.documentElement.setAttribute('data-theme', savedTheme);
@@ -35,12 +35,12 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
       }
     }
 
-    // ── Progress bar ──────────────────────────────────────────
+    // just update the width of the loading bar
     function setProgress(pct) {
       document.getElementById('loadingBar').style.width = pct + '%';
     }
 
-    // ── Build filter chips ────────────────────────────────────
+    // render genre and type filter chips from the arrays above
     function buildFilters() {
       const gf = document.getElementById('genreFilters');
       const tf = document.getElementById('typeFilters');
@@ -76,7 +76,7 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
       } else {
         const wasActive = el.classList.contains('active');
         
-        // Clear all chips
+        // deselect everything first, then apply the new selection
         document.querySelectorAll('#genreFilters .chip').forEach(c => {
           c.classList.remove('active');
           c.style.backgroundColor = '';
@@ -113,7 +113,7 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
       } else {
         const wasActive = el.classList.contains('active');
         
-        // Clear all chips
+        // deselect everything first, then apply the new selection
         document.querySelectorAll('#typeFilters .chip').forEach(c => {
           c.classList.remove('active');
           c.style.backgroundColor = '';
@@ -135,7 +135,7 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
       updatePoolInfo();
     }
 
-    // ── Copy Utility ──────────────────────────────────────────
+    // copy the url to clipboard and briefly flash a checkmark
     async function copyLink(btn, text) {
       try {
         await navigator.clipboard.writeText(text);
@@ -151,7 +151,7 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
       }
     }
 
-    // ── SQL query builder ─────────────────────────────────────
+    // build the sql query depending on which filters are active
     function buildQuery(forCount = false) {
       const conditions = [];
       const params = {};
@@ -174,7 +174,7 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
     }
 
 
-    // ── Update pool count ─────────────────────────────────────
+    // update the little "X songs in pool" line whenever filters change
     function updatePoolInfo() {
       if (!db) return;
       try {
@@ -187,7 +187,7 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
       } catch (e) { }
     }
 
-    // ── Shuffle ───────────────────────────────────────────────
+    // pick a random song from the db and render it on the card
     function shuffle() {
       if (!db) return;
 
@@ -279,7 +279,7 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
       }, 200);
     }
 
-    // ── Init: load sql.js + fetch JSON + populate DB ──────────
+    // start everything up — load sql.js, fetch the song list, build the in-memory db
     async function init() {
       const statusEl = document.getElementById('dbStatus');
       buildFilters();
@@ -319,7 +319,7 @@ const SONGS_URL = 'https://raw.githubusercontent.com/tototofu123/music-shuffler/
       CREATE INDEX idx_genre_type ON songs(genre, type);
     `);
 
-        // Batch insert with prepared statement
+        // prepared statement makes the bulk insert noticeably faster
         db.run('BEGIN TRANSACTION');
         const stmt = db.prepare('INSERT INTO songs VALUES (:id,:title,:artist,:year,:genre,:type,:youtube_url)');
         for (const s of songs) {

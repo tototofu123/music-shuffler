@@ -1,7 +1,7 @@
 const fs = require('fs');
 const https = require('https');
 
-// Load environment variables from .env file if it exists
+// read from .env if there is one
 if (fs.existsSync('.env')) {
   require('fs').readFileSync('.env', 'utf8').split(/\r?\n/).forEach(line => {
     const [key, ...valueParts] = line.split('=');
@@ -54,7 +54,7 @@ async function main() {
       continue;
     }
 
-    // Build smart query based on type
+    // tweak the search query a bit depending on what type of song it is
     let query;
     if (s.type === 'Original') {
       query = `${s.title} ${s.artist} official video`;
@@ -90,7 +90,7 @@ async function main() {
       missing++;
     }
 
-    // Save progress every 50 songs in case of crash
+    // save every 50 songs just in case the script crashes halfway through
     if ((i + 1) % 50 === 0) {
       fs.writeFileSync(OUTPUT_FILE, JSON.stringify(songs, null, 2));
       console.log(`\n💾 Progress saved (${i+1}/${total})\n`);

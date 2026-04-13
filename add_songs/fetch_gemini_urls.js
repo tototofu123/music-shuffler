@@ -1,7 +1,7 @@
 const fs = require('fs');
 const https = require('https');
 
-// Load environment variables from .env file if it exists
+// read from .env if there is one
 if (fs.existsSync('.env')) {
   require('fs').readFileSync('.env', 'utf8').split(/\r?\n/).forEach(line => {
     const [key, ...valueParts] = line.split('=');
@@ -9,14 +9,13 @@ if (fs.existsSync('.env')) {
   });
 }
 
-// --- CONFIGURATION ---
+// put your keys and limits here
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const INPUT_FILE = './data/songs.json';
 const OUTPUT_FILE = './data/songs.json';
 const MAX_NEW_FETCHES = 70; 
 const BATCH_SIZE = 10;      
 const MODEL = 'gemini-1.5-flash';
-// ----------------------
 
 async function fetchBatch(songs) {
   const prompt = `For each of the following songs, provide the YouTube video ID for the official music video (or official audio).
@@ -90,13 +89,13 @@ async function main() {
         }
       }
       
-      // Save progress after each batch
+      // write results to disk so we don't lose them if something breaks
       fs.writeFileSync(OUTPUT_FILE, JSON.stringify(songs, null, 2));
     } catch (e) {
       console.error(`Error in batch starting with ID ${batch[0].id}: ${e.message}`);
     }
 
-    // Small delay
+    // short pause between batches so we don't hammer the api
     await new Promise(r => setTimeout(r, 1000));
   }
 
