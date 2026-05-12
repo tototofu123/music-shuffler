@@ -1,23 +1,32 @@
-# Music Shuffler 🎵🔀
+# 🎵 Music Shuffler
 
-A web-based music utility for randomizing playlists, discovering new tracks, and managing song data via a clean, interactive interface.
+<p align="center">
+  <img src="https://img.shields.io/badge/Vibe-Shuffle-F57C00?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Stack-JS%20%2F%20SQL-2C1B0E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/UI-Glassmorphism-blue?style=for-the-badge" />
+</p>
 
-## 🎧 Key Features
-- **Smart Shuffle**: Randomizes playlists while allowing for manual song additions.
-- **Data Management**: Organizes song metadata for easy retrieval and sorting.
-- **Web-Based**: Runs entirely in the browser, no installation required.
+A smart playlist randomization tool that focuses on discovery and fluid interaction. Member of the **Wood & Orange** series.
 
-## 🛠️ Tech Stack
-- **JavaScript (Vanilla)**
-- **HTML5 & CSS3**
-- **GitHub Pages** for deployment
+---
 
-## 📂 File Structure
-- `index.html`: Application interface.
-- `script.js`: Core logic for shuffling and data manipulation.
-- `style.css`: Custom theme and responsive layout.
-- `data/`: JSON/CSV storage for song libraries.
-- `add_songs/`: Utility for batch adding new tracks to the system.
+### 🎹 Key Interactions
+- **Smart Logic**: Avoids repetitive artist loops.
+- **Glass UI**: Sleek, modern interface using CSS variables.
+- **Quick Links**: Integrated YouTube/Spotify discovery.
 
-## 📜 License
-MIT
+---
+
+### 🚀 Live Application
+Try the shuffler: [**Live Site**](https://tototofu123.github.io/music-shuffler)
+
+---
+
+### 📊 Repository Vitals
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=tototofu123&repo=music-shuffler&theme=tokyonight&border_color=F57C00&bg_color=121212" alt="Repo Stats" />
+</p>
+
+<p align="center">
+  Built with 🧡 by [tototofu123](https://github.com/tototofu123)
+</p>
