@@ -46,7 +46,3 @@ The `add_songs/` directory contains several utility scripts:
 - `fetch_youtube_urls.js`: Extracts song data from YouTube playlists.
 - `fetch_gemini_urls.js`: Uses AI to enrich song metadata.
 - `split.py`: A helper script for data management.
-
----
-
-Built with 🧡 by [tototofu123](https://github.com/tototofu123)
